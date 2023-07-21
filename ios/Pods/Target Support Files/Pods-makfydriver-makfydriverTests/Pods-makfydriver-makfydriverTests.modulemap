@@ -1,0 +1,6 @@
+module Pods_makfydriver_makfydriverTests {
+  umbrella header "Pods-makfydriver-makfydriverTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

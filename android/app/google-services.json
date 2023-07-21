@@ -1,0 +1,84 @@
+{
+  "project_info": {
+    "project_number": "479285165834",
+    "project_id": "makfy-5a108",
+    "storage_bucket": "makfy-5a108.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479285165834:android:2d560850214d7bb7a684f3",
+        "android_client_info": {
+          "package_name": "com.makfy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479285165834-lo2qrhgm04ptgkf2rh7b98en4oo5pvmd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6P1kLeONZuIaAcY0fXZkGrrSPRLLdFYU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479285165834-lo2qrhgm04ptgkf2rh7b98en4oo5pvmd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "479285165834-4nq1rn8cqra0gkam1ilbgs02uf9fki7h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.makfy.app",
+                "app_store_id": "6446358793"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479285165834:android:ec12912b0c87e846a684f3",
+        "android_client_info": {
+          "package_name": "com.makfydriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479285165834-lo2qrhgm04ptgkf2rh7b98en4oo5pvmd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6P1kLeONZuIaAcY0fXZkGrrSPRLLdFYU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479285165834-lo2qrhgm04ptgkf2rh7b98en4oo5pvmd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "479285165834-4nq1rn8cqra0gkam1ilbgs02uf9fki7h.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.makfy.app",
+                "app_store_id": "6446358793"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

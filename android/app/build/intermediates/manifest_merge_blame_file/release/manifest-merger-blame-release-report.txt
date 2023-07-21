@@ -1,0 +1,720 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.makfydriver"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <!-- Define ACCESS_FINE_LOCATION if you will use enableHighAccuracy=true -->
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:5:5-78
+13-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:5:22-76
+14    <uses-permission android:name="android.permission.VIBRATE" />
+14-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:6:5-66
+14-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:6:22-63
+15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+15-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:7:5-80
+15-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:7:22-78
+16
+17    <!-- Define ACCESS_COARSE_LOCATION if you will use enableHighAccuracy=false -->
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:10:5-80
+18-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:10:22-78
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+19-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-65
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+20-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-76
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:18.0.2] /Users/salma/.gradle/caches/transforms-3/a63a6939ae771a868709c5ead8e31ea4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:18.0.2] /Users/salma/.gradle/caches/transforms-3/a63a6939ae771a868709c5ead8e31ea4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:18.0.2] /Users/salma/.gradle/caches/transforms-3/a63a6939ae771a868709c5ead8e31ea4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+25
+26    <queries>
+26-->[com.google.android.gms:play-services-maps:18.0.2] /Users/salma/.gradle/caches/transforms-3/a63a6939ae771a868709c5ead8e31ea4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+27
+28        <!-- Needs to be explicitly declared on Android R+ -->
+29        <package android:name="com.google.android.apps.maps" />
+29-->[com.google.android.gms:play-services-maps:18.0.2] /Users/salma/.gradle/caches/transforms-3/a63a6939ae771a868709c5ead8e31ea4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+29-->[com.google.android.gms:play-services-maps:18.0.2] /Users/salma/.gradle/caches/transforms-3/a63a6939ae771a868709c5ead8e31ea4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+30    </queries>
+31
+32    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+32-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:25:5-77
+32-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:25:22-74
+33    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+33-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:28:5-82
+33-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:28:22-79
+34    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" /> <!-- for android -->
+34-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+34-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:22-74
+35    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+36    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+37    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+38    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+39    <!-- for Samsung -->
+40    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+40-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+40-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+41    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+41-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+41-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+42    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+42-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+42-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+43    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+43-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+43-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+44    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+44-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+44-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+45    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+45-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+45-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+46    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+47    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+48    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+49    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+49-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+49-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+50    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+50-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+50-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+51    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+52    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+52-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+52-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+53    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+53-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+53-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+54    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+54-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+54-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+55    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+55-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+55-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+56
+57    <application
+57-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:11:5-69:19
+58        android:name="com.makfydriver.MainApplication"
+58-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:12:7-38
+59        android:allowBackup="false"
+59-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:16:7-34
+60        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+60-->[androidx.core:core:1.7.0] /Users/salma/.gradle/caches/transforms-3/abf1803a533384ef204da4808afd595f/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+61        android:icon="@mipmap/ic_launcher"
+61-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:14:7-41
+62        android:label="@string/app_name"
+62-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:13:7-39
+63        android:roundIcon="@mipmap/ic_launcher_round"
+63-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:15:7-52
+64        android:theme="@style/AppTheme" >
+64-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:17:7-38
+65        <activity
+65-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:18:7-30:18
+66            android:name="com.makfydriver.MainActivity"
+66-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:19:9-37
+67            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+67-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:21:9-118
+68            android:exported="true"
+68-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:23:9-32
+69            android:label="@string/app_name"
+69-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:20:9-41
+70            android:launchMode="singleTask"
+70-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:22:9-40
+71            android:screenOrientation="portrait" >
+71-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:24:9-45
+72            <intent-filter>
+72-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:26:9-29:25
+73                <action android:name="android.intent.action.MAIN" />
+73-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:27:13-65
+73-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:27:21-62
+74
+75                <category android:name="android.intent.category.LAUNCHER" />
+75-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:28:13-73
+75-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:28:23-70
+76            </intent-filter>
+77        </activity>
+78
+79        <!-- You will only need to add this meta-data tag, but make sure it's a child of application -->
+80        <meta-data
+80-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:33:7-35:66
+81            android:name="com.google.android.geo.API_KEY"
+81-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:34:9-54
+82            android:value="AIzaSyBNxMF0RBiD84LLOSeG7ifj9Md0H_c-TQk" />
+82-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:35:9-64
+83
+84        <!-- .......notification....... -->
+85        <!-- Change the value to true to enable pop-up for in foreground on receiving remote notifications (for prevent duplicating while showing local notifications set this to false) -->
+86        <meta-data
+86-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:39:9-40:43
+87            android:name="com.dieam.reactnativepushnotification.notification_foreground"
+87-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:39:21-97
+88            android:value="true" />
+88-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:40:21-41
+89        <!-- Change the resource name to your App's accent color - or any other color you want -->
+90        <!--
+91             <meta-data  android:name="com.dieam.reactnativepushnotification.notification_color"
+92                    android:resource="@color/white"/> or @android:color/{name} to use a standard color
+93        -->
+94
+95        <receiver
+95-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:45:9-47:99
+96            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions"
+96-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:47:10-96
+97            android:exported="false" />
+97-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:46:9-33
+98        <receiver
+98-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:48:9-50:100
+99            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher"
+99-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:50:9-97
+100            android:exported="false" />
+100-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:49:9-33
+101        <receiver
+101-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:51:9-59:20
+102            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver"
+102-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:53:10-106
+103            android:exported="false" >
+103-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:52:9-33
+104            <intent-filter>
+104-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:54:13-58:29
+105                <action android:name="android.intent.action.BOOT_COMPLETED" />
+105-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:55:17-79
+105-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:55:25-76
+106                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+106-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:56:17-82
+106-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:56:25-79
+107                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+107-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:57:17-81
+107-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:57:25-79
+108            </intent-filter>
+109        </receiver>
+110
+111        <service
+111-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:61:9-67:19
+112            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+112-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:62:13-107
+113            android:exported="false" >
+113-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:63:13-37
+114            <intent-filter>
+114-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:64:13-66:29
+115                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+115-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:65:17-78
+115-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:65:25-75
+116            </intent-filter>
+117        </service>
+118        <service
+118-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-16:40
+119            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService"
+119-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-103
+120            android:exported="false" />
+120-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
+121        <service
+121-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-23:19
+122            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+122-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-95
+123            android:exported="false" >
+123-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
+124            <intent-filter>
+124-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:64:13-66:29
+125                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+125-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:65:17-78
+125-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:65:25-75
+126            </intent-filter>
+127        </service>
+128
+129        <receiver
+129-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-32:20
+130            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+130-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-96
+131            android:exported="true"
+131-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-36
+132            android:permission="com.google.android.c2dm.permission.SEND" >
+132-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-73
+133            <intent-filter>
+133-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-31:29
+134                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+134-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:17-81
+134-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:25-78
+135            </intent-filter>
+136        </receiver>
+137
+138        <meta-data
+138-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-36:36
+139            android:name="firebase_messaging_auto_init_enabled"
+139-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-64
+140            android:value="true" />
+140-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-33
+141        <meta-data
+141-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:37:9-39:32
+142            android:name="com.google.firebase.messaging.default_notification_channel_id"
+142-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-89
+143            android:value="" />
+143-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:39:13-29
+144        <meta-data
+144-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-42:47
+145            android:name="com.google.firebase.messaging.default_notification_color"
+145-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-84
+146            android:resource="@color/white" />
+146-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-44
+147        <meta-data
+147-->[:react-native-firebase_app] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-13:36
+148            android:name="app_data_collection_default_enabled"
+148-->[:react-native-firebase_app] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-63
+149            android:value="true" />
+149-->[:react-native-firebase_app] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-33
+150
+151        <service
+151-->[:react-native-firebase_app] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-23:19
+152            android:name="com.google.firebase.components.ComponentDiscoveryService"
+152-->[:react-native-firebase_app] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-84
+153            android:directBootAware="true"
+153-->[:react-native-firebase_app] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-43
+154            android:exported="false" >
+154-->[:react-native-firebase_app] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+155            <meta-data
+155-->[:react-native-firebase_app] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-22:85
+156                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+156-->[:react-native-firebase_app] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:17-120
+157                android:value="com.google.firebase.components.ComponentRegistrar" />
+157-->[:react-native-firebase_app] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-82
+158            <meta-data
+158-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:55:13-57:85
+159                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+159-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:56:17-119
+160                android:value="com.google.firebase.components.ComponentRegistrar" />
+160-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:57:17-82
+161            <meta-data
+161-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/salma/.gradle/caches/transforms-3/43aae56e5015486a7008762443a38598/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+162                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+162-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/salma/.gradle/caches/transforms-3/43aae56e5015486a7008762443a38598/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+163                android:value="com.google.firebase.components.ComponentRegistrar" />
+163-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/salma/.gradle/caches/transforms-3/43aae56e5015486a7008762443a38598/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+164            <meta-data
+164-->[com.google.firebase:firebase-installations:17.1.3] /Users/salma/.gradle/caches/transforms-3/a30fe9344a993c5245e4f5f1cf5cb442/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+165                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+165-->[com.google.firebase:firebase-installations:17.1.3] /Users/salma/.gradle/caches/transforms-3/a30fe9344a993c5245e4f5f1cf5cb442/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+166                android:value="com.google.firebase.components.ComponentRegistrar" />
+166-->[com.google.firebase:firebase-installations:17.1.3] /Users/salma/.gradle/caches/transforms-3/a30fe9344a993c5245e4f5f1cf5cb442/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+167        </service>
+168
+169        <provider
+169-->[:react-native-firebase_app] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-29:38
+170            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+170-->[:react-native-firebase_app] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-88
+171            android:authorities="com.makfydriver.reactnativefirebaseappinitprovider"
+171-->[:react-native-firebase_app] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-86
+172            android:exported="false"
+172-->[:react-native-firebase_app] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-37
+173            android:initOrder="99" />
+173-->[:react-native-firebase_app] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-35
+174        <provider
+174-->[:react-native-image-picker] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+175            android:name="com.imagepicker.ImagePickerProvider"
+175-->[:react-native-image-picker] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-63
+176            android:authorities="com.makfydriver.imagepickerprovider"
+176-->[:react-native-image-picker] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-71
+177            android:exported="false"
+177-->[:react-native-image-picker] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+178            android:grantUriPermissions="true" >
+178-->[:react-native-image-picker] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+179            <meta-data
+179-->[:react-native-image-picker] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:70
+180                android:name="android.support.FILE_PROVIDER_PATHS"
+180-->[:react-native-image-picker] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+181                android:resource="@xml/imagepicker_provider_paths" />
+181-->[:react-native-image-picker] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-67
+182        </provider>
+183        <provider
+183-->[:react-native-share] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+184            android:name="cl.json.RNShareFileProvider"
+184-->[:react-native-share] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-55
+185            android:authorities="com.makfydriver.rnshare.fileprovider"
+185-->[:react-native-share] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-72
+186            android:exported="false"
+186-->[:react-native-share] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+187            android:grantUriPermissions="true" >
+187-->[:react-native-share] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+188            <meta-data
+188-->[:react-native-image-picker] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:70
+189                android:name="android.support.FILE_PROVIDER_PATHS"
+189-->[:react-native-image-picker] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+190                android:resource="@xml/share_download_paths" />
+190-->[:react-native-image-picker] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-67
+191        </provider>
+192
+193        <activity
+193-->[com.google.android.gms:play-services-auth:20.3.0] /Users/salma/.gradle/caches/transforms-3/fb77b4d4f27866e46ae18a60d5ec77d7/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:23:9-27:75
+194            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+194-->[com.google.android.gms:play-services-auth:20.3.0] /Users/salma/.gradle/caches/transforms-3/fb77b4d4f27866e46ae18a60d5ec77d7/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:24:13-93
+195            android:excludeFromRecents="true"
+195-->[com.google.android.gms:play-services-auth:20.3.0] /Users/salma/.gradle/caches/transforms-3/fb77b4d4f27866e46ae18a60d5ec77d7/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:25:13-46
+196            android:exported="false"
+196-->[com.google.android.gms:play-services-auth:20.3.0] /Users/salma/.gradle/caches/transforms-3/fb77b4d4f27866e46ae18a60d5ec77d7/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:26:13-37
+197            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+197-->[com.google.android.gms:play-services-auth:20.3.0] /Users/salma/.gradle/caches/transforms-3/fb77b4d4f27866e46ae18a60d5ec77d7/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:27:13-72
+198        <!--
+199            Service handling Google Sign-In user revocation. For apps that do not integrate with
+200            Google Sign-In, this service will never be started.
+201        -->
+202        <service
+202-->[com.google.android.gms:play-services-auth:20.3.0] /Users/salma/.gradle/caches/transforms-3/fb77b4d4f27866e46ae18a60d5ec77d7/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:33:9-37:51
+203            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+203-->[com.google.android.gms:play-services-auth:20.3.0] /Users/salma/.gradle/caches/transforms-3/fb77b4d4f27866e46ae18a60d5ec77d7/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:34:13-89
+204            android:exported="true"
+204-->[com.google.android.gms:play-services-auth:20.3.0] /Users/salma/.gradle/caches/transforms-3/fb77b4d4f27866e46ae18a60d5ec77d7/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:35:13-36
+205            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+205-->[com.google.android.gms:play-services-auth:20.3.0] /Users/salma/.gradle/caches/transforms-3/fb77b4d4f27866e46ae18a60d5ec77d7/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:36:13-107
+206            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+206-->[com.google.android.gms:play-services-auth:20.3.0] /Users/salma/.gradle/caches/transforms-3/fb77b4d4f27866e46ae18a60d5ec77d7/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:37:13-48
+207        <uses-library
+207-->[com.google.android.gms:play-services-maps:18.0.2] /Users/salma/.gradle/caches/transforms-3/a63a6939ae771a868709c5ead8e31ea4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+208            android:name="org.apache.http.legacy"
+208-->[com.google.android.gms:play-services-maps:18.0.2] /Users/salma/.gradle/caches/transforms-3/a63a6939ae771a868709c5ead8e31ea4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+209            android:required="false" />
+209-->[com.google.android.gms:play-services-maps:18.0.2] /Users/salma/.gradle/caches/transforms-3/a63a6939ae771a868709c5ead8e31ea4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+210
+211        <receiver
+211-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:31:9-38:20
+212            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+212-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:32:13-78
+213            android:exported="true"
+213-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:33:13-36
+214            android:permission="com.google.android.c2dm.permission.SEND" >
+214-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:34:13-73
+215            <intent-filter>
+215-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-31:29
+216                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+216-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:17-81
+216-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:25-78
+217            </intent-filter>
+218        </receiver>
+219        <!--
+220             FirebaseMessagingService performs security checks at runtime,
+221             but set to not exported to explicitly avoid allowing another app to call it.
+222        -->
+223        <service
+223-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:44:9-51:19
+224            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+224-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:45:13-82
+225            android:directBootAware="true"
+225-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:46:13-43
+226            android:exported="false" >
+226-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:47:13-37
+227            <intent-filter android:priority="-500" >
+227-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:64:13-66:29
+228                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+228-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:65:17-78
+228-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:65:25-75
+229            </intent-filter>
+230        </service>
+231
+232        <activity
+232-->[com.google.android.gms:play-services-base:18.1.0] /Users/salma/.gradle/caches/transforms-3/521869be77a45b75d87249b96acb0eed/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+233            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+233-->[com.google.android.gms:play-services-base:18.1.0] /Users/salma/.gradle/caches/transforms-3/521869be77a45b75d87249b96acb0eed/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+234            android:exported="false"
+234-->[com.google.android.gms:play-services-base:18.1.0] /Users/salma/.gradle/caches/transforms-3/521869be77a45b75d87249b96acb0eed/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+235            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+235-->[com.google.android.gms:play-services-base:18.1.0] /Users/salma/.gradle/caches/transforms-3/521869be77a45b75d87249b96acb0eed/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+236
+237        <provider
+237-->[com.google.firebase:firebase-common:20.3.2] /Users/salma/.gradle/caches/transforms-3/e4c4977317779bcd4479b304da83d3d1/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+238            android:name="com.google.firebase.provider.FirebaseInitProvider"
+238-->[com.google.firebase:firebase-common:20.3.2] /Users/salma/.gradle/caches/transforms-3/e4c4977317779bcd4479b304da83d3d1/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+239            android:authorities="com.makfydriver.firebaseinitprovider"
+239-->[com.google.firebase:firebase-common:20.3.2] /Users/salma/.gradle/caches/transforms-3/e4c4977317779bcd4479b304da83d3d1/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+240            android:directBootAware="true"
+240-->[com.google.firebase:firebase-common:20.3.2] /Users/salma/.gradle/caches/transforms-3/e4c4977317779bcd4479b304da83d3d1/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+241            android:exported="false"
+241-->[com.google.firebase:firebase-common:20.3.2] /Users/salma/.gradle/caches/transforms-3/e4c4977317779bcd4479b304da83d3d1/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+242            android:initOrder="100" />
+242-->[com.google.firebase:firebase-common:20.3.2] /Users/salma/.gradle/caches/transforms-3/e4c4977317779bcd4479b304da83d3d1/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+243
+244        <meta-data
+244-->[com.google.android.gms:play-services-basement:18.1.0] /Users/salma/.gradle/caches/transforms-3/8e8d99f37da2826051a2f1ee7e0348d5/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+245            android:name="com.google.android.gms.version"
+245-->[com.google.android.gms:play-services-basement:18.1.0] /Users/salma/.gradle/caches/transforms-3/8e8d99f37da2826051a2f1ee7e0348d5/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+246            android:value="@integer/google_play_services_version" />
+246-->[com.google.android.gms:play-services-basement:18.1.0] /Users/salma/.gradle/caches/transforms-3/8e8d99f37da2826051a2f1ee7e0348d5/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+247
+248        <provider
+248-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+249            android:name="androidx.startup.InitializationProvider"
+249-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+250            android:authorities="com.makfydriver.androidx-startup"
+250-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+251            android:exported="false" >
+251-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+252            <meta-data
+252-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+253                android:name="androidx.work.WorkManagerInitializer"
+253-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+254                android:value="androidx.startup" />
+254-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+255            <meta-data
+255-->[androidx.emoji2:emoji2:1.0.0] /Users/salma/.gradle/caches/transforms-3/56e7b9d78e8dd17e2de5749757542d6a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+256                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+256-->[androidx.emoji2:emoji2:1.0.0] /Users/salma/.gradle/caches/transforms-3/56e7b9d78e8dd17e2de5749757542d6a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+257                android:value="androidx.startup" />
+257-->[androidx.emoji2:emoji2:1.0.0] /Users/salma/.gradle/caches/transforms-3/56e7b9d78e8dd17e2de5749757542d6a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+258            <meta-data
+258-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/salma/.gradle/caches/transforms-3/4fc190ada5c06025c8b369d2b25e3e34/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+259                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+259-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/salma/.gradle/caches/transforms-3/4fc190ada5c06025c8b369d2b25e3e34/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+260                android:value="androidx.startup" />
+260-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/salma/.gradle/caches/transforms-3/4fc190ada5c06025c8b369d2b25e3e34/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+261        </provider>
+262
+263        <service
+263-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+264            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+264-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+265            android:directBootAware="false"
+265-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+266            android:enabled="@bool/enable_system_alarm_service_default"
+266-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+267            android:exported="false" />
+267-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+268        <service
+268-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+269            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+269-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+270            android:directBootAware="false"
+270-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+271            android:enabled="@bool/enable_system_job_service_default"
+271-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+272            android:exported="true"
+272-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+273            android:permission="android.permission.BIND_JOB_SERVICE" />
+273-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+274        <service
+274-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+275            android:name="androidx.work.impl.foreground.SystemForegroundService"
+275-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+276            android:directBootAware="false"
+276-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+277            android:enabled="@bool/enable_system_foreground_service_default"
+277-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+278            android:exported="false" />
+278-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+279
+280        <receiver
+280-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+281            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+281-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+282            android:directBootAware="false"
+282-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+283            android:enabled="true"
+283-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+284            android:exported="false" />
+284-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+285        <receiver
+285-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+286            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+286-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+287            android:directBootAware="false"
+287-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+288            android:enabled="false"
+288-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+289            android:exported="false" >
+289-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+290            <intent-filter>
+290-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+291                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+291-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+291-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+292                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+292-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+292-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+293            </intent-filter>
+294        </receiver>
+295        <receiver
+295-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+296            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+296-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+297            android:directBootAware="false"
+297-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+298            android:enabled="false"
+298-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+299            android:exported="false" >
+299-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+300            <intent-filter>
+300-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+301                <action android:name="android.intent.action.BATTERY_OKAY" />
+301-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+301-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+302                <action android:name="android.intent.action.BATTERY_LOW" />
+302-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+302-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+303            </intent-filter>
+304        </receiver>
+305        <receiver
+305-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+306            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+306-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+307            android:directBootAware="false"
+307-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+308            android:enabled="false"
+308-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+309            android:exported="false" >
+309-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+310            <intent-filter>
+310-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+311                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+311-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+311-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+312                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+312-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+312-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+313            </intent-filter>
+314        </receiver>
+315        <receiver
+315-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+316            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+316-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+317            android:directBootAware="false"
+317-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+318            android:enabled="false"
+318-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+319            android:exported="false" >
+319-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+320            <intent-filter>
+320-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+321                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+321-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+321-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+322            </intent-filter>
+323        </receiver>
+324        <receiver
+324-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+325            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+325-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+326            android:directBootAware="false"
+326-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+327            android:enabled="false"
+327-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+328            android:exported="false" >
+328-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+329            <intent-filter>
+329-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+330                <action android:name="android.intent.action.BOOT_COMPLETED" />
+330-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:55:17-79
+330-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:55:25-76
+331                <action android:name="android.intent.action.TIME_SET" />
+331-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+331-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+332                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+332-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+332-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+333            </intent-filter>
+334        </receiver>
+335        <receiver
+335-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+336            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+336-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+337            android:directBootAware="false"
+337-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+338            android:enabled="@bool/enable_system_alarm_service_default"
+338-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+339            android:exported="false" >
+339-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+340            <intent-filter>
+340-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+341                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+341-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+341-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+342            </intent-filter>
+343        </receiver>
+344        <receiver
+344-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+345            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+345-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+346            android:directBootAware="false"
+346-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+347            android:enabled="true"
+347-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+348            android:exported="true"
+348-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+349            android:permission="android.permission.DUMP" >
+349-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+350            <intent-filter>
+350-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+351                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+351-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+351-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+352            </intent-filter>
+353        </receiver>
+354
+355        <service
+355-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/salma/.gradle/caches/transforms-3/8e3374f10c1b20fc3b330dfd5abde362/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+356            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+356-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/salma/.gradle/caches/transforms-3/8e3374f10c1b20fc3b330dfd5abde362/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+357            android:exported="false" >
+357-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/salma/.gradle/caches/transforms-3/8e3374f10c1b20fc3b330dfd5abde362/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+358            <meta-data
+358-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/salma/.gradle/caches/transforms-3/8e3374f10c1b20fc3b330dfd5abde362/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+359                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+359-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/salma/.gradle/caches/transforms-3/8e3374f10c1b20fc3b330dfd5abde362/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+360                android:value="cct" />
+360-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/salma/.gradle/caches/transforms-3/8e3374f10c1b20fc3b330dfd5abde362/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+361        </service>
+362        <service
+362-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/salma/.gradle/caches/transforms-3/fd2ff63663f13adb4b8bf45de0018897/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+363            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+363-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/salma/.gradle/caches/transforms-3/fd2ff63663f13adb4b8bf45de0018897/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+364            android:exported="false"
+364-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/salma/.gradle/caches/transforms-3/fd2ff63663f13adb4b8bf45de0018897/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+365            android:permission="android.permission.BIND_JOB_SERVICE" >
+365-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/salma/.gradle/caches/transforms-3/fd2ff63663f13adb4b8bf45de0018897/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+366        </service>
+367
+368        <receiver
+368-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/salma/.gradle/caches/transforms-3/fd2ff63663f13adb4b8bf45de0018897/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+369            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+369-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/salma/.gradle/caches/transforms-3/fd2ff63663f13adb4b8bf45de0018897/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+370            android:exported="false" />
+370-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/salma/.gradle/caches/transforms-3/fd2ff63663f13adb4b8bf45de0018897/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+371
+372        <service
+372-->[androidx.room:room-runtime:2.2.5] /Users/salma/.gradle/caches/transforms-3/72470af2331c78edb2d99d97d8f5edd5/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+373            android:name="androidx.room.MultiInstanceInvalidationService"
+373-->[androidx.room:room-runtime:2.2.5] /Users/salma/.gradle/caches/transforms-3/72470af2331c78edb2d99d97d8f5edd5/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+374            android:directBootAware="true"
+374-->[androidx.room:room-runtime:2.2.5] /Users/salma/.gradle/caches/transforms-3/72470af2331c78edb2d99d97d8f5edd5/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+375            android:exported="false" />
+375-->[androidx.room:room-runtime:2.2.5] /Users/salma/.gradle/caches/transforms-3/72470af2331c78edb2d99d97d8f5edd5/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+376
+377        <activity
+377-->[com.jakewharton:process-phoenix:2.1.2] /Users/salma/.gradle/caches/transforms-3/4ce8019af485171220ccb2a8487ab51d/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:8:9-12:75
+378            android:name="com.jakewharton.processphoenix.ProcessPhoenix"
+378-->[com.jakewharton:process-phoenix:2.1.2] /Users/salma/.gradle/caches/transforms-3/4ce8019af485171220ccb2a8487ab51d/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:9:13-73
+379            android:exported="false"
+379-->[com.jakewharton:process-phoenix:2.1.2] /Users/salma/.gradle/caches/transforms-3/4ce8019af485171220ccb2a8487ab51d/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:10:13-37
+380            android:process=":phoenix"
+380-->[com.jakewharton:process-phoenix:2.1.2] /Users/salma/.gradle/caches/transforms-3/4ce8019af485171220ccb2a8487ab51d/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:11:13-39
+381            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+381-->[com.jakewharton:process-phoenix:2.1.2] /Users/salma/.gradle/caches/transforms-3/4ce8019af485171220ccb2a8487ab51d/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:12:13-72
+382    </application>
+383
+384</manifest>
