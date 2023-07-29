@@ -50,9 +50,9 @@ function HomeDriver() {
       })
     }
   }, [])
-  useEffect(()=>{
+  useEffect(() => {
     useSocket()
-  },[Token])
+  }, [Token])
 
   const useSocket = () => {
     // Call connectToSocket and use the socket instance
@@ -77,10 +77,10 @@ function HomeDriver() {
             console.log("connect_error", socket); // undefined
           });
           socket.connect()
-        }else{
+        } else {
           console.log('socket not found')
           listentoNewOrder(socket)
-
+          disconnect(socket)
         }
       })
       .catch((error) => {
@@ -185,7 +185,7 @@ function HomeDriver() {
   // socketDriver.connect()
   const listentoNewOrder = (socket) => {
     console.log('listentoNewOrder')
-    console.log('socket',socket)
+    console.log('socket', socket)
 
     socket.on("NewOrder", (args) => {
       // ...
@@ -194,7 +194,7 @@ function HomeDriver() {
       setRequestes(args)
     });
   }
-  const disconnect = async () => {
+  const disconnect = async (socket) => {
     console.log({ socket })
     setsocketState(socket)
     socket.removeAllListeners("NewOrder");
@@ -256,11 +256,11 @@ function HomeDriver() {
           }}
         />
         <NewOrderRequest
-        isVisible={newReqestModal}
-        data={Requestes}
-        onDismiss={()=>{
-          setnewReqestModal(false)
-        }}
+          isVisible={newReqestModal}
+          data={Requestes}
+          onDismiss={() => {
+            setnewReqestModal(false)
+          }}
         />
         {/* ...... */}
         <ImageBackground
