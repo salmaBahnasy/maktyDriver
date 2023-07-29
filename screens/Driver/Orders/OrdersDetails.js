@@ -23,24 +23,21 @@ function OrdersDetails() {
   const { t } = useTranslation();
   const navigation = useNavigation()
   const route = useRoute()
-  const [ordersData, setordersData] = useState([])
-  const [to_latitude, setto_latitude] = useState()
-  const [to_longitude, setto_longitude] = useState()
-  const [from_latitude, setfrom_latitude] = useState()
-  const [from_longitude, settfrom_longitude] = useState()
+  const [to_latitude, setto_latitude] = useState(0)
+  const [to_longitude, setto_longitude] = useState(0)
+  const [from_latitude, setfrom_latitude] = useState(0)
+  const [from_longitude, settfrom_longitude] = useState(0)
   const [showVat, setshowVat] = useState(false)
 
   console.log("route", route?.params?.item)
   useEffect(() => {
-    setto_latitude(route?.params?.item?.to_latitude)
-    setto_longitude(route?.params?.item?.to_longitude)
-    setfrom_latitude(route?.params?.item?.from_latitude)
-    settfrom_longitude(route?.params?.item?.from_longitude)
+    setto_latitude(JSON.parse(route?.params?.item?.to_latitude))
+    setto_longitude(JSON.parse(route?.params?.item?.to_longitude))
+    setfrom_latitude(JSON.parse(route?.params?.item?.from_latitude))
+    settfrom_longitude(JSON.parse(route?.params?.item?.from_longitude))
   }, [])
 
-  useEffect(() => {
-    setordersData({})
-  }, [])
+
   function cartItem() {
     const renderItem = ({ item, index }) => {
       return (
@@ -224,7 +221,7 @@ function OrdersDetails() {
           <Text style={{ ...FONTS?.h3, color: COLORS?.primary }}>
             {t('common:cpl')}
           </Text>
-          {from_latitude && from_longitude ?
+          {from_latitude !==0 && from_longitude!==0 ?
             <MapView
               provider={Platform.OS == 'ios' ? MapView.PROVIDER_GOOGLE : PROVIDER_GOOGLE}
               style={styles.map}
@@ -272,7 +269,7 @@ function OrdersDetails() {
           <Text style={{ ...FONTS?.h3, color: COLORS?.primary }}>
             {t('common:cdl')}
           </Text>
-          {to_latitude && to_longitude ?
+          {to_latitude!==0 && to_longitude!==0 ?
             <MapView
               provider={Platform.OS == 'ios' ? MapView.PROVIDER_GOOGLE : PROVIDER_GOOGLE}
               style={styles.map}

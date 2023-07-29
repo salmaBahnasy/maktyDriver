@@ -24,11 +24,12 @@ import styles from './styles';
 import { useNavigation } from '@react-navigation/native';
 import { useTranslation } from 'react-i18next';
 import {
+  Area_GQL,
   CarTypes,
+  CITIES_GQL,
   Nationalities
 } from './services/Services';
 import { useMutation, useQuery } from '@apollo/client/react';
-import { Area_GQL, CITIES_GQL } from '../../Address/services/services';
 import DropDownList from '../../comp/DropDownList';
 import DatePickerModal from '../../comp/DatePickerModal';
 import { countryCode } from '../../../constants/constVariable';

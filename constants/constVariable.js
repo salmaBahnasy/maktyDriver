@@ -10,6 +10,8 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import {
   I18nManager, Platform,
 } from 'react-native';
+import { useContext } from 'react';
+import TokenContext from '../screens/global/Context';
 // Initialize Apollo Client
 const httpLink = createUploadLink({
   uri: 'https://api.makfy.net/public/graphql',
@@ -19,7 +21,7 @@ const httpLink = createUploadLink({
 const authLink = setContext(async (_, { headers }) => {
   // get the authentication token from local storage if it exists
   const token = await AsyncStorage.getItem('token')
-  console.log({ token });
+  // console.log({ token });
   // return the headers to the context so httpLink can read them
   return {
     headers: {
@@ -50,13 +52,19 @@ export const client = new ApolloClient({
 //   })
 //   return socket
 // }
-
-export const socket = io("http://185.148.147.83:3002", {
-  transports: ["websocket"],
-  autoConnect: false,
-  reconnection: false,
-  auth: {
-    // how to pass token here from AsyncStorage   
-    token: '147|MA2oZQrnB3tFg3R9UbfrAXnLoYVQtNr6l0dpgVlf'
+// const token = useContext(TokenContext);
+// console.log({token})
+export const socket = io("http://185.148.147.83:3002",
+  {
+    transports: ["websocket"],
+    autoConnect: false,
+    reconnection: false,
+    auth: {
+      // how to pass token here from AsyncStorage   
+      // token: "token"
+    }
+    //'147|MA2oZQrnB3tFg3R9UbfrAXnLoYVQtNr6l0dpgVlf'
   }
-});
+);
+
+

@@ -1,7 +1,7 @@
 import React, { useCallback, useMemo, useRef } from 'react';
-import { View, Text, StyleSheet, Button, Image } from 'react-native';
+import { View, Text, StyleSheet, Button, Image,Pressable } from 'react-native';
 import Modal from "react-native-modal";
-import { COLORS, FONTS, SIZES } from '../../constants';
+import { COLORS, FONTS, SIZES,icons } from '../../constants';
 import MainButton from './MainButton';
 
 
@@ -36,7 +36,68 @@ const WalletFilteration = (props) => {
           alignSelf: 'center'
         }}>
           
+          <Pressable
+          style={{
+            ...styles?.forgetPassView,
+            marginVertical: 5
+          }}
+          onPress={() => {
+            // setbirth_dateErr('')
+            props?.showDatePicker()
+          }}
+        >
 
+          <View style={{
+            justifyContent: 'space-between',
+            height: 56,
+            backgroundColor: COLORS?.gray,
+            flex: 1,
+            borderRadius: 6,
+            paddingHorizontal: 8,
+            ...styles?.row,
+          }}>
+            <Text style={{
+              color: COLORS?.txtgray,
+            }}>
+              {/* {birth_date ? birth_date : t('common:birthdate')} */}
+            </Text>
+            <Image
+              source={icons?.calendar}
+              style={{ ...styles?.smallIcon, resizeMode: 'contain' }}
+            />
+          </View>
+        </Pressable>
+        <Pressable
+          style={{
+            ...styles?.forgetPassView,
+            marginVertical: 5
+          }}
+          onPress={() => {
+            // setbirth_dateErr('')
+            props?.showDatePicker()
+          }}
+        >
+
+          <View style={{
+            justifyContent: 'space-between',
+            height: 56,
+            backgroundColor: COLORS?.gray,
+            flex: 1,
+            borderRadius: 6,
+            paddingHorizontal: 8,
+            ...styles?.row,
+          }}>
+            <Text style={{
+              color: COLORS?.txtgray,
+            }}>
+              {/* {birth_date ? birth_date : t('common:birthdate')} */}
+            </Text>
+            <Image
+              source={icons?.calendar}
+              style={{ ...styles?.smallIcon, resizeMode: 'contain' }}
+            />
+          </View>
+        </Pressable>
           <MainButton
             text={props?.btntext}
             onPress={() => {
@@ -67,6 +128,16 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
   },
+  smallIcon:{
+    width:20,
+    height:20,
+    resizeMode:'contain'
+  },
+  row:{
+    flexDirection:'row',
+    alignItems:'center'
+  }
+
 });
 
 export default WalletFilteration;

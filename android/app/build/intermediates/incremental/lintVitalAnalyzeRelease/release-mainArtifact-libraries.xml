@@ -234,6 +234,19 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="/Users/salma/Desktop/apps/makfyDriver/android@@:react-native-reanimated::release"
+      jars="/Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-reanimated/android/build/.transforms/985d635b916ea3a0b3cdcfc6e6a5165f/transformed/out/jars/classes.jar:/Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-reanimated/android/build/.transforms/985d635b916ea3a0b3cdcfc6e6a5165f/transformed/out/jars/libs/R.jar"
+      resolved="makfydriver:react-native-reanimated:unspecified"
+      folder="/Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-reanimated/android/build/.transforms/985d635b916ea3a0b3cdcfc6e6a5165f/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="/Users/salma/Desktop/apps/makfyDriver/android@@:react-native-safe-area-context::release"
       jars="/Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-safe-area-context/android/build/.transforms/e90ba90e33f977df7ef2157ec11e9408/transformed/out/jars/classes.jar:/Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-safe-area-context/android/build/.transforms/e90ba90e33f977df7ef2157ec11e9408/transformed/out/jars/libs/R.jar"
       resolved="makfydriver:react-native-safe-area-context:unspecified"
@@ -1530,10 +1543,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="com.google.maps.android:android-maps-utils:0.5@aar"
-      jars="/Users/salma/.gradle/caches/transforms-3/146d5b61a80d5b99a60defab0f004694/transformed/jetified-android-maps-utils-0.5/jars/classes.jar"
-      resolved="com.google.maps.android:android-maps-utils:0.5"
-      folder="/Users/salma/.gradle/caches/transforms-3/146d5b61a80d5b99a60defab0f004694/transformed/jetified-android-maps-utils-0.5"
+      name="com.google.maps.android:android-maps-utils:3.4.0@aar"
+      jars="/Users/salma/.gradle/caches/transforms-3/6e600afbb6e77338d5c9da9d7d94274f/transformed/jetified-android-maps-utils-3.4.0/jars/classes.jar"
+      resolved="com.google.maps.android:android-maps-utils:3.4.0"
+      folder="/Users/salma/.gradle/caches/transforms-3/6e600afbb6e77338d5c9da9d7d94274f/transformed/jetified-android-maps-utils-3.4.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

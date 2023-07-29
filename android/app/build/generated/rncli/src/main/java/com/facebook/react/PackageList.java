@@ -36,15 +36,19 @@ import com.imagepicker.ImagePickerPackage;
 // react-native-localize
 import com.zoontek.rnlocalize.RNLocalizePackage;
 // react-native-maps
-import com.airbnb.android.react.maps.MapsPackage;
+import com.rnmaps.maps.MapsPackage;
 // react-native-push-notification
 import com.dieam.reactnativepushnotification.ReactNativePushNotificationPackage;
+// react-native-reanimated
+import com.swmansion.reanimated.ReanimatedPackage;
 // react-native-restart
 import com.reactnativerestart.RestartPackage;
 // react-native-safe-area-context
 import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
 // react-native-screens
 import com.swmansion.rnscreens.RNScreensPackage;
+// react-native-sensitive-info
+import dev.mcodex.RNSensitiveInfo.RNSensitiveInfoPackage;
 // react-native-share
 import cl.json.RNSharePackage;
 // react-native-spinkit
@@ -108,9 +112,11 @@ public class PackageList {
       new RNLocalizePackage(),
       new MapsPackage(),
       new ReactNativePushNotificationPackage(),
+      new ReanimatedPackage(),
       new RestartPackage(),
       new SafeAreaContextPackage(),
       new RNScreensPackage(),
+      new RNSensitiveInfoPackage(),
       new RNSharePackage(),
       new RNSpinkitPackage()
     ));

@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
         backgroundColor: COLORS?.gray,
         borderRadius: 6,
         padding:8,
-        alignItems:'center'
+        alignItems:'center',
     },
     catItemTitle: {
         ...FONTS?.h3,

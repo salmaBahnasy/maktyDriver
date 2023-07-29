@@ -20,10 +20,10 @@ import { COLORS, FONTS, icons, images, SIZES } from '../../../constants';
 import { useNavigation } from '@react-navigation/native';
 import { useTranslation } from 'react-i18next';
 import { useQuery } from '@apollo/client';
-import { me } from '../../Account/services/services';
 import MainHeader from '../../comp/MainHeader';
 import styles from './styles';
 import CategoryItem from './Component/CategoryItem';
+import { me } from '../Account/services/services';
 
 
 

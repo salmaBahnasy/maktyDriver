@@ -634,6 +634,7 @@ function DriverRequst() {
                   console.log({ result })
                   if (result?.data?.registerDelegate?.token) {
                     console.log("result?.data?.login?.token", result?.data?.registerDelegate?.token)
+                    
                     AsyncStorage.multiSet([
                       ['token', result?.data?.registerDelegate?.token],
                       ['userType', "driver"]

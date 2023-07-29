@@ -74,5 +74,20 @@ export const launchImageLibraryFunc = () => {
   })
 }
 
+export const CITIES_GQL = gql`
+query {
+    cities{
+        id
+        title
+}}`;
+
+export const Area_GQL = gql`
+query areas($city_id:Int!){
+    areas(city_id:$city_id){
+        id
+        title
+}}`;
+
+
 // "samar@gmail.com"
 // "samar@123"

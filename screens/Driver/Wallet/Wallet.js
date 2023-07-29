@@ -11,16 +11,13 @@ import {
   StyleSheet,
   I18nManager
 } from 'react-native';
-
-import {
-  Colors,
-} from 'react-native/Libraries/NewAppScreen';
 import { COLORS, FONTS, icons, images, SIZES } from '../../../constants';
 import { useNavigation } from '@react-navigation/native';
 import MainHeader from '../../comp/MainHeader';
 import { useTranslation } from 'react-i18next';
 import WalletFilteration from '../../comp/WalletFilteration';
-import TopUpWalletFilteration from '../../comp/TopUpWalletFilteration copy';
+import TopUpWalletFilteration from '../../comp/TopUpWalletFilteration';
+import DatePickerModal from '../../comp/DatePickerModal';
 
 
 function Wallet() {
@@ -28,11 +25,9 @@ function Wallet() {
   const { t } = useTranslation();
   const [showSort, setshowSort] = useState(false)
   const [showTopUp, setshowTopUp] = useState(false)
+  const [isDatePickerVisible, setDatePickerVisibility] = useState(false);
 
   const navigation = useNavigation()
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.darker,
-  };
 
   function ListNotView() {
     const renderItem = ({ item, index }) => {
@@ -197,6 +192,20 @@ function Wallet() {
       </View>
     )
   }
+  const showDatePicker = () => {
+    setDatePickerVisibility(true);
+  };
+
+  const hideDatePicker = () => {
+    setDatePickerVisibility(false);
+  };
+
+  const handleConfirm = (date1) => {
+    console.log("A date has been picked: ", date1.toISOString().slice(0, 10));
+    let format = date1.toISOString().slice(0, 10)
+    // setBirth_date(format)
+    hideDatePicker();
+  };
   return (
     <SafeAreaView
       style={{
@@ -204,8 +213,7 @@ function Wallet() {
         backgroundColor: COLORS?.white
       }}>
       <StatusBar
-        barStyle={isDarkMode ? 'light-content' :'light-content'}
-        backgroundColor={backgroundStyle.backgroundColor}
+        barStyle={isDarkMode ? 'light-content' : 'light-content'}
       />
       <MainHeader
         title={t('common:Mywallet')}
@@ -217,11 +225,25 @@ function Wallet() {
         onDismiss={(val) => {
           setshowSort(val)
         }}
+        showDatePicker={() => {
+          showDatePicker()
+          setshowSort(false)
+
+        }}
+      />
+      <DatePickerModal
+        isDatePickerVisible={isDatePickerVisible}
+        handleConfirm={handleConfirm}
+        hideDatePicker={hideDatePicker}
       />
       <TopUpWalletFilteration
         isVisible={showTopUp}
         onDismiss={(val) => {
           setshowTopUp(val)
+        }}
+        showDatePicker={() => {
+          showDatePicker()
+          setshowTopUp(false)
         }}
       />
       {_cardView()}

@@ -105,15 +105,13 @@ function CategoryItem(props) {
           style={{
             ...styles?.row,
             justifyContent: 'space-around',
-            marginTop: 35
+            marginTop: 25,
           }}
         >
           {btns(icons?.you, t('common:Delivery'))}
           <Text style={{ ...FONTS?.body3 ,lineHeight:22,marginBottom:15}}>2.5 km</Text>
           {btns(icons?.pickUp, t('common:Pickup'))}
-
           <Text style={{ ...FONTS?.body3,lineHeight:22 ,marginBottom:15}}>2.5 km</Text>
-
           {btns(icons?.delivery, t('common:Delivery'))}
 
         </View>

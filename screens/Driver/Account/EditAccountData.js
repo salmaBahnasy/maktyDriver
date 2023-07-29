@@ -1,10 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
-
 import React, { useEffect, useState } from 'react';
 import {
   SafeAreaView,
@@ -17,11 +10,8 @@ import {
   ScrollView,
   I18nManager
 } from 'react-native';
-
-import {
-  Colors,
-} from 'react-native/Libraries/NewAppScreen';
-import { COLORS, FONTS, icons, images, SIZES } from '../../../constants';
+const { ReactNativeFile } = require("apollo-upload-client");
+import { COLORS, FONTS, icons, images } from '../../../constants';
 import MainInput from '../../comp/MainInput';
 import MainButton from '../../comp/MainButton';
 import { useNavigation } from '@react-navigation/native';
@@ -32,25 +22,23 @@ import FeedBackBottomView from '../../comp/FeedBackBottomView';
 import ChangePasswordBottomView from '../../comp/ChangePasswordBottomView';
 import { useMutation, useQuery } from '@apollo/client';
 import { me, updatePassword_GQL, updateProfile_GQL } from './services/services';
-import { countryCode } from '../../../constants/constVariable';
+import { countryCode, ImageURL } from '../../../constants/constVariable';
 import DatePickerModal from '../../comp/DatePickerModal';
+import { launchImageLibraryFunc, Upload } from '../SignUp/services/Services';
 
 
 
 function EditDriverAccountData() {
   const isDarkMode = useColorScheme() === 'dark';
   const { t } = useTranslation();
-
   const navigation = useNavigation()
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.darker,
-  };
   const [changePass, setChangePass] = useState(false)
   const [feedback, setFeedback] = useState(false)
   const [feedbackdesc, setFeedbackdesc] = useState('')
   const [feedbackheader, setFeedbackheader] = useState('')
   const [feedbackImg, setFeedbackImg] = useState('')
   const [isDatePickerVisible, setDatePickerVisibility] = useState(false);
+  const [userAvatar, setUserAvatar] = useState(icons?.user)
 
 
   const { data, loading, refetch } = useQuery(me); //execute query
@@ -90,7 +78,7 @@ function EditDriverAccountData() {
         console.log({ phone })
         setMobile(phone)
 
-      }else{
+      } else {
         setMobile(data?.me?.mobile)
 
       }
@@ -218,6 +206,7 @@ function EditDriverAccountData() {
   const showDatePicker = () => {
     setDatePickerVisibility(true);
   };
+  const [uploadRequest, { data: uploadData, loading: uploadLoading }] = useMutation(Upload);
 
   const hideDatePicker = () => {
     setDatePickerVisibility(false);
@@ -229,11 +218,38 @@ function EditDriverAccountData() {
     setBirth_date(format)
     hideDatePicker();
   };
+  // ................................................................
+  const UploadImageFunction = async (photores) => {
+    try {
+      return await new Promise((resolve, reject) => {
+        if (photores?.type == 'success') {
+          const file = new ReactNativeFile({
+            uri: photores.data.uri,
+            name: photores.data.fileName,
+            type: photores.data.type,
+          });
+          console.log({ file });
+          uploadRequest({
+            variables: {
+              file
+            },
+          }).then(result => {
+            console.log({ result });
+            resolve(result?.data.upload);
+          });
+
+        } else {
+          resolve(false);
+        }
+      });
+    } catch (err) {
+      console.log({ err });
+    }
+  }
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: COLORS?.white }}>
       <StatusBar
-        barStyle={isDarkMode ? 'light-content' :'light-content'}
-        backgroundColor={backgroundStyle.backgroundColor}
+        barStyle={isDarkMode ? 'light-content' : 'light-content'}
       />
       {/* .... */}
       <FeedBackBottomView
@@ -276,9 +292,12 @@ function EditDriverAccountData() {
       >
         <View style={{ marginTop: 22 }}>
           <Image
-            source={images?.user}
+            source={typeof userAvatar === 'string' ?
+              { uri: `${ImageURL}${userAvatar}` } :
+              userAvatar}
             style={{
-              ...styles?.avatar
+              ...styles?.avatar,
+              borderWidth:1
             }}
             borderRadius={70}
           />
@@ -286,6 +305,13 @@ function EditDriverAccountData() {
             style={{
               ...styles?.changeAvatar
 
+            }}
+            onPress={async () => {
+              let photores = await launchImageLibraryFunc()
+              console.log({ photores })
+              let avatar = await UploadImageFunction(photores)
+              console.log({ avatar })
+              setUserAvatar(avatar)
             }}
           >
             <Image
@@ -438,9 +464,9 @@ function EditDriverAccountData() {
             justifyContent: 'space-between',
             height: 56,
             backgroundColor: COLORS?.gray,
-            flex:1,
-            borderRadius:6,
-            paddingHorizontal:8, 
+            flex: 1,
+            borderRadius: 6,
+            paddingHorizontal: 8,
             ...styles?.row,
           }}>
             <Text style={{

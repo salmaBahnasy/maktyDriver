@@ -6,7 +6,6 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { icons, COLORS, FONTS, SIZES, images } from "../constants";
 import { useIsFocused } from "@react-navigation/native";
 import { useTranslation } from 'react-i18next';
-import DeliverDetails from "../screens/CreateOrders/DeliverDetails";
 import HomeDriver from "../screens/Driver/Home/Home";
 import DriverNotification from "../screens/Driver/Notification/Notification";
 import DriverAccount from "../screens/Driver/Account/Account";

@@ -194,6 +194,7 @@ function JoinUsAsDriver() {
                  if(result?.data?.login?.type == 1 ){
                   if (result?.data?.login?.token) {
                     console.log("result?.data?.login?.token", result?.data?.login?.token)
+                    
                     AsyncStorage.multiSet([
                       ['token', result?.data?.login?.token],
                       ['userType','driver'],

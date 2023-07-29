@@ -11,22 +11,11 @@ import Splash from './screens/Splash';
 import ContactUs from './screens/ContactUs/ContactUs';
 import Terms from './screens/Terms/Terms';
 import AboutUS from './screens/AboutUS/AboutUS';
-import EditAccountData from './screens/Account/EditAccountData';
-import Address from './screens/Address/Address';
-import ChoooseAddress from './screens/CreateOrders/ChoooseAddress';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import ForgetPassword from './screens/ForgetPassword/ForgetPassword';
 import SendCode from './screens/ForgetPassword/SendCode';
 import ResetPassword from './screens/ForgetPassword/ResetPassword';
 import CommonQesttions from './screens/CommonQesttions/CommonQesttions';
-import DeliverDetails from './screens/CreateOrders/DeliverDetails';
-import WaitingOffers from './screens/CreateOrders/WaitingOffers';
-import ShowOffers from './screens/CreateOrders/ShowOffers';
-import ChatScreen from './screens/CreateOrders/Chat';
-import CheckoutShipping from './screens/Cart/CheckoutShipping';
-import CheckoutPayment from './screens/Cart/CheckoutPayment';
-import CheckoutReview from './screens/Cart/CheckoutReview';
-import OrderFullDetails from './screens/Cart/OrderFullDetails';
 import Search from './screens/Search/Search';
 import LoginDriver from './screens/Driver/login/Login';
 import SignUpForDriver from './screens/Driver/SignUp/SignUp';
@@ -37,6 +26,8 @@ import DriverCategories from './screens/Driver/Home/Categories';
 import EditDriverAccountData from './screens/Driver/Account/EditAccountData';
 import Wallet from './screens/Driver/Wallet/Wallet';
 import OrdersDetails from './screens/Driver/Orders/OrdersDetails';
+import ChatScreen from './screens/Driver/Orders/Chat';
+import TokenContext from './screens/global/Context';
 
 
 
@@ -73,6 +64,7 @@ const Stack = createNativeStackNavigator();
 
 function App() {
   const [type, setType] = useState('')
+  const [token, setToken] = useState('')
 
 
 
@@ -84,142 +76,108 @@ function App() {
 
       setType(usertype)
     })
+    AsyncStorage.getItem('token').then(tk=>{
+      setToken(tk)
+    })
   }
   return (
 
     <ApolloProvider client={client}>
+      {/* <TokenContext value={token}> */}
 
-      <NavigationContainer>
-        <Stack.Navigator>
-          <Stack.Screen
-            options={{ headerShown: false }}
-            name="Splash"
-            component={Splash} />
-     
+        <NavigationContainer>
+          <Stack.Navigator>
+            <Stack.Screen
+              options={{ headerShown: false }}
+              name="Splash"
+              component={Splash} />
 
-          <Stack.Screen
-            options={{ headerShown: false }}
-            name="SignUpForDriver"
-            component={SignUpForDriver} />
-         
-          <Stack.Screen
-            options={{ headerShown: false }}
-            name="DriverHome"
-            component={DriverTabs} />
-          <Stack.Screen
-            options={{ headerShown: false }}
-            name="AboutUS"
-            component={AboutUS} />
-          <Stack.Screen
-            options={{ headerShown: false }}
-            name="ContactUs"
-            component={ContactUs} />
-          <Stack.Screen
-            options={{ headerShown: false }}
-            name="Terms"
-            component={Terms} />
-        
-          <Stack.Screen
-            options={{ headerShown: false }}
-            name="EditAccountData"
-            component={EditAccountData} />
-          <Stack.Screen
-            options={{ headerShown: false }}
-            name="Address"
-            component={Address} />
-          <Stack.Screen
-            options={{ headerShown: false }}
-            name="ChoooseAddress"
-            component={ChoooseAddress} />
-          <Stack.Screen
-            options={{ headerShown: false }}
-            name="ForgetPassword"
-            component={ForgetPassword} />
-          <Stack.Screen
-            options={{ headerShown: false }}
-            name="SendCode"
-            component={SendCode} />
-          <Stack.Screen
-            options={{ headerShown: false }}
-            name="ResetPassword"
-            component={ResetPassword} />
-          <Stack.Screen
-            options={{ headerShown: false }}
-            name="CommonQesttions"
-            component={CommonQesttions} />
-      
-          <Stack.Screen
-            options={{ headerShown: false }}
-            name="DeliverDetails"
-            component={DeliverDetails} />
-          <Stack.Screen
-            options={{ headerShown: false }}
-            name="WaitingOffers"
-            component={WaitingOffers} />
-          <Stack.Screen
-            options={{ headerShown: false }}
-            name="ShowOffers"
-            component={ShowOffers} />
-          <Stack.Screen
-            options={{ headerShown: false }}
-            name="ChatScreen"
-            component={ChatScreen} />
-       
 
-          <Stack.Screen
-            options={{ headerShown: false }}
-            name="CheckoutShipping"
-            component={CheckoutShipping} />
-          <Stack.Screen
-            options={{ headerShown: false }}
-            name="CheckoutPayment"
-            component={CheckoutPayment} />
+            <Stack.Screen
+              options={{ headerShown: false }}
+              name="SignUpForDriver"
+              component={SignUpForDriver} />
 
-          <Stack.Screen
-            options={{ headerShown: false }}
-            name="CheckoutReview"
-            component={CheckoutReview} />
-          <Stack.Screen
-            options={{ headerShown: false }}
-            name="OrderFullDetails"
-            component={OrderFullDetails} />
-          <Stack.Screen
-            options={{ headerShown: false }}
-            name="Search"
-            component={Search} />
-          {/* driver */}
-          <Stack.Screen
-            options={{ headerShown: false }}
-            name="LoginDriver"
-            component={LoginDriver} />
-          <Stack.Screen
-            options={{ headerShown: false }}
-            name="JoinUsAsDriver"
-            component={JoinUsAsDriver} />
-          <Stack.Screen
-            options={{ headerShown: false }}
-            name="DriverRequst"
-            component={DriverRequst} />
-          <Stack.Screen
-            options={{ headerShown: false }}
-            name="DriverCategories"
-            component={DriverCategories} />
+            <Stack.Screen
+              options={{ headerShown: false }}
+              name="DriverHome"
+              component={DriverTabs} />
+            <Stack.Screen
+              options={{ headerShown: false }}
+              name="AboutUS"
+              component={AboutUS} />
+            <Stack.Screen
+              options={{ headerShown: false }}
+              name="ContactUs"
+              component={ContactUs} />
+            <Stack.Screen
+              options={{ headerShown: false }}
+              name="Terms"
+              component={Terms} />
 
-          <Stack.Screen
-            options={{ headerShown: false }}
-            name="EditDriverAccountData"
-            component={EditDriverAccountData} />
-          <Stack.Screen
-            options={{ headerShown: false }}
-            name="Wallet"
-            component={Wallet} />
-          <Stack.Screen
-            options={{ headerShown: false }}
-            name="OrdersDetails"
-            component={OrdersDetails} />
 
-        </Stack.Navigator>
-      </NavigationContainer>
+
+            <Stack.Screen
+              options={{ headerShown: false }}
+              name="ForgetPassword"
+              component={ForgetPassword} />
+            <Stack.Screen
+              options={{ headerShown: false }}
+              name="SendCode"
+              component={SendCode} />
+            <Stack.Screen
+              options={{ headerShown: false }}
+              name="ResetPassword"
+              component={ResetPassword} />
+            <Stack.Screen
+              options={{ headerShown: false }}
+              name="CommonQesttions"
+              component={CommonQesttions} />
+            <Stack.Screen
+              options={{ headerShown: false }}
+              name="ChatScreen"
+              component={ChatScreen} />
+
+
+            <Stack.Screen
+              options={{ headerShown: false }}
+              name="Search"
+              component={Search} />
+            {/* driver */}
+            <Stack.Screen
+              options={{ headerShown: false }}
+              name="LoginDriver"
+              component={LoginDriver} />
+            <Stack.Screen
+              options={{ headerShown: false }}
+              name="JoinUsAsDriver"
+              component={JoinUsAsDriver} />
+            <Stack.Screen
+              options={{ headerShown: false }}
+              name="DriverRequst"
+              component={DriverRequst} />
+            <Stack.Screen
+              options={{ headerShown: false }}
+              name="DriverCategories"
+              component={DriverCategories} />
+
+            <Stack.Screen
+              options={{ headerShown: false }}
+              name="EditDriverAccountData"
+              component={EditDriverAccountData} />
+            <Stack.Screen
+              options={{ headerShown: false }}
+              name="Wallet"
+              component={Wallet} />
+            <Stack.Screen
+              options={{ headerShown: false }}
+              name="OrdersDetails"
+              component={OrdersDetails} />
+
+          </Stack.Navigator>
+        </NavigationContainer>
+      {/* </TokenContext> */}
+
     </ApolloProvider>
 
   );

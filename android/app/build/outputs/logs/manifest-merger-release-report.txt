@@ -18,6 +18,7 @@ MERGED from [:react-native-image-picker] /Users/salma/Desktop/apps/makfyDriver/n
 MERGED from [:react-native-localize] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-localize/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-maps] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-maps/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-push-notification] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-reanimated] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-reanimated/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-restart] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-restart/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-safe-area-context] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-screens/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
@@ -112,7 +113,7 @@ MERGED from [com.microsoft.appcenter.reactnative:appcenter-react-native:4.4.5] /
 MERGED from [com.microsoft.appcenter:appcenter-analytics:4.4.5] /Users/salma/.gradle/caches/transforms-3/1cc57278e495204e8a69aeeeda257641/transformed/jetified-appcenter-analytics-4.4.5/AndroidManifest.xml:6:1-13:12
 MERGED from [com.microsoft.appcenter:appcenter-crashes:4.4.5] /Users/salma/.gradle/caches/transforms-3/d69c62630d5efbffd41f504fafc9714f/transformed/jetified-appcenter-crashes-4.4.5/AndroidManifest.xml:6:1-13:12
 MERGED from [com.microsoft.appcenter:appcenter:4.4.5] /Users/salma/.gradle/caches/transforms-3/87915ab50f1715a97718ae07a8fe7944/transformed/jetified-appcenter-4.4.5/AndroidManifest.xml:6:1-16:12
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/salma/.gradle/caches/transforms-3/146d5b61a80d5b99a60defab0f004694/transformed/jetified-android-maps-utils-0.5/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.maps.android:android-maps-utils:3.4.0] /Users/salma/.gradle/caches/transforms-3/6e600afbb6e77338d5c9da9d7d94274f/transformed/jetified-android-maps-utils-3.4.0/AndroidManifest.xml:2:1-15:12
 MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:2:1-52:12
 MERGED from [com.jakewharton:process-phoenix:2.1.2] /Users/salma/.gradle/caches/transforms-3/4ce8019af485171220ccb2a8487ab51d/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:2:1-15:12
 MERGED from [com.github.ybq:Android-SpinKit:1.4.0] /Users/salma/.gradle/caches/transforms-3/886cc932b9f494696f77468eb906a1ff/transformed/jetified-Android-SpinKit-1.4.0/AndroidManifest.xml:2:1-9:12
@@ -233,8 +234,8 @@ MERGED from [androidx.room:room-runtime:2.2.5] /Users/salma/.gradle/caches/trans
 MERGED from [androidx.room:room-runtime:2.2.5] /Users/salma/.gradle/caches/transforms-3/72470af2331c78edb2d99d97d8f5edd5/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/salma/.gradle/caches/transforms-3/c958e6971278d3199468fa2ae9c3a930/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/salma/.gradle/caches/transforms-3/c958e6971278d3199468fa2ae9c3a930/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/salma/.gradle/caches/transforms-3/146d5b61a80d5b99a60defab0f004694/transformed/jetified-android-maps-utils-0.5/AndroidManifest.xml:7:5-11:19
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/salma/.gradle/caches/transforms-3/146d5b61a80d5b99a60defab0f004694/transformed/jetified-android-maps-utils-0.5/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:3.4.0] /Users/salma/.gradle/caches/transforms-3/6e600afbb6e77338d5c9da9d7d94274f/transformed/jetified-android-maps-utils-3.4.0/AndroidManifest.xml:9:5-13:19
+MERGED from [com.google.maps.android:android-maps-utils:3.4.0] /Users/salma/.gradle/caches/transforms-3/6e600afbb6e77338d5c9da9d7d94274f/transformed/jetified-android-maps-utils-3.4.0/AndroidManifest.xml:9:5-13:19
 MERGED from [com.jakewharton:process-phoenix:2.1.2] /Users/salma/.gradle/caches/transforms-3/4ce8019af485171220ccb2a8487ab51d/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:7:5-13:19
 MERGED from [com.jakewharton:process-phoenix:2.1.2] /Users/salma/.gradle/caches/transforms-3/4ce8019af485171220ccb2a8487ab51d/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:7:5-13:19
 	android:appComponentFactory
@@ -363,6 +364,8 @@ MERGED from [:react-native-maps] /Users/salma/Desktop/apps/makfyDriver/node_modu
 MERGED from [:react-native-maps] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-maps/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-push-notification] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-push-notification] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-reanimated/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-reanimated/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-restart] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-restart/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-restart] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-restart/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-safe-area-context] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
@@ -551,8 +554,8 @@ MERGED from [com.microsoft.appcenter:appcenter-crashes:4.4.5] /Users/salma/.grad
 MERGED from [com.microsoft.appcenter:appcenter-crashes:4.4.5] /Users/salma/.gradle/caches/transforms-3/d69c62630d5efbffd41f504fafc9714f/transformed/jetified-appcenter-crashes-4.4.5/AndroidManifest.xml:9:5-11:41
 MERGED from [com.microsoft.appcenter:appcenter:4.4.5] /Users/salma/.gradle/caches/transforms-3/87915ab50f1715a97718ae07a8fe7944/transformed/jetified-appcenter-4.4.5/AndroidManifest.xml:9:5-11:41
 MERGED from [com.microsoft.appcenter:appcenter:4.4.5] /Users/salma/.gradle/caches/transforms-3/87915ab50f1715a97718ae07a8fe7944/transformed/jetified-appcenter-4.4.5/AndroidManifest.xml:9:5-11:41
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/salma/.gradle/caches/transforms-3/146d5b61a80d5b99a60defab0f004694/transformed/jetified-android-maps-utils-0.5/AndroidManifest.xml:5:5-43
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/salma/.gradle/caches/transforms-3/146d5b61a80d5b99a60defab0f004694/transformed/jetified-android-maps-utils-0.5/AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:3.4.0] /Users/salma/.gradle/caches/transforms-3/6e600afbb6e77338d5c9da9d7d94274f/transformed/jetified-android-maps-utils-3.4.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.maps.android:android-maps-utils:3.4.0] /Users/salma/.gradle/caches/transforms-3/6e600afbb6e77338d5c9da9d7d94274f/transformed/jetified-android-maps-utils-3.4.0/AndroidManifest.xml:5:5-7:41
 MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
 MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
 MERGED from [com.jakewharton:process-phoenix:2.1.2] /Users/salma/.gradle/caches/transforms-3/4ce8019af485171220ccb2a8487ab51d/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:5:5-44
@@ -817,8 +820,8 @@ ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/salma/.gradle/cac
 		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/salma/.gradle/caches/transforms-3/e4c4977317779bcd4479b304da83d3d1/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
 meta-data#com.google.android.gms.version
 ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/salma/.gradle/caches/transforms-3/8e8d99f37da2826051a2f1ee7e0348d5/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/salma/.gradle/caches/transforms-3/146d5b61a80d5b99a60defab0f004694/transformed/jetified-android-maps-utils-0.5/AndroidManifest.xml:8:9-10:69
-MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/salma/.gradle/caches/transforms-3/146d5b61a80d5b99a60defab0f004694/transformed/jetified-android-maps-utils-0.5/AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.maps.android:android-maps-utils:3.4.0] /Users/salma/.gradle/caches/transforms-3/6e600afbb6e77338d5c9da9d7d94274f/transformed/jetified-android-maps-utils-3.4.0/AndroidManifest.xml:10:9-12:69
+MERGED from [com.google.maps.android:android-maps-utils:3.4.0] /Users/salma/.gradle/caches/transforms-3/6e600afbb6e77338d5c9da9d7d94274f/transformed/jetified-android-maps-utils-3.4.0/AndroidManifest.xml:10:9-12:69
 	android:value
 		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /Users/salma/.gradle/caches/transforms-3/8e8d99f37da2826051a2f1ee7e0348d5/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
 	android:name

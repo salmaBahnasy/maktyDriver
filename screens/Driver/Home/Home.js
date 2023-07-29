@@ -17,15 +17,16 @@ import {
 import { useIsFocused, useNavigation } from '@react-navigation/native';
 import { useTranslation } from 'react-i18next';
 import { useQuery } from '@apollo/client';
-
 import { COLORS, FONTS, icons, images, SIZES } from '../../../constants';
 import GetDeleveryAddressModal from '../../comp/GetDeleveryAddressModal';
 import styles from './styles';
-import SearchView from '../../comp/SearchView';
 import { me } from '../Account/services/services';
 import { socket } from '../../../constants/constVariable';
 import MainWallet from '../../comp/MainWallet';
 import CategoryItem from './Component/CategoryItem';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import { connectToSocket } from '../../../constants/SocketConfig';
+import NewOrderRequest from '../../comp/NewOrderRequest';
 
 
 
@@ -38,8 +39,54 @@ function HomeDriver() {
   const [socketState, setsocketState] = useState({})
   const { data, loading } = useQuery(me); //execute query
   const [showDeliveryAddress, setshowDeliveryAddress] = useState(false)
+  const [Token, setToken] = useState('')
+  const [newReqestModal, setnewReqestModal] = useState(false)
+  const [Requestes, setRequestes] = useState([])
 
+  useEffect(() => {
+    () => {
+      AsyncStorage.getItem('token').then(token => {
+        setToken(token)
+      })
+    }
+  }, [])
+  useEffect(()=>{
+    useSocket()
+  },[Token])
 
+  const useSocket = () => {
+    // Call connectToSocket and use the socket instance
+    connectToSocket()
+      .then((socket) => {
+        console.log('useSocket--->', socket)
+        if (!socket.connected) {
+          console.log("socket--^_^")
+          // Use the socket instance and add event listeners or perform socket operations
+          socket.on('connect', () => {
+            console.log('Connected to server');
+            console.log("connect", socket.id); // x8WIv7-mJelg7on_ALbx
+            listentoNewOrder(socket)
+          });
+          socket.on('disconnect', () => {
+            console.log('Disconnected from server');
+            console.log(socket.id);
+          });
+
+          socket.on("connect_error", () => {
+            socket.auth.token = Token
+            console.log("connect_error", socket); // undefined
+          });
+          socket.connect()
+        }else{
+          console.log('socket not found')
+          listentoNewOrder(socket)
+
+        }
+      })
+      .catch((error) => {
+        console.log('Error connecting to socket:', error);
+      });
+  }
   // ..................................................................
   // render category item view
   const renderItem = ({ item, index }) => {
@@ -69,30 +116,43 @@ function HomeDriver() {
     </Pressable>
 
   }
-  const connectTOSocket = async () => {
-    console.log('socket.....', socket)
+  // const connectTOSocket = async () => {
+  //   console.log('socket.....', socket)
+  //   // AsyncStorage.getItem('token').then(token => {
+  //   //   setToken(token)
+  //   //   const socket = io("http://185.148.147.83:3002", {
+  //   //     transports: ["websocket"],
+  //   //     autoConnect: false,
+  //   //     reconnection: false,
+  //   //     auth: {
+  //   //       // how to pass token here from AsyncStorage   
+  //   //       token: token
+  //   //     }
+  //   //   });
 
-    if (socket.connected == true) {
-      console.log("null")
-    } else {
-      console.log("waiting for connection....")
-      console.log('socket.....', socket)
+  //     if (socket.connected == true) {
+  //       console.log("null")
+  //     } else {
+  //       console.log("waiting for connection....")
+  //       console.log('socket', socket)
+  //       socket.on("connect", () => {
 
+  //         console.log("connect", socket.id); // x8WIv7-mJelg7on_ALbx
+  //         listentoNewOrder()
 
-      socket.on("connect", () => {
-        console.log("connect", socket.id); // x8WIv7-mJelg7on_ALbx
-        listentoNewOrder()
+  //       });
+  //       // socket.on("disconnect", () => {
+  //       //   console.log(socket.id); // undefined
+  //       // });
+  //       socket.on("connect_error", () => {
+  //         socket.auth.token=Token
+  //         console.log("connect_error", socket); // undefined
+  //       });
+  //       socket.connect()
+  //     }
+  //   // })
 
-      });
-      // socket.on("disconnect", () => {
-      //   console.log(socket.id); // undefined
-      // });
-      socket.on("connect_error", () => {
-        console.log("connect_error", socket); // undefined
-      });
-      socket.connect()
-    }
-  }
+  // }
   //   import {io} from "socket.io-client";
 
   // const socketDriver = io("http://185.148.147.83:3002",
@@ -123,11 +183,15 @@ function HomeDriver() {
 
 
   // socketDriver.connect()
-  const listentoNewOrder = () => {
+  const listentoNewOrder = (socket) => {
     console.log('listentoNewOrder')
+    console.log('socket',socket)
+
     socket.on("NewOrder", (args) => {
       // ...
+      setnewReqestModal(true)
       console.log({ args })
+      setRequestes(args)
     });
   }
   const disconnect = async () => {
@@ -151,7 +215,7 @@ function HomeDriver() {
       <View style={{ ...styles?.row, justifyContent: 'space-around' }}>
         <Pressable
           onPress={() => {
-            connectTOSocket()
+            useSocket()
           }}
           style={{
             backgroundColor: COLORS?.bgGreen,
@@ -190,6 +254,13 @@ function HomeDriver() {
             navigation?.navigate('ChoooseAddress')
 
           }}
+        />
+        <NewOrderRequest
+        isVisible={newReqestModal}
+        data={Requestes}
+        onDismiss={()=>{
+          setnewReqestModal(false)
+        }}
         />
         {/* ...... */}
         <ImageBackground
@@ -263,6 +334,7 @@ function HomeDriver() {
           </View>
 
         </ImageBackground>
+        <_renderSocket />
         <View style={{ marginVertical: 16 }}>
           <MainWallet />
           <View style={{ ...styles?.row, paddingHorizontal: 16 }}>
@@ -304,7 +376,7 @@ function HomeDriver() {
           </Text>
         </View>
 
-        <View style={{ ...styles?.row, paddingHorizontal: 16,marginTop:16 }}>
+        <View style={{ ...styles?.row, paddingHorizontal: 16, marginTop: 16 }}>
           <Text style={{ ...FONTS?.h3, color: COLORS?.primary }}>{t('common:Gotoorders')}</Text>
           <Image
             source={I18nManager?.isRTL ? icons?.RArrow : icons?.LArrow}
