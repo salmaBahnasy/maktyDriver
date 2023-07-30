@@ -14,7 +14,7 @@ import {
   FlatList,
   I18nManager
 } from 'react-native';
-import { useIsFocused, useNavigation } from '@react-navigation/native';
+import { useIsFocused, useNavigation, useRoute } from '@react-navigation/native';
 import { useTranslation } from 'react-i18next';
 import { useQuery } from '@apollo/client';
 import { COLORS, FONTS, icons, images, SIZES } from '../../../constants';
@@ -33,6 +33,7 @@ import NewOrderRequest from '../../comp/NewOrderRequest';
 
 function HomeDriver() {
   const { t } = useTranslation();
+  const route = useRoute()
   const isDarkMode = useColorScheme() === 'dark';
   const navigation = useNavigation()
   const isfocus = useIsFocused()
@@ -42,7 +43,7 @@ function HomeDriver() {
   const [Token, setToken] = useState('')
   const [newReqestModal, setnewReqestModal] = useState(false)
   const [Requestes, setRequestes] = useState([])
-
+  const socketFromrout = route.params?.socket
   useEffect(() => {
     () => {
       AsyncStorage.getItem('token').then(token => {
@@ -59,7 +60,7 @@ function HomeDriver() {
     connectToSocket()
       .then((socket) => {
         console.log('useSocket--->', socket)
-        if (!socket.connected) {
+        if (socket.connected == false) {
           console.log("socket--^_^")
           // Use the socket instance and add event listeners or perform socket operations
           socket.on('connect', () => {
@@ -78,15 +79,41 @@ function HomeDriver() {
           });
           socket.connect()
         } else {
-          console.log('socket not found')
+          // console.log('socket not found')
           listentoNewOrder(socket)
-          disconnect(socket)
+          // disconnect(socket)
         }
       })
       .catch((error) => {
         console.log('Error connecting to socket:', error);
       });
   }
+  const listentoNewOrder = (socket) => {
+    console.log('listentoNewOrder')
+    console.log('socket', socket)
+
+    socket.on("NewOrder", (args) => {
+      // ...
+      setnewReqestModal(true)
+      console.log({ args })
+      setRequestes(args)
+    });
+  }
+  const disconnect = async (socket) => {
+    console.log({ socket })
+    setsocketState(socket)
+    socket.removeAllListeners("NewOrder");
+    // for all events
+    socket.removeAllListeners();
+    socket.disconnect == true ? null
+      : console.log('disconnect---->')
+      socket.disconnect()
+      socket.on("disconnect", () => {
+      console.log(socket); // undefined
+    });
+    socket.close()
+  }
+
   // ..................................................................
   // render category item view
   const renderItem = ({ item, index }) => {
@@ -183,32 +210,7 @@ function HomeDriver() {
 
 
   // socketDriver.connect()
-  const listentoNewOrder = (socket) => {
-    console.log('listentoNewOrder')
-    console.log('socket', socket)
-
-    socket.on("NewOrder", (args) => {
-      // ...
-      setnewReqestModal(true)
-      console.log({ args })
-      setRequestes(args)
-    });
-  }
-  const disconnect = async (socket) => {
-    console.log({ socket })
-    setsocketState(socket)
-    socket.removeAllListeners("NewOrder");
-    // for all events
-    socket.removeAllListeners();
-    socket.disconnect == true ? null
-      : console.log('disconnect---->')
-    socket.disconnect()
-    socket.on("disconnect", () => {
-      console.log(socket); // undefined
-    });
-    socket.close()
-  }
-
+ 
   // .......................................................................
   function _renderSocket() {
     return (
@@ -226,7 +228,7 @@ function HomeDriver() {
         </Pressable>
         <Pressable
           onPress={() => {
-            disconnect()
+            disconnect(socketFromrout)
           }}
           style={{
             backgroundColor: COLORS?.red,

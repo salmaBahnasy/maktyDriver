@@ -34,6 +34,7 @@ import { gql, useMutation } from '@apollo/client';
 import { LoginInterface } from './LoginInterface';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { LOGIN_GQL } from '../../gql/mutation';
+import { connectToSocket } from '../../../constants/SocketConfig';
 
 
 
@@ -201,7 +202,13 @@ function JoinUsAsDriver() {
                     ],
                       
                       () => {
-                        navigation.navigate('DriverHome')
+                        connectToSocket().then(socket=>{
+                          console.log(socket)
+                          navigation.navigate('DriverHome',{
+                            socket
+                          })
+
+                        })
                       })
                   } else {
                     setPasswordError(t('common:incorrectData'))

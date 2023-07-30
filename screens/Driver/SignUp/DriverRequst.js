@@ -303,6 +303,7 @@ function DriverRequst() {
         header={t('common:accountcreatsuccess')}
         desc={t('common:connectWithAdmin')}
         feedBackAction={() => {
+          
           navigation.navigate('LoginDriver')
         }}
         btntext={t('common:close')}
