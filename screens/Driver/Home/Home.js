@@ -310,7 +310,9 @@ function HomeDriver() {
         {/* <_renderSocket /> */}
         <View style={{ marginVertical: 16 }}>
           <MainWallet />
-          <View style={{ ...styles?.row, paddingHorizontal: 16 }}>
+          <Pressable
+            onPress={() => { navigation.navigate('Wallet') }}
+            style={{ ...styles?.row, paddingHorizontal: 16 }}>
             <Text style={{ ...FONTS?.h3, color: COLORS?.primary }}>{t('common:gotowallet')}</Text>
             <Image
               source={I18nManager?.isRTL ? icons?.RArrow : icons?.LArrow}
@@ -321,7 +323,7 @@ function HomeDriver() {
                 marginBottom: SIZES?.smallpading
               }}
             />
-          </View>
+          </Pressable>
         </View>
         <View style={{
           ...styles?.row,
@@ -349,7 +351,9 @@ function HomeDriver() {
           </Text>
         </View>
 
-        <View style={{ ...styles?.row, paddingHorizontal: 16, marginTop: 16 }}>
+        <Pressable
+          onPress={() => { navigation.navigate('Orders') }}
+          style={{ ...styles?.row, paddingHorizontal: 16, marginTop: 16 }}>
           <Text style={{ ...FONTS?.h3, color: COLORS?.primary }}>{t('common:Gotoorders')}</Text>
           <Image
             source={I18nManager?.isRTL ? icons?.RArrow : icons?.LArrow}
@@ -360,9 +364,9 @@ function HomeDriver() {
               marginBottom: SIZES?.smallpading
             }}
           />
-        </View>
+        </Pressable>
         <FlatList
-          data={[1, 2]}
+          data={[]}
           renderItem={(item, index) => { return <CategoryItem /> }}
           style={{
             ...styles?.catflatList

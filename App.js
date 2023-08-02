@@ -28,6 +28,7 @@ import Wallet from './screens/Driver/Wallet/Wallet';
 import OrdersDetails from './screens/Driver/Orders/OrdersDetails';
 import ChatScreen from './screens/Driver/Orders/Chat';
 import TokenContext from './screens/global/Context';
+import DriverOrders from './screens/Driver/Orders/Orders';
 
 
 
@@ -76,7 +77,7 @@ function App() {
 
       setType(usertype)
     })
-    AsyncStorage.getItem('token').then(tk=>{
+    AsyncStorage.getItem('token').then(tk => {
       setToken(tk)
     })
   }
@@ -85,97 +86,100 @@ function App() {
     <ApolloProvider client={client}>
       {/* <TokenContext value={token}> */}
 
-        <NavigationContainer>
-          <Stack.Navigator>
-            <Stack.Screen
-              options={{ headerShown: false }}
-              name="Splash"
-              component={Splash} />
+      <NavigationContainer>
+        <Stack.Navigator>
+          <Stack.Screen
+            options={{ headerShown: false }}
+            name="Splash"
+            component={Splash} />
 
 
-            <Stack.Screen
-              options={{ headerShown: false }}
-              name="SignUpForDriver"
-              component={SignUpForDriver} />
+          <Stack.Screen
+            options={{ headerShown: false }}
+            name="SignUpForDriver"
+            component={SignUpForDriver} />
 
-            <Stack.Screen
-              options={{ headerShown: false }}
-              name="DriverHome"
-              component={DriverTabs} />
-            <Stack.Screen
-              options={{ headerShown: false }}
-              name="AboutUS"
-              component={AboutUS} />
-            <Stack.Screen
-              options={{ headerShown: false }}
-              name="ContactUs"
-              component={ContactUs} />
-            <Stack.Screen
-              options={{ headerShown: false }}
-              name="Terms"
-              component={Terms} />
-
-
-
-            <Stack.Screen
-              options={{ headerShown: false }}
-              name="ForgetPassword"
-              component={ForgetPassword} />
-            <Stack.Screen
-              options={{ headerShown: false }}
-              name="SendCode"
-              component={SendCode} />
-            <Stack.Screen
-              options={{ headerShown: false }}
-              name="ResetPassword"
-              component={ResetPassword} />
-            <Stack.Screen
-              options={{ headerShown: false }}
-              name="CommonQesttions"
-              component={CommonQesttions} />
-            <Stack.Screen
-              options={{ headerShown: false }}
-              name="ChatScreen"
-              component={ChatScreen} />
+          <Stack.Screen
+            options={{ headerShown: false }}
+            name="DriverHome"
+            component={DriverTabs} />
+          <Stack.Screen
+            options={{ headerShown: false }}
+            name="AboutUS"
+            component={AboutUS} />
+          <Stack.Screen
+            options={{ headerShown: false }}
+            name="ContactUs"
+            component={ContactUs} />
+          <Stack.Screen
+            options={{ headerShown: false }}
+            name="Terms"
+            component={Terms} />
 
 
-            <Stack.Screen
-              options={{ headerShown: false }}
-              name="Search"
-              component={Search} />
-            {/* driver */}
-            <Stack.Screen
-              options={{ headerShown: false }}
-              name="LoginDriver"
-              component={LoginDriver} />
-            <Stack.Screen
-              options={{ headerShown: false }}
-              name="JoinUsAsDriver"
-              component={JoinUsAsDriver} />
-            <Stack.Screen
-              options={{ headerShown: false }}
-              name="DriverRequst"
-              component={DriverRequst} />
-            <Stack.Screen
-              options={{ headerShown: false }}
-              name="DriverCategories"
-              component={DriverCategories} />
 
-            <Stack.Screen
-              options={{ headerShown: false }}
-              name="EditDriverAccountData"
-              component={EditDriverAccountData} />
-            <Stack.Screen
-              options={{ headerShown: false }}
-              name="Wallet"
-              component={Wallet} />
-            <Stack.Screen
-              options={{ headerShown: false }}
-              name="OrdersDetails"
-              component={OrdersDetails} />
+          <Stack.Screen
+            options={{ headerShown: false }}
+            name="ForgetPassword"
+            component={ForgetPassword} />
+          <Stack.Screen
+            options={{ headerShown: false }}
+            name="SendCode"
+            component={SendCode} />
+          <Stack.Screen
+            options={{ headerShown: false }}
+            name="ResetPassword"
+            component={ResetPassword} />
+          <Stack.Screen
+            options={{ headerShown: false }}
+            name="CommonQesttions"
+            component={CommonQesttions} />
+          <Stack.Screen
+            options={{ headerShown: false }}
+            name="ChatScreen"
+            component={ChatScreen} />
 
-          </Stack.Navigator>
-        </NavigationContainer>
+
+          <Stack.Screen
+            options={{ headerShown: false }}
+            name="Search"
+            component={Search} />
+          {/* driver */}
+          <Stack.Screen
+            options={{ headerShown: false }}
+            name="LoginDriver"
+            component={LoginDriver} />
+          <Stack.Screen
+            options={{ headerShown: false }}
+            name="JoinUsAsDriver"
+            component={JoinUsAsDriver} />
+          <Stack.Screen
+            options={{ headerShown: false }}
+            name="DriverRequst"
+            component={DriverRequst} />
+          <Stack.Screen
+            options={{ headerShown: false }}
+            name="DriverCategories"
+            component={DriverCategories} />
+
+          <Stack.Screen
+            options={{ headerShown: false }}
+            name="EditDriverAccountData"
+            component={EditDriverAccountData} />
+          <Stack.Screen
+            options={{ headerShown: false }}
+            name="Wallet"
+            component={Wallet} />
+          <Stack.Screen
+            options={{ headerShown: false }}
+            name="OrdersDetails"
+            component={OrdersDetails} />
+          <Stack.Screen
+            options={{ headerShown: false }}
+            name="Orders"
+            component={DriverOrders} />
+        </Stack.Navigator>
+      </NavigationContainer>
       {/* </TokenContext> */}
 
     </ApolloProvider>
