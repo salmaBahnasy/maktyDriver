@@ -9,127 +9,7 @@ import CategoryItem from '../Driver/Home/Component/CategoryItem';
 
 const NewOrderRequest = (props) => {
   const { t } = useTranslation();
-
-  function offersView() {
-
-    const renderItem = ({ item, index }) => {
-      return (
-        <View
-          style={{
-            ...styles?.ItemView
-          }}
-        >
-          <View style={{ ...styles?.row }}>
-            <View>
-              <Image
-                source={item?.imagePath ? { uri: item?.imagePath } : images?.user}
-                style={{
-                  ...styles?.delegateImg
-                }}
-              />
-              <View style={{
-                ...styles?.row,
-                backgroundColor: COLORS?.white,
-                borderRadius: 13,
-                justifyContent: 'center',
-                marginBottom: 20,
-                paddingVertical: 8,
-                marginTop: -10
-              }}>
-                <Image
-                  style={{ width: 15, height: 15, marginHorizontal: 5 }}
-                  source={icons?.star}
-                />
-                <Text>{item?.rate}</Text>
-              </View>
-            </View>
-
-            <View style={{ marginHorizontal: 16 }}>
-              <Text style={{
-                ...styles?.delegatetxt
-              }}>{item?.name}</Text>
-              <View style={{ ...styles?.row }}>
-                <Image
-                  source={icons?.desdination}
-                  style={{
-                    ...styles?.icon
-                  }}
-                />
-                <Text style={{ ...styles?.smalltxt }}>{item?.noOrders} {t('common:trips')}  | </Text>
-                <Text style={{ ...styles?.smalltxt }}>{item?.birth_date} </Text>
-              </View>
-              <View style={{ ...styles?.row }}>
-                <Image
-                  source={icons?.location}
-                  style={{
-                    ...styles?.icon
-                  }}
-                />
-                <Text style={{ ...styles?.smalltxt }}>
-                  2.0 {t('common:km')}
-                </Text>
-                <Text style={{ ...styles?.smalltxt, color: COLORS?.primary, marginHorizontal: SIZES?.base }}>
-                  {t('common:ntp')}
-                </Text>
-              </View>
-
-            </View>
-
-          </View>
-          <View style={{ ...styles?.row, justifyContent: 'space-between' }}>
-            <Text style={{ ...styles?.txt }}>{t('common:theoffer')}</Text>
-            <View style={{ ...styles?.row }}>
-              <Text style={{ ...styles?.txt }}>{ }</Text>
-              <Text style={{ ...FONTS?.h3, fontSize: 14, color: COLORS?.gray1 }}>{t('common:SAR')}</Text>
-            </View>
-          </View>
-          {/* .........footer btn......... */}
-          <View style={{
-            ...styles?.row,
-            justifyContent: 'space-between',
-            marginTop: 23
-          }}>
-            <MainButton
-              style={{
-                backgroundColor: COLORS?.gray,
-                width: "25%"
-              }}
-              text={t('common:Reject')}
-              Textstyle={{
-                color: COLORS?.gray1
-              }}
-              onPress={() => {
-
-
-              }}
-            />
-            <MainButton
-              style={{
-                width: "65%"
-              }}
-              text={t('common:Accept')}
-              icon={icons?.checkcircle}
-              Textstyle={{
-                marginHorizontal: 8
-              }}
-              onPress={() => {
-
-              }}
-            />
-
-          </View>
-
-        </View>
-      )
-    }
-
-    return <FlatList
-      data={props?.data ? props?.data : []}
-      renderItem={renderItem}
-      showsVerticalScrollIndicator={false}
-    />
-
-  }
+console.log("props?.data",props?.orderData)
 
   // renders
   return (
@@ -155,10 +35,10 @@ const NewOrderRequest = (props) => {
       }}>
         {/* {offersView()} */}
         <FlatList
-          data={[1]}
+          data={Array.isArray( props?.orderData)?props?.orderData:[1]}
           renderItem={(item, index) => {
             return <View>
-              <CategoryItem />
+              <CategoryItem item={item?.item} />
               <View style={{
                 ...styles?.row,
                 justifyContent: 'space-between',
@@ -175,7 +55,7 @@ const NewOrderRequest = (props) => {
                     marginHorizontal: 8
                   }}
                   onPress={() => {
-
+                    ConfirmDelegateOrderfnc(item?.item)
                   }}
                 />
                 <MainButton

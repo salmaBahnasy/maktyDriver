@@ -54,17 +54,17 @@ export const client = new ApolloClient({
 // }
 // const token = useContext(TokenContext);
 // console.log({token})
-// export const socket = io("http://185.148.147.83:3002",
-//   {
-//     transports: ["websocket"],
-//     autoConnect: false,
-//     reconnection: false,
-//     auth: {
-//       // how to pass token here from AsyncStorage   
-//       // token: "token"
-//     }
-//     //'147|MA2oZQrnB3tFg3R9UbfrAXnLoYVQtNr6l0dpgVlf'
-//   }
-// );
+export const socket = io("http://185.148.147.83:3002",
+  {
+    transports: ["websocket"],
+    autoConnect: false,
+    reconnection: false,
+    auth: {
+      // how to pass token here from AsyncStorage   
+      token: ''
+    }
+    //'147|MA2oZQrnB3tFg3R9UbfrAXnLoYVQtNr6l0dpgVlf'
+  }
+);
 
 

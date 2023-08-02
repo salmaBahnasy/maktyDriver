@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
     catItem2:{
         margin: 6,
         width: '100%', 
-        height: 208, 
+        height: 220, 
         backgroundColor: COLORS?.gray,
         borderRadius: 6,
         padding:8,
@@ -120,7 +120,8 @@ const styles = StyleSheet.create({
         alignSelf:'center'
     },
     circleimg:{
-        width:58,height:58,borderRadius:29,margin:6
+        width:58,height:58,borderRadius:29,margin:6,
+        borderWidth:1
     },
     icon:{
         width:16,

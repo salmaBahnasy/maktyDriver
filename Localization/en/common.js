@@ -208,7 +208,9 @@ export default {
         Gotoorders:'Go to orders',
         Upcomming:'Upcomming',
         Previous:'Previous',
-        pending:'pending'
+        pending:'pending',
+        dt:'Delivery time',
+        price:'delivery cost'
 
 
 

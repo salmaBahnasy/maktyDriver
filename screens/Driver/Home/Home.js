@@ -14,19 +14,21 @@ import {
   FlatList,
   I18nManager
 } from 'react-native';
+import { io } from "socket.io-client";
 import { useIsFocused, useNavigation, useRoute } from '@react-navigation/native';
 import { useTranslation } from 'react-i18next';
-import { useQuery } from '@apollo/client';
+import { useMutation, useQuery } from '@apollo/client';
 import { COLORS, FONTS, icons, images, SIZES } from '../../../constants';
 import GetDeleveryAddressModal from '../../comp/GetDeleveryAddressModal';
 import styles from './styles';
 import { me } from '../Account/services/services';
-import { socket } from '../../../constants/constVariable';
 import MainWallet from '../../comp/MainWallet';
 import CategoryItem from './Component/CategoryItem';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { connectToSocket } from '../../../constants/SocketConfig';
 import NewOrderRequest from '../../comp/NewOrderRequest';
+import { socket } from '../../../constants/constVariable';
+import { ConfirmDelegateOrder } from './services/services';
 
 
 
@@ -42,78 +44,71 @@ function HomeDriver() {
   const [showDeliveryAddress, setshowDeliveryAddress] = useState(false)
   const [Token, setToken] = useState('')
   const [newReqestModal, setnewReqestModal] = useState(false)
-  const [Requestes, setRequestes] = useState([])
-  const socketFromrout = route.params?.socket
+  const [orderData, setOrderData] = useState([])
+  const [AcceptDelegateOrderRequest,
+    { data: acceptDelegateOrderData,
+      error: acceptDelegateOrderError }] = useMutation(ConfirmDelegateOrder);
+  console.log({ acceptDelegateOrderData })
+  console.log({ acceptDelegateOrderError })
+  const { data: userData, loading: userLoading, refetch } = useQuery(me); //execute query
+  console.log({ data })
+
   useEffect(() => {
-    () => {
-      AsyncStorage.getItem('token').then(token => {
-        setToken(token)
-      })
-    }
+    connectTOSocket()
   }, [])
-  useEffect(() => {
-    useSocket()
-  }, [Token])
 
-  const useSocket = () => {
-    // Call connectToSocket and use the socket instance
-    connectToSocket()
-      .then((socket) => {
-        console.log('useSocket--->', socket)
-        if (socket.connected == false) {
-          console.log("socket--^_^")
-          // Use the socket instance and add event listeners or perform socket operations
-          socket.on('connect', () => {
-            console.log('Connected to server');
-            console.log("connect", socket.id); // x8WIv7-mJelg7on_ALbx
-            listentoNewOrder(socket)
-          });
-          socket.on('disconnect', () => {
-            console.log('Disconnected from server');
-            console.log(socket.id);
-          });
+  const ConfirmDelegateOrderfnc = (item) => {
+    console.log("route", route?.params.data)
+    let obj = {
+      order_id: JSON.parse(item?.id),
+      delegate_id: JSON.parse(userData?.me?.id)
+    }
+    console.log('ConfirmDelegateOrderfnc', obj)
+    AcceptDelegateOrderRequest({
+      variables: {
+        input: obj
+      },
+    }
+    ).then(result => {
+      console.log({ result })
+      // navigation?.navigate('ChatScreen', {
+      //   data: route?.params?.data,
+      //   delegateData: item
+      // })
 
-          socket.on("connect_error", () => {
-            socket.auth.token = Token
-            console.log("connect_error", socket); // undefined
-          });
-          socket.connect()
-        } else {
-          // console.log('socket not found')
-          listentoNewOrder(socket)
-          // disconnect(socket)
-        }
-      })
-      .catch((error) => {
-        console.log('Error connecting to socket:', error);
-      });
+    })
   }
-  const listentoNewOrder = (socket) => {
-    console.log('listentoNewOrder')
-    console.log('socket', socket)
+  const connectTOSocket = async () => {
+    console.log('socket.....', socket)
+    AsyncStorage.getItem('token').then(token => {
+      console.log({ token })
+      if (socket.connected == true) {
+        console.log("null")
+      } else {
+        console.log("waiting for connection....")
+        socket.auth.token = token;
+        // socket.disconnect().connect();
+        console.log('socket.....', socket)
 
-    socket.on("NewOrder", (args) => {
-      // ...
-      setnewReqestModal(true)
-      console.log({ args })
-      setRequestes(args)
-    });
-  }
-  const disconnect = async (socket) => {
-    console.log({ socket })
-    setsocketState(socket)
-    socket.removeAllListeners("NewOrder");
-    // for all events
-    socket.removeAllListeners();
-    socket.disconnect == true ? null
-      : console.log('disconnect---->')
-      socket.disconnect()
-      socket.on("disconnect", () => {
-      console.log(socket); // undefined
-    });
-    socket.close()
-  }
+        socket.on("connect", () => {
+          console.log("connect", socket.id); // x8WIv7-mJelg7on_ALbx
+          listentoNewOrder()
+          listentoAcceptOrder()
+        });
+        socket.on("disconnect", () => {
+          console.log("disconnect", socket); // undefined
+        });
+        socket.on("connect_error", () => {
+          socket.auth.token = token;
+          console.log("connect_error", socket); // undefined
+          socket.disconnect().connect();
+          // socket.connect();
 
+        });
+        socket.connect()
+      }
+    })
+  }
   // ..................................................................
   // render category item view
   const renderItem = ({ item, index }) => {
@@ -143,81 +138,51 @@ function HomeDriver() {
     </Pressable>
 
   }
-  // const connectTOSocket = async () => {
-  //   console.log('socket.....', socket)
-  //   // AsyncStorage.getItem('token').then(token => {
-  //   //   setToken(token)
-  //   //   const socket = io("http://185.148.147.83:3002", {
-  //   //     transports: ["websocket"],
-  //   //     autoConnect: false,
-  //   //     reconnection: false,
-  //   //     auth: {
-  //   //       // how to pass token here from AsyncStorage   
-  //   //       token: token
-  //   //     }
-  //   //   });
+  const listentoAcceptOrder = () => {
+    console.log('listentoAcceptOrder')
+    socket.on("OrderAccept", (args) => {
+      // ...
+      console.log(args)
 
-  //     if (socket.connected == true) {
-  //       console.log("null")
-  //     } else {
-  //       console.log("waiting for connection....")
-  //       console.log('socket', socket)
-  //       socket.on("connect", () => {
+    });
+  }
 
-  //         console.log("connect", socket.id); // x8WIv7-mJelg7on_ALbx
-  //         listentoNewOrder()
+  const listentoNewOrder = () => {
+    console.log('listentoNewOrder')
+    socket.on("NewOrder", (args) => {
+      // ...
 
-  //       });
-  //       // socket.on("disconnect", () => {
-  //       //   console.log(socket.id); // undefined
-  //       // });
-  //       socket.on("connect_error", () => {
-  //         socket.auth.token=Token
-  //         console.log("connect_error", socket); // undefined
-  //       });
-  //       socket.connect()
-  //     }
-  //   // })
-
-  // }
-  //   import {io} from "socket.io-client";
-
-  // const socketDriver = io("http://185.148.147.83:3002",
-  //     {
-  //         transports: ["websocket"],
-  //         reconnection: false,
-  //         autoConnect: false,
-  //         auth: {
-  //             token: "150|eV4NAKRVIQ8H7TXiPFr3rUBYiWgiMsSnEFRWhIuH"
-  //         }
-  //     }
-  // );
-
-  // socketDriver.on("connect", () => {
-  //     console.log(socketDriver.id);
-  //     socketDriver.on("NewOrder",(data)=>{
-  //         console.log(data)
-  //     })
-  //     socketDriver.on("disconnect", (reason, description) => {
-  //         socketDriver.disconnect()
-  //         console.log(socketDriver);
-
-  //     });
-  //     socketDriver.on("connect_error", (err) => {
-  //         console.log(err);
-  //     });
-  // });
+      console.log({ args })
+      console.log({ orderData })
+      setTimeout(() => {
+        setnewReqestModal(true)
+        setOrderData([args])
+      }, 1000);
+    });
+  }
+  const disconnect = async () => {
+    console.log({ socket })
+    setsocketState(socket)
+    socket.removeAllListeners("NewOrder");
+    // for all events
+    socket.removeAllListeners();
+    socket.disconnect == true ? null
+      : console.log('disconnect---->')
+    socket.disconnect()
+    socket.on("disconnect", () => {
+      console.log(socket); // undefined
+    });
+    socket.close()
+  }
 
 
-  // socketDriver.connect()
- 
   // .......................................................................
   function _renderSocket() {
     return (
       <View style={{ ...styles?.row, justifyContent: 'space-around' }}>
         <Pressable
           onPress={() => {
-            useSocket()
+            connectTOSocket()
           }}
           style={{
             backgroundColor: COLORS?.bgGreen,
@@ -228,7 +193,7 @@ function HomeDriver() {
         </Pressable>
         <Pressable
           onPress={() => {
-            disconnect(socketFromrout)
+            disconnect()
           }}
           style={{
             backgroundColor: COLORS?.red,
@@ -241,6 +206,8 @@ function HomeDriver() {
       </View>
     )
   }
+  console.log({ orderData })
+
   return (
     <SafeAreaView style={{ backgroundColor: COLORS?.white, flex: 1 }}>
       <StatusBar
@@ -259,9 +226,13 @@ function HomeDriver() {
         />
         <NewOrderRequest
           isVisible={newReqestModal}
-          data={Requestes}
+          orderData={orderData}
           onDismiss={() => {
             setnewReqestModal(false)
+          }}
+          ConfirmDelegateOrderfnc={(item) => {
+            setnewReqestModal(false)
+            ConfirmDelegateOrderfnc(item)
           }}
         />
         {/* ...... */}
@@ -336,7 +307,7 @@ function HomeDriver() {
           </View>
 
         </ImageBackground>
-        <_renderSocket />
+        {/* <_renderSocket /> */}
         <View style={{ marginVertical: 16 }}>
           <MainWallet />
           <View style={{ ...styles?.row, paddingHorizontal: 16 }}>

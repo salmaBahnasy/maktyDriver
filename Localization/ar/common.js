@@ -210,7 +210,9 @@ export default {
     Gotoorders:'اذهب إلى الطلبات',
     Upcomming:'القادمة',
     Previous:'السابق',
-    pending:'قيد الانتظار'
+    pending:'قيد الانتظار',
+    dt:'وقت التوصيل',
+    price:"تكلفة التوصيل"
 
     
 
