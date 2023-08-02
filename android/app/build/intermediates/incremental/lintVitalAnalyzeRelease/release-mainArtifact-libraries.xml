@@ -273,6 +273,19 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="/Users/salma/Desktop/apps/makfyDriver/android@@:react-native-sensitive-info::release"
+      jars="/Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-sensitive-info/android/build/.transforms/7de9b3e68e133cba8e158d2c420f6246/transformed/out/jars/classes.jar:/Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-sensitive-info/android/build/.transforms/7de9b3e68e133cba8e158d2c420f6246/transformed/out/jars/libs/R.jar"
+      resolved="makfydriver:react-native-sensitive-info:unspecified"
+      folder="/Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-sensitive-info/android/build/.transforms/7de9b3e68e133cba8e158d2c420f6246/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="/Users/salma/Desktop/apps/makfyDriver/android@@:react-native-share::release"
       jars="/Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-share/android/build/.transforms/6fb61f1d02aa6b8811bc304a9a587edc/transformed/out/jars/classes.jar:/Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-share/android/build/.transforms/6fb61f1d02aa6b8811bc304a9a587edc/transformed/out/jars/libs/R.jar"
       resolved="makfydriver:react-native-share:unspecified"
@@ -938,6 +951,19 @@
       jars="/Users/salma/.gradle/caches/transforms-3/f7b1e70dce7522cca5e01ed1375f7be0/transformed/material-1.1.0/jars/classes.jar"
       resolved="com.google.android.material:material:1.1.0"
       folder="/Users/salma/.gradle/caches/transforms-3/f7b1e70dce7522cca5e01ed1375f7be0/transformed/material-1.1.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.biometric:biometric:1.0.1@aar"
+      jars="/Users/salma/.gradle/caches/transforms-3/59ea666f82a20e46c4ff6ecc6d4479f8/transformed/biometric-1.0.1/jars/classes.jar"
+      resolved="androidx.biometric:biometric:1.0.1"
+      folder="/Users/salma/.gradle/caches/transforms-3/59ea666f82a20e46c4ff6ecc6d4479f8/transformed/biometric-1.0.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
