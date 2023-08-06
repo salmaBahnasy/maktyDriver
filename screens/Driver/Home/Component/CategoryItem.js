@@ -133,7 +133,7 @@ function CategoryItem(props) {
           style={{
             ...styles?.row,
             justifyContent: 'space-around',
-            marginTop: 25,
+            marginTop: 15,
           }}
         >
           {btns(icons?.you, t('common:Delivery'))}

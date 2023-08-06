@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
     catItem2:{
         margin: 6,
         width: '100%', 
-        height: 220, 
+        height: 240, 
         backgroundColor: COLORS?.gray,
         borderRadius: 6,
         padding:8,
