@@ -1,10 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:1:1-70:12
-INJECTED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:1:1-70:12
-INJECTED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:1:1-70:12
-INJECTED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:1:1-70:12
-MERGED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:1:1-70:12
+ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:1:1-72:12
+INJECTED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:1:1-72:12
+INJECTED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:1:1-72:12
+INJECTED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:1:1-72:12
+MERGED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:1:1-72:12
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /Users/salma/.gradle/caches/transforms-3/e2183f6e2db7251142af217dc3d7f87b/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /Users/salma/.gradle/caches/transforms-3/1df5683faa48b10f5ed7c8d2a76ffa96/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/salma/.gradle/caches/transforms-3/a5ed6b787fc81dba45d93351c9778095/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:8:1-18:12
@@ -132,17 +132,17 @@ INJECTED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/debug/Androi
 INJECTED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/debug/AndroidManifest.xml:2:1-13:12
 	package
 		INJECTED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:1:1-70:12
+		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:1:1-72:12
 		INJECTED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:1:1-70:12
+		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:1:1-72:12
 		INJECTED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/debug/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/debug/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:1:1-70:12
+		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:1:1-72:12
 		INJECTED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:1:11-69
@@ -185,9 +185,9 @@ MERGED from [:react-native-get-location] /Users/salma/Desktop/apps/makfyDriver/n
 	android:name
 		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:10:22-78
 application
-ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:11:5-69:19
-MERGED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:11:5-69:19
-MERGED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:11:5-69:19
+ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:11:5-71:19
+MERGED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:11:5-71:19
+MERGED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:11:5-71:19
 MERGED from [:react-native-community_datetimepicker] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-20
 MERGED from [:react-native-community_datetimepicker] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-20
 MERGED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-43:19
@@ -276,90 +276,90 @@ MERGED from [com.jakewharton:process-phoenix:2.1.2] /Users/salma/.gradle/caches/
 		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:17:7-38
 		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:17:7-38
 	android:usesCleartextTraffic
-		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/debug/AndroidManifest.xml:8:9-44
+		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:18:7-42
 	android:name
 		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:12:7-38
 		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:12:7-38
 activity#com.makfydriver.MainActivity
-ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:18:7-30:18
+ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:20:7-32:18
 	android:screenOrientation
-		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:24:9-45
+		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:26:9-45
 	android:label
-		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:20:9-41
+		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:22:9-41
 	android:launchMode
-		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:22:9-40
+		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:24:9-40
 	android:exported
-		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:23:9-32
+		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:25:9-32
 	android:configChanges
-		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:21:9-118
+		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:23:9-118
 	android:name
-		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:19:9-37
+		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:21:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:26:9-29:25
+ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:28:9-31:25
 action#android.intent.action.MAIN
-ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:27:13-65
+ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:29:13-65
 	android:name
-		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:27:21-62
+		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:29:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:28:13-73
+ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:30:13-73
 	android:name
-		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:28:23-70
+		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:30:23-70
 meta-data#com.google.android.geo.API_KEY
-ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:33:7-35:66
+ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:35:7-37:66
 	android:value
-		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:35:9-64
+		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:37:9-64
 	android:name
-		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:34:9-54
+		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:36:9-54
 meta-data#com.dieam.reactnativepushnotification.notification_foreground
-ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:39:9-40:43
+ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:41:9-42:43
 	android:value
-		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:40:21-41
+		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:42:21-41
 	android:name
-		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:39:21-97
+		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:41:21-97
 receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationActions
-ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:45:9-47:99
+ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:47:9-49:99
 	android:exported
-		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:46:9-33
+		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:48:9-33
 	android:name
-		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:47:10-96
+		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:49:10-96
 receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher
-ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:48:9-50:100
+ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:50:9-52:100
 	android:exported
-		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:49:9-33
+		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:51:9-33
 	android:name
-		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:50:9-97
+		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:52:9-97
 receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver
-ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:51:9-59:20
+ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:53:9-61:20
 	android:exported
-		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:52:9-33
+		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:54:9-33
 	android:name
-		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:53:10-106
+		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:55:10-106
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON
-ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:54:13-58:29
+ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:56:13-60:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:55:17-79
+ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:57:17-79
 	android:name
-		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:55:25-76
+		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:57:25-76
 action#android.intent.action.QUICKBOOT_POWERON
-ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:56:17-82
+ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:58:17-82
 	android:name
-		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:56:25-79
+		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:58:25-79
 action#com.htc.intent.action.QUICKBOOT_POWERON
-ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:57:17-81
+ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:59:17-81
 	android:name
-		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:57:25-79
+		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:59:25-79
 service#com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService
-ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:61:9-67:19
+ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:63:9-69:19
 	android:exported
-		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:63:13-37
+		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:65:13-37
 	android:name
-		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:62:13-107
+		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:64:13-107
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:64:13-66:29
+ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:66:13-68:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:65:17-78
+ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:67:17-78
 	android:name
-		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:65:25-75
+		ADDED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:67:25-75
 uses-sdk
 INJECTED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml

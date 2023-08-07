@@ -55,7 +55,7 @@ console.log("props?.data",props?.orderData)
                     marginHorizontal: 8
                   }}
                   onPress={() => {
-                    ConfirmDelegateOrderfnc(item?.item)
+                    props.ConfirmDelegateOrderfnc(item?.item)
                   }}
                 />
                 <MainButton

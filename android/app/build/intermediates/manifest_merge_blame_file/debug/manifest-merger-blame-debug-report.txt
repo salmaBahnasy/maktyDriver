@@ -122,7 +122,7 @@
 56-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
 57
 58    <application
-58-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:11:5-69:19
+58-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:11:5-71:19
 59        android:name="com.makfydriver.MainApplication"
 59-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:12:7-38
 60        android:allowBackup="false"
@@ -139,7 +139,7 @@
 66        android:theme="@style/AppTheme"
 66-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:17:7-38
 67        android:usesCleartextTraffic="true" >
-67-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/debug/AndroidManifest.xml:8:9-44
+67-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:18:7-42
 68        <activity
 68-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/debug/AndroidManifest.xml:11:9-111
 69            android:name="com.facebook.react.devsupport.DevSettingsActivity"
@@ -147,90 +147,90 @@
 70            android:exported="false" />
 70-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/debug/AndroidManifest.xml:11:84-108
 71        <activity
-71-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:18:7-30:18
+71-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:20:7-32:18
 72            android:name="com.makfydriver.MainActivity"
-72-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:19:9-37
+72-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:21:9-37
 73            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-73-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:21:9-118
+73-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:23:9-118
 74            android:exported="true"
-74-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:23:9-32
+74-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:25:9-32
 75            android:label="@string/app_name"
-75-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:20:9-41
+75-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:22:9-41
 76            android:launchMode="singleTask"
-76-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:22:9-40
+76-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:24:9-40
 77            android:screenOrientation="portrait" >
-77-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:24:9-45
+77-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:26:9-45
 78            <intent-filter>
-78-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:26:9-29:25
+78-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:28:9-31:25
 79                <action android:name="android.intent.action.MAIN" />
-79-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:27:13-65
-79-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:27:21-62
+79-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:29:13-65
+79-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:29:21-62
 80
 81                <category android:name="android.intent.category.LAUNCHER" />
-81-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:28:13-73
-81-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:28:23-70
+81-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:30:13-73
+81-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:30:23-70
 82            </intent-filter>
 83        </activity> <!-- You will only need to add this meta-data tag, but make sure it's a child of application -->
 84        <meta-data
-84-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:33:7-35:66
+84-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:35:7-37:66
 85            android:name="com.google.android.geo.API_KEY"
-85-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:34:9-54
+85-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:36:9-54
 86            android:value="AIzaSyBNxMF0RBiD84LLOSeG7ifj9Md0H_c-TQk" /> <!-- .......notification....... -->
-86-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:35:9-64
+86-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:37:9-64
 87        <!-- Change the value to true to enable pop-up for in foreground on receiving remote notifications (for prevent duplicating while showing local notifications set this to false) -->
 88        <meta-data
-88-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:39:9-40:43
+88-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:41:9-42:43
 89            android:name="com.dieam.reactnativepushnotification.notification_foreground"
-89-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:39:21-97
+89-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:41:21-97
 90            android:value="true" /> <!-- Change the resource name to your App's accent color - or any other color you want -->
-90-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:40:21-41
+90-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:42:21-41
 91        <!--
 92 <meta-data  android:name="com.dieam.reactnativepushnotification.notification_color"
 93                    android:resource="@color/white"/> or @android:color/{name} to use a standard color
 94        -->
 95        <receiver
-95-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:45:9-47:99
+95-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:47:9-49:99
 96            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions"
-96-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:47:10-96
+96-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:49:10-96
 97            android:exported="false" />
-97-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:46:9-33
+97-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:48:9-33
 98        <receiver
-98-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:48:9-50:100
+98-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:50:9-52:100
 99            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher"
-99-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:50:9-97
+99-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:52:9-97
 100            android:exported="false" />
-100-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:49:9-33
+100-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:51:9-33
 101        <receiver
-101-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:51:9-59:20
+101-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:53:9-61:20
 102            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver"
-102-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:53:10-106
+102-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:55:10-106
 103            android:exported="false" >
-103-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:52:9-33
+103-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:54:9-33
 104            <intent-filter>
-104-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:54:13-58:29
+104-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:56:13-60:29
 105                <action android:name="android.intent.action.BOOT_COMPLETED" />
-105-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:55:17-79
-105-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:55:25-76
+105-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:57:17-79
+105-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:57:25-76
 106                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-106-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:56:17-82
-106-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:56:25-79
+106-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:58:17-82
+106-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:58:25-79
 107                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
-107-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:57:17-81
-107-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:57:25-79
+107-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:59:17-81
+107-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:59:25-79
 108            </intent-filter>
 109        </receiver>
 110
 111        <service
-111-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:61:9-67:19
+111-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:63:9-69:19
 112            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
-112-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:62:13-107
+112-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:64:13-107
 113            android:exported="false" >
-113-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:63:13-37
+113-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:65:13-37
 114            <intent-filter>
-114-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:64:13-66:29
+114-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:66:13-68:29
 115                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-115-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:65:17-78
-115-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:65:25-75
+115-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:67:17-78
+115-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:67:25-75
 116            </intent-filter>
 117        </service>
 118        <service
@@ -246,10 +246,10 @@
 123            android:exported="false" >
 123-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
 124            <intent-filter>
-124-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:64:13-66:29
+124-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:66:13-68:29
 125                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-125-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:65:17-78
-125-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:65:25-75
+125-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:67:17-78
+125-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:67:25-75
 126            </intent-filter>
 127        </service>
 128
@@ -543,8 +543,8 @@
 279            <intent-filter>
 279-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
 280                <action android:name="android.intent.action.BOOT_COMPLETED" />
-280-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:55:17-79
-280-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:55:25-76
+280-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:57:17-79
+280-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:57:25-76
 281                <action android:name="android.intent.action.TIME_SET" />
 281-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
 281-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
@@ -658,10 +658,10 @@
 343            android:exported="false" >
 343-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:47:13-37
 344            <intent-filter android:priority="-500" >
-344-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:64:13-66:29
+344-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:66:13-68:29
 345                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-345-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:65:17-78
-345-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:65:25-75
+345-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:67:17-78
+345-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:67:25-75
 346            </intent-filter>
 347        </service>
 348

@@ -58,7 +58,6 @@ function HomeDriver() {
   }, [])
 
   const ConfirmDelegateOrderfnc = (item) => {
-    console.log("route", route?.params.data)
     let obj = {
       order_id: JSON.parse(item?.id),
       delegate_id: JSON.parse(userData?.me?.id)
