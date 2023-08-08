@@ -54,7 +54,9 @@ export const client = new ApolloClient({
 // }
 // const token = useContext(TokenContext);
 // console.log({token})
-export const socket = io("http://185.148.147.83:3002",
+
+// http://185.148.147.83:3002"----old server
+export const socket = io("https://driver.tarweij.com",
   {
     transports: ["websocket"],
     autoConnect: false,

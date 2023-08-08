@@ -64,10 +64,6 @@
         "source": "com.makfydriver.app-react-35:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
     },
     {
-        "merged": "com.makfydriver.app-merged_res-40:/drawable-mdpi_node_modules_reactnativedropdownselectlist_assets_images_close.png.flat",
-        "source": "com.makfydriver.app-react-35:/drawable-mdpi/node_modules_reactnativedropdownselectlist_assets_images_close.png"
-    },
-    {
         "merged": "com.makfydriver.app-merged_res-40:/drawable-mdpi_assets_icons_ic_ic_share.png.flat",
         "source": "com.makfydriver.app-react-35:/drawable-mdpi/assets_icons_ic_ic_share.png"
     },
@@ -252,10 +248,6 @@
         "source": "com.makfydriver.app-react-35:/drawable-mdpi/assets_icons_twitter.png"
     },
     {
-        "merged": "com.makfydriver.app-merged_res-40:/drawable-mdpi_node_modules_reactnativedropdownselectlist_assets_images_chevron.png.flat",
-        "source": "com.makfydriver.app-react-35:/drawable-mdpi/node_modules_reactnativedropdownselectlist_assets_images_chevron.png"
-    },
-    {
         "merged": "com.makfydriver.app-merged_res-40:/drawable-mdpi_assets_icons_group_3.png.flat",
         "source": "com.makfydriver.app-react-35:/drawable-mdpi/assets_icons_group_3.png"
     },
@@ -302,10 +294,6 @@
     {
         "merged": "com.makfydriver.app-merged_res-40:/drawable-mdpi_assets_icons_group_2.png.flat",
         "source": "com.makfydriver.app-react-35:/drawable-mdpi/assets_icons_group_2.png"
-    },
-    {
-        "merged": "com.makfydriver.app-merged_res-40:/drawable-mdpi_node_modules_reactnativedropdownselectlist_assets_images_search.png.flat",
-        "source": "com.makfydriver.app-react-35:/drawable-mdpi/node_modules_reactnativedropdownselectlist_assets_images_search.png"
     },
     {
         "merged": "com.makfydriver.app-merged_res-40:/drawable-mdpi_assets_icons_fotor_2023330_19_27_26.png.flat",
@@ -368,10 +356,6 @@
         "source": "com.makfydriver.app-react-35:/drawable-mdpi/assets_icons_ic_ic_terms.png"
     },
     {
-        "merged": "com.makfydriver.app-merged_res-40:/drawable-mdpi_node_modules_reactnativedropdownselectlist_assets_images_check.png.flat",
-        "source": "com.makfydriver.app-react-35:/drawable-mdpi/node_modules_reactnativedropdownselectlist_assets_images_check.png"
-    },
-    {
         "merged": "com.makfydriver.app-merged_res-40:/drawable-mdpi_assets_icons_whatsapp_2.png.flat",
         "source": "com.makfydriver.app-react-35:/drawable-mdpi/assets_icons_whatsapp_2.png"
     },
@@ -396,12 +380,12 @@
         "source": "com.makfydriver.app-main-41:/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.makfydriver.app-merged_res-40:/drawable-mdpi_assets_icons_pin.png.flat",
-        "source": "com.makfydriver.app-react-35:/drawable-mdpi/assets_icons_pin.png"
-    },
-    {
         "merged": "com.makfydriver.app-merged_res-40:/drawable-mdpi_assets_icons_001uparrow.png.flat",
         "source": "com.makfydriver.app-react-35:/drawable-mdpi/assets_icons_001uparrow.png"
+    },
+    {
+        "merged": "com.makfydriver.app-merged_res-40:/drawable-mdpi_assets_icons_pin.png.flat",
+        "source": "com.makfydriver.app-react-35:/drawable-mdpi/assets_icons_pin.png"
     },
     {
         "merged": "com.makfydriver.app-merged_res-40:/drawable-mdpi_assets_icons_clock_2.png.flat",

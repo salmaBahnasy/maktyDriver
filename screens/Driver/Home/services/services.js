@@ -7,8 +7,8 @@ import { HERE_API_KEY } from "../../../constants/constVariable";
 
 
 export const ConfirmDelegateOrder = gql`
-mutation confirmDelegateOrder($input:confirmDelegateOrderInput!) {
-  confirmDelegateOrder(input:$input) {
+mutation orderDriverRecommended($input:AcceptOrderInput!) {
+  orderDriverRecommended(input:$input) {
     error
     status
     message

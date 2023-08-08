@@ -4,24 +4,7 @@
             "outputFile": "com.makfydriver.app-mergeReleaseResources-38:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
-                    "source": "/Users/salma/.gradle/caches/transforms-3/59ea666f82a20e46c4ff6ecc6d4479f8/transformed/biometric-1.0.1/res/values-en-rAU/values-en-rAU.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,174,280,370,489,618,756,883,1001,1132,1232",
-                        "endColumns": "118,105,89,118,128,137,126,117,130,99,119",
-                        "endOffsets": "169,275,365,484,613,751,878,996,1127,1227,1347"
-                    },
-                    "to": {
-                        "startLines": "29,30,31,32,33,34,35,36,37,38,39",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2762,2881,2987,3077,3196,3325,3463,3590,3708,3839,3939",
-                        "endColumns": "118,105,89,118,128,137,126,117,130,99,119",
-                        "endOffsets": "2876,2982,3072,3191,3320,3458,3585,3703,3834,3934,4054"
-                    }
-                },
-                {
-                    "source": "/Users/salma/.gradle/caches/transforms-3/abf1803a533384ef204da4808afd595f/transformed/core-1.7.0/res/values-en-rAU/values-en-rAU.xml",
+                    "source": "/Users/salma/.gradle/caches/transforms-3/1fdfe92c378d8cb58d0cd0a210d9f69d/transformed/core-1.7.0/res/values-en-rAU/values-en-rAU.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/Users/salma/.gradle/caches/transforms-3/c59ec5d88537e89626aa9c5e080aa9cd/transformed/appcompat-1.4.1/res/values-en-rAU/values-en-rAU.xml",
+                    "source": "/Users/salma/.gradle/caches/transforms-3/7d6711219fa1769af33cb028f238ba4a/transformed/biometric-1.0.1/res/values-en-rAU/values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,174,280,370,489,618,756,883,1001,1132,1232",
+                        "endColumns": "118,105,89,118,128,137,126,117,130,99,119",
+                        "endOffsets": "169,275,365,484,613,751,878,996,1127,1227,1347"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32,33,34,35,36,37,38,39",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2762,2881,2987,3077,3196,3325,3463,3590,3708,3839,3939",
+                        "endColumns": "118,105,89,118,128,137,126,117,130,99,119",
+                        "endOffsets": "2876,2982,3072,3191,3320,3458,3585,3703,3834,3934,4054"
+                    }
+                },
+                {
+                    "source": "/Users/salma/.gradle/caches/transforms-3/812d3ebfdfb3e5d6b1291e2c0f0dc63d/transformed/appcompat-1.4.1/res/values-en-rAU/values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

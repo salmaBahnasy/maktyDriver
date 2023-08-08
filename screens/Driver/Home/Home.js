@@ -52,6 +52,7 @@ function HomeDriver() {
   console.log({ acceptDelegateOrderError })
   const { data: userData, loading: userLoading, refetch } = useQuery(me); //execute query
   console.log({ data })
+  console.log({ acceptDelegateOrderError })
 
   useEffect(() => {
     connectTOSocket()
@@ -60,7 +61,6 @@ function HomeDriver() {
   const ConfirmDelegateOrderfnc = (item) => {
     let obj = {
       order_id: JSON.parse(item?.id),
-      delegate_id: JSON.parse(userData?.me?.id)
     }
     console.log('ConfirmDelegateOrderfnc', obj)
     AcceptDelegateOrderRequest({
@@ -148,6 +148,8 @@ function HomeDriver() {
 
   const listentoNewOrder = () => {
     console.log('listentoNewOrder')
+    console.log('socket.....', socket)
+
     socket.on("NewOrder", (args) => {
       // ...
 
