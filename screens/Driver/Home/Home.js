@@ -45,6 +45,7 @@ function HomeDriver() {
   const [Token, setToken] = useState('')
   const [newReqestModal, setnewReqestModal] = useState(false)
   const [orderData, setOrderData] = useState([])
+// 
   const [AcceptDelegateOrderRequest,
     { data: acceptDelegateOrderData,
       error: acceptDelegateOrderError }] = useMutation(ConfirmDelegateOrder);
@@ -56,7 +57,7 @@ function HomeDriver() {
 
   useEffect(() => {
     connectTOSocket()
-  }, [])
+  }, [isfocus])
 
   const ConfirmDelegateOrderfnc = (item) => {
     let obj = {
