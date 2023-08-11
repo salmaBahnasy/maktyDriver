@@ -1,5 +1,5 @@
 
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState,useRef } from 'react';
 
 import {
   SafeAreaView,
@@ -12,9 +12,12 @@ import {
   ImageBackground,
   ScrollView,
   FlatList,
-  I18nManager
+  I18nManager,
+  AppState
 } from 'react-native';
 import { io } from "socket.io-client";
+import BackgroundTimer from 'react-native-background-timer';
+
 import { useIsFocused, useNavigation, useRoute } from '@react-navigation/native';
 import { useTranslation } from 'react-i18next';
 import { useMutation, useQuery } from '@apollo/client';
@@ -25,7 +28,6 @@ import { me } from '../Account/services/services';
 import MainWallet from '../../comp/MainWallet';
 import CategoryItem from './Component/CategoryItem';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { connectToSocket } from '../../../constants/SocketConfig';
 import NewOrderRequest from '../../comp/NewOrderRequest';
 import { socket } from '../../../constants/constVariable';
 import { ConfirmDelegateOrder } from './services/services';
@@ -36,6 +38,9 @@ import { ConfirmDelegateOrder } from './services/services';
 function HomeDriver() {
   const { t } = useTranslation();
   const route = useRoute()
+  const appState = useRef(AppState.currentState);
+  var interval
+
   const isDarkMode = useColorScheme() === 'dark';
   const navigation = useNavigation()
   const isfocus = useIsFocused()
@@ -54,10 +59,45 @@ function HomeDriver() {
   const { data: userData, loading: userLoading, refetch } = useQuery(me); //execute query
   console.log({ data })
   console.log({ acceptDelegateOrderError })
+// ....................................................................
+const _handleAppStateChange = (nextAppState) => {
+  if (
+    appState.current.match(/inactive|background/) &&
+    nextAppState === "active"
+  ) {
+    console.log("App has come to the foreground!");
+    //clearInterval when your app has come back to the foreground
+    BackgroundTimer.clearInterval(interval)
+    listentoAcceptOrder()
+    listentoNewOrder()
+    
+  }else{
+    //app goes to background
+    console.log('app goes to background')
+    //tell the server that your app is still online when your app detect that it goes to background
+    interval = BackgroundTimer.setInterval(()=>{
+      console.log('connection status ', socket.connected)
+      // socket.emit('online')
+      listentoAcceptOrder()
+      listentoNewOrder()
 
+    },5000)
+  appState.current = nextAppState;
+  console.log("AppState", appState.current);
+}
+}
+
+useEffect (() => {
+AppState.addEventListener("change", _handleAppStateChange);
+
+return () => {
+  AppState.removeEventListener("change", _handleAppStateChange);
+};
+},[])
+// ....................................................................
   useEffect(() => {
     connectTOSocket()
-  }, [isfocus])
+  }, [])
 
   const ConfirmDelegateOrderfnc = (item) => {
     let obj = {
@@ -143,6 +183,11 @@ function HomeDriver() {
     socket.on("OrderAccept", (args) => {
       // ...
       console.log(args)
+       navigation?.navigate('ChatScreen', {
+        data: route?.params?.data,
+        delegateData: item,
+        order:args
+      })
 
     });
   }

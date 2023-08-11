@@ -12,6 +12,7 @@ MERGED from [:react-native-firebase_app] /Users/salma/Desktop/apps/makfyDriver/n
 MERGED from [:appcenter] /Users/salma/Desktop/apps/makfyDriver/node_modules/appcenter/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:appcenter-analytics] /Users/salma/Desktop/apps/makfyDriver/node_modules/appcenter-analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:appcenter-crashes] /Users/salma/Desktop/apps/makfyDriver/node_modules/appcenter-crashes/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-background-timer] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-background-timer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-gesture-handler] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-get-location] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-get-location/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-image-picker] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-21:12
@@ -356,6 +357,8 @@ MERGED from [:appcenter-analytics] /Users/salma/Desktop/apps/makfyDriver/node_mo
 MERGED from [:appcenter-analytics] /Users/salma/Desktop/apps/makfyDriver/node_modules/appcenter-analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:appcenter-crashes] /Users/salma/Desktop/apps/makfyDriver/node_modules/appcenter-crashes/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:appcenter-crashes] /Users/salma/Desktop/apps/makfyDriver/node_modules/appcenter-crashes/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-background-timer] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-background-timer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-background-timer] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-background-timer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-gesture-handler] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-gesture-handler] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-get-location] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-get-location/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
@@ -586,6 +589,8 @@ INJECTED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/Android
 		INJECTED from /Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+MERGED from [:react-native-background-timer] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-background-timer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-68
+MERGED from [:react-native-background-timer] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-background-timer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-68
 MERGED from [com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/b2b002ac11e284e70325c8b58d12b9f9/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:26:5-68
 MERGED from [com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/b2b002ac11e284e70325c8b58d12b9f9/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:26:5-68
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/salma/.gradle/caches/transforms-3/a4c1d7ce24993c2650a13fd41a56807c/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:9:5-68
