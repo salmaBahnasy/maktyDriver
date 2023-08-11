@@ -4,7 +4,7 @@
             "outputFile": "com.makfydriver.app-mergeDebugResources-38:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/salma/.gradle/caches/transforms-3/812d3ebfdfb3e5d6b1291e2c0f0dc63d/transformed/appcompat-1.4.1/res/values-v24/values-v24.xml",
+                    "source": "/Users/salma/.gradle/caches/transforms-3/c59ec5d88537e89626aa9c5e080aa9cd/transformed/appcompat-1.4.1/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

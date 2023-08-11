@@ -28,8 +28,8 @@
 17-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:11:5-80
 17-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:11:22-78
 18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-18-->[com.facebook.flipper:flipper:0.125.0] /Users/salma/.gradle/caches/transforms-3/6883fff8b4dd294a042f90650eb4892b/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
-18-->[com.facebook.flipper:flipper:0.125.0] /Users/salma/.gradle/caches/transforms-3/6883fff8b4dd294a042f90650eb4892b/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+18-->[com.facebook.flipper:flipper:0.125.0] /Users/salma/.gradle/caches/transforms-3/a5ed6b787fc81dba45d93351c9778095/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+18-->[com.facebook.flipper:flipper:0.125.0] /Users/salma/.gradle/caches/transforms-3/a5ed6b787fc81dba45d93351c9778095/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
 19    <uses-permission android:name="android.permission.WAKE_LOCK" />
 19-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
 19-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
@@ -43,84 +43,84 @@
 22-->[:react-native-sensitive-info] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-sensitive-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-74
 22-->[:react-native-sensitive-info] /Users/salma/Desktop/apps/makfyDriver/node_modules/react-native-sensitive-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-71
 23    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-23-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
-23-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:22-74
+23-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+23-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:22-74
 24
 25    <uses-feature
-25-->[com.google.android.gms:play-services-maps:18.0.2] /Users/salma/.gradle/caches/transforms-3/ab9c61793bb2dfa5389576439b5c460a/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+25-->[com.google.android.gms:play-services-maps:18.0.2] /Users/salma/.gradle/caches/transforms-3/a63a6939ae771a868709c5ead8e31ea4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
 26        android:glEsVersion="0x00020000"
-26-->[com.google.android.gms:play-services-maps:18.0.2] /Users/salma/.gradle/caches/transforms-3/ab9c61793bb2dfa5389576439b5c460a/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+26-->[com.google.android.gms:play-services-maps:18.0.2] /Users/salma/.gradle/caches/transforms-3/a63a6939ae771a868709c5ead8e31ea4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
 27        android:required="true" />
-27-->[com.google.android.gms:play-services-maps:18.0.2] /Users/salma/.gradle/caches/transforms-3/ab9c61793bb2dfa5389576439b5c460a/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+27-->[com.google.android.gms:play-services-maps:18.0.2] /Users/salma/.gradle/caches/transforms-3/a63a6939ae771a868709c5ead8e31ea4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
 28
 29    <queries>
-29-->[com.google.android.gms:play-services-maps:18.0.2] /Users/salma/.gradle/caches/transforms-3/ab9c61793bb2dfa5389576439b5c460a/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+29-->[com.google.android.gms:play-services-maps:18.0.2] /Users/salma/.gradle/caches/transforms-3/a63a6939ae771a868709c5ead8e31ea4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
 30
 31        <!-- Needs to be explicitly declared on Android R+ -->
 32        <package android:name="com.google.android.apps.maps" />
-32-->[com.google.android.gms:play-services-maps:18.0.2] /Users/salma/.gradle/caches/transforms-3/ab9c61793bb2dfa5389576439b5c460a/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
-32-->[com.google.android.gms:play-services-maps:18.0.2] /Users/salma/.gradle/caches/transforms-3/ab9c61793bb2dfa5389576439b5c460a/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+32-->[com.google.android.gms:play-services-maps:18.0.2] /Users/salma/.gradle/caches/transforms-3/a63a6939ae771a868709c5ead8e31ea4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+32-->[com.google.android.gms:play-services-maps:18.0.2] /Users/salma/.gradle/caches/transforms-3/a63a6939ae771a868709c5ead8e31ea4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
 33    </queries>
 34
 35    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-35-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/b2b002ac11e284e70325c8b58d12b9f9/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:25:5-77
-35-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/b2b002ac11e284e70325c8b58d12b9f9/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:25:22-74
+35-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:25:5-77
+35-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:25:22-74
 36    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- for android -->
-36-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/b2b002ac11e284e70325c8b58d12b9f9/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:28:5-82
-36-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/b2b002ac11e284e70325c8b58d12b9f9/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:28:22-79
+36-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:28:5-82
+36-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:28:22-79
 37    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
 38    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
 39    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
 40    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
 41    <!-- for Samsung -->
 42    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
-42-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
-42-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+42-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+42-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
 43    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
-43-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
-43-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+43-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+43-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
 44    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
-44-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
-44-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+44-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+44-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
 45    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
-45-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
-45-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+45-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+45-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
 46    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
-46-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
-46-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+46-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
 47    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
-47-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
-47-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+47-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
 48    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
-48-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
-48-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+48-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
 49    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
-49-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
-49-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+49-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+49-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
 50    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
-50-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
-50-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+50-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+50-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
 51    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
-51-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
-51-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
 52    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
-52-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
-52-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+52-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+52-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
 53    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
-53-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
-53-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+53-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+53-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
 54    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
-54-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
-54-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+54-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+54-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
 55    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
-55-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
-55-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+55-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+55-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
 56    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
-56-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
-56-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+56-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+56-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
 57    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
-57-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
-57-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/bf3bc364a810a29b142e6ed4ac81c759/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+57-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+57-->[me.leolin:ShortcutBadger:1.1.22] /Users/salma/.gradle/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
 58
 59    <application
 59-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:12:5-71:19
@@ -129,7 +129,7 @@
 61        android:allowBackup="false"
 61-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:17:7-34
 62        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-62-->[androidx.core:core:1.7.0] /Users/salma/.gradle/caches/transforms-3/1fdfe92c378d8cb58d0cd0a210d9f69d/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+62-->[androidx.core:core:1.7.0] /Users/salma/.gradle/caches/transforms-3/abf1803a533384ef204da4808afd595f/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 63        android:debuggable="true"
 64        android:icon="@mipmap/ic_launcher"
 64-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:15:7-41
@@ -310,23 +310,23 @@
 158                android:value="com.google.firebase.components.ComponentRegistrar" />
 158-->[:react-native-firebase_app] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-82
 159            <meta-data
-159-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/b2b002ac11e284e70325c8b58d12b9f9/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:55:13-57:85
+159-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:55:13-57:85
 160                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-160-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/b2b002ac11e284e70325c8b58d12b9f9/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:56:17-119
+160-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:56:17-119
 161                android:value="com.google.firebase.components.ComponentRegistrar" />
-161-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/b2b002ac11e284e70325c8b58d12b9f9/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:57:17-82
+161-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:57:17-82
 162            <meta-data
-162-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/salma/.gradle/caches/transforms-3/c07aec7ae3e72ea54d5c2b1c064c23a7/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+162-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/salma/.gradle/caches/transforms-3/43aae56e5015486a7008762443a38598/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
 163                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-163-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/salma/.gradle/caches/transforms-3/c07aec7ae3e72ea54d5c2b1c064c23a7/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+163-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/salma/.gradle/caches/transforms-3/43aae56e5015486a7008762443a38598/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
 164                android:value="com.google.firebase.components.ComponentRegistrar" />
-164-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/salma/.gradle/caches/transforms-3/c07aec7ae3e72ea54d5c2b1c064c23a7/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+164-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/salma/.gradle/caches/transforms-3/43aae56e5015486a7008762443a38598/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
 165            <meta-data
-165-->[com.google.firebase:firebase-installations:17.1.3] /Users/salma/.gradle/caches/transforms-3/f4b23e142825b3ffbb8822841d950503/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+165-->[com.google.firebase:firebase-installations:17.1.3] /Users/salma/.gradle/caches/transforms-3/a30fe9344a993c5245e4f5f1cf5cb442/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
 166                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-166-->[com.google.firebase:firebase-installations:17.1.3] /Users/salma/.gradle/caches/transforms-3/f4b23e142825b3ffbb8822841d950503/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+166-->[com.google.firebase:firebase-installations:17.1.3] /Users/salma/.gradle/caches/transforms-3/a30fe9344a993c5245e4f5f1cf5cb442/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
 167                android:value="com.google.firebase.components.ComponentRegistrar" />
-167-->[com.google.firebase:firebase-installations:17.1.3] /Users/salma/.gradle/caches/transforms-3/f4b23e142825b3ffbb8822841d950503/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+167-->[com.google.firebase:firebase-installations:17.1.3] /Users/salma/.gradle/caches/transforms-3/a30fe9344a993c5245e4f5f1cf5cb442/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
 168        </service>
 169
 170        <provider
@@ -375,270 +375,270 @@
 192        </provider>
 193
 194        <activity
-194-->[androidx.biometric:biometric:1.0.1] /Users/salma/.gradle/caches/transforms-3/7d6711219fa1769af33cb028f238ba4a/transformed/biometric-1.0.1/AndroidManifest.xml:28:9-31:67
+194-->[androidx.biometric:biometric:1.0.1] /Users/salma/.gradle/caches/transforms-3/59ea666f82a20e46c4ff6ecc6d4479f8/transformed/biometric-1.0.1/AndroidManifest.xml:28:9-31:67
 195            android:name="androidx.biometric.DeviceCredentialHandlerActivity"
-195-->[androidx.biometric:biometric:1.0.1] /Users/salma/.gradle/caches/transforms-3/7d6711219fa1769af33cb028f238ba4a/transformed/biometric-1.0.1/AndroidManifest.xml:29:13-78
+195-->[androidx.biometric:biometric:1.0.1] /Users/salma/.gradle/caches/transforms-3/59ea666f82a20e46c4ff6ecc6d4479f8/transformed/biometric-1.0.1/AndroidManifest.xml:29:13-78
 196            android:exported="true"
-196-->[androidx.biometric:biometric:1.0.1] /Users/salma/.gradle/caches/transforms-3/7d6711219fa1769af33cb028f238ba4a/transformed/biometric-1.0.1/AndroidManifest.xml:30:13-36
+196-->[androidx.biometric:biometric:1.0.1] /Users/salma/.gradle/caches/transforms-3/59ea666f82a20e46c4ff6ecc6d4479f8/transformed/biometric-1.0.1/AndroidManifest.xml:30:13-36
 197            android:theme="@style/DeviceCredentialHandlerTheme" />
-197-->[androidx.biometric:biometric:1.0.1] /Users/salma/.gradle/caches/transforms-3/7d6711219fa1769af33cb028f238ba4a/transformed/biometric-1.0.1/AndroidManifest.xml:31:13-64
+197-->[androidx.biometric:biometric:1.0.1] /Users/salma/.gradle/caches/transforms-3/59ea666f82a20e46c4ff6ecc6d4479f8/transformed/biometric-1.0.1/AndroidManifest.xml:31:13-64
 198
 199        <provider
-199-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+199-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
 200            android:name="androidx.startup.InitializationProvider"
-200-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+200-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
 201            android:authorities="com.makfydriver.androidx-startup"
-201-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+201-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
 202            android:exported="false" >
-202-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+202-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
 203            <meta-data
-203-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+203-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
 204                android:name="androidx.work.WorkManagerInitializer"
-204-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+204-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
 205                android:value="androidx.startup" />
-205-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+205-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
 206            <meta-data
-206-->[androidx.emoji2:emoji2:1.0.0] /Users/salma/.gradle/caches/transforms-3/e469abd4bc7d8bafe5288a343594a3c7/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+206-->[androidx.emoji2:emoji2:1.0.0] /Users/salma/.gradle/caches/transforms-3/56e7b9d78e8dd17e2de5749757542d6a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
 207                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-207-->[androidx.emoji2:emoji2:1.0.0] /Users/salma/.gradle/caches/transforms-3/e469abd4bc7d8bafe5288a343594a3c7/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+207-->[androidx.emoji2:emoji2:1.0.0] /Users/salma/.gradle/caches/transforms-3/56e7b9d78e8dd17e2de5749757542d6a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
 208                android:value="androidx.startup" />
-208-->[androidx.emoji2:emoji2:1.0.0] /Users/salma/.gradle/caches/transforms-3/e469abd4bc7d8bafe5288a343594a3c7/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+208-->[androidx.emoji2:emoji2:1.0.0] /Users/salma/.gradle/caches/transforms-3/56e7b9d78e8dd17e2de5749757542d6a/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
 209            <meta-data
-209-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/salma/.gradle/caches/transforms-3/40bd235dee0adc0a98a3fa49f249bfd7/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+209-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/salma/.gradle/caches/transforms-3/4fc190ada5c06025c8b369d2b25e3e34/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
 210                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-210-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/salma/.gradle/caches/transforms-3/40bd235dee0adc0a98a3fa49f249bfd7/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+210-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/salma/.gradle/caches/transforms-3/4fc190ada5c06025c8b369d2b25e3e34/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
 211                android:value="androidx.startup" />
-211-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/salma/.gradle/caches/transforms-3/40bd235dee0adc0a98a3fa49f249bfd7/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+211-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/salma/.gradle/caches/transforms-3/4fc190ada5c06025c8b369d2b25e3e34/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
 212        </provider>
 213
 214        <service
-214-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+214-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
 215            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
-215-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+215-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
 216            android:directBootAware="false"
-216-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+216-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
 217            android:enabled="@bool/enable_system_alarm_service_default"
-217-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+217-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
 218            android:exported="false" />
-218-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+218-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
 219        <service
-219-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+219-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
 220            android:name="androidx.work.impl.background.systemjob.SystemJobService"
-220-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+220-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
 221            android:directBootAware="false"
-221-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+221-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
 222            android:enabled="@bool/enable_system_job_service_default"
-222-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+222-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
 223            android:exported="true"
-223-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+223-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
 224            android:permission="android.permission.BIND_JOB_SERVICE" />
-224-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+224-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
 225        <service
-225-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+225-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
 226            android:name="androidx.work.impl.foreground.SystemForegroundService"
-226-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+226-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
 227            android:directBootAware="false"
-227-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+227-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
 228            android:enabled="@bool/enable_system_foreground_service_default"
-228-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+228-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
 229            android:exported="false" />
-229-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+229-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
 230
 231        <receiver
-231-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+231-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
 232            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
-232-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+232-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
 233            android:directBootAware="false"
-233-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+233-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
 234            android:enabled="true"
-234-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+234-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
 235            android:exported="false" />
-235-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+235-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
 236        <receiver
-236-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+236-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
 237            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
-237-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+237-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
 238            android:directBootAware="false"
-238-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+238-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
 239            android:enabled="false"
-239-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+239-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
 240            android:exported="false" >
-240-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+240-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
 241            <intent-filter>
-241-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+241-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
 242                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
-242-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
-242-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+242-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+242-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
 243                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
-243-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
-243-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+243-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+243-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
 244            </intent-filter>
 245        </receiver>
 246        <receiver
-246-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+246-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
 247            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
-247-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+247-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
 248            android:directBootAware="false"
-248-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+248-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
 249            android:enabled="false"
-249-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+249-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
 250            android:exported="false" >
-250-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+250-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
 251            <intent-filter>
-251-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+251-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
 252                <action android:name="android.intent.action.BATTERY_OKAY" />
-252-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
-252-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+252-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+252-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
 253                <action android:name="android.intent.action.BATTERY_LOW" />
-253-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
-253-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+253-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+253-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
 254            </intent-filter>
 255        </receiver>
 256        <receiver
-256-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+256-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
 257            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
-257-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+257-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
 258            android:directBootAware="false"
-258-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+258-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
 259            android:enabled="false"
-259-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+259-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
 260            android:exported="false" >
-260-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+260-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
 261            <intent-filter>
-261-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+261-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
 262                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
-262-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
-262-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+262-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+262-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
 263                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
-263-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
-263-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+263-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+263-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
 264            </intent-filter>
 265        </receiver>
 266        <receiver
-266-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+266-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
 267            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
-267-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+267-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
 268            android:directBootAware="false"
-268-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+268-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
 269            android:enabled="false"
-269-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+269-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
 270            android:exported="false" >
-270-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+270-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
 271            <intent-filter>
-271-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+271-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
 272                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-272-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
-272-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+272-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+272-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
 273            </intent-filter>
 274        </receiver>
 275        <receiver
-275-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+275-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
 276            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
-276-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+276-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
 277            android:directBootAware="false"
-277-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+277-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
 278            android:enabled="false"
-278-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+278-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
 279            android:exported="false" >
-279-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+279-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
 280            <intent-filter>
-280-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+280-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
 281                <action android:name="android.intent.action.BOOT_COMPLETED" />
 281-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:57:17-79
 281-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:57:25-76
 282                <action android:name="android.intent.action.TIME_SET" />
-282-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
-282-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+282-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+282-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
 283                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-283-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
-283-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+283-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+283-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
 284            </intent-filter>
 285        </receiver>
 286        <receiver
-286-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+286-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
 287            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
-287-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+287-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
 288            android:directBootAware="false"
-288-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+288-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
 289            android:enabled="@bool/enable_system_alarm_service_default"
-289-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+289-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
 290            android:exported="false" >
-290-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+290-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
 291            <intent-filter>
-291-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+291-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
 292                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
-292-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
-292-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+292-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+292-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
 293            </intent-filter>
 294        </receiver>
 295        <receiver
-295-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+295-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
 296            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
-296-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+296-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
 297            android:directBootAware="false"
-297-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+297-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
 298            android:enabled="true"
-298-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+298-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
 299            android:exported="true"
-299-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+299-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
 300            android:permission="android.permission.DUMP" >
-300-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+300-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
 301            <intent-filter>
-301-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+301-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
 302                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
-302-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
-302-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+302-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+302-->[androidx.work:work-runtime:2.7.1] /Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
 303            </intent-filter>
 304        </receiver>
 305
 306        <service
-306-->[androidx.room:room-runtime:2.2.5] /Users/salma/.gradle/caches/transforms-3/e4f44fc8844890a6d7b0dafa6fbbdf1e/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+306-->[androidx.room:room-runtime:2.2.5] /Users/salma/.gradle/caches/transforms-3/72470af2331c78edb2d99d97d8f5edd5/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
 307            android:name="androidx.room.MultiInstanceInvalidationService"
-307-->[androidx.room:room-runtime:2.2.5] /Users/salma/.gradle/caches/transforms-3/e4f44fc8844890a6d7b0dafa6fbbdf1e/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+307-->[androidx.room:room-runtime:2.2.5] /Users/salma/.gradle/caches/transforms-3/72470af2331c78edb2d99d97d8f5edd5/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
 308            android:directBootAware="true"
-308-->[androidx.room:room-runtime:2.2.5] /Users/salma/.gradle/caches/transforms-3/e4f44fc8844890a6d7b0dafa6fbbdf1e/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+308-->[androidx.room:room-runtime:2.2.5] /Users/salma/.gradle/caches/transforms-3/72470af2331c78edb2d99d97d8f5edd5/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
 309            android:exported="false" />
-309-->[androidx.room:room-runtime:2.2.5] /Users/salma/.gradle/caches/transforms-3/e4f44fc8844890a6d7b0dafa6fbbdf1e/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+309-->[androidx.room:room-runtime:2.2.5] /Users/salma/.gradle/caches/transforms-3/72470af2331c78edb2d99d97d8f5edd5/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
 310
 311        <activity
-311-->[com.google.android.gms:play-services-auth:20.3.0] /Users/salma/.gradle/caches/transforms-3/9d4daeb13f9db77df5c99d66d8f61cb9/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:23:9-27:75
+311-->[com.google.android.gms:play-services-auth:20.3.0] /Users/salma/.gradle/caches/transforms-3/fb77b4d4f27866e46ae18a60d5ec77d7/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:23:9-27:75
 312            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-312-->[com.google.android.gms:play-services-auth:20.3.0] /Users/salma/.gradle/caches/transforms-3/9d4daeb13f9db77df5c99d66d8f61cb9/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:24:13-93
+312-->[com.google.android.gms:play-services-auth:20.3.0] /Users/salma/.gradle/caches/transforms-3/fb77b4d4f27866e46ae18a60d5ec77d7/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:24:13-93
 313            android:excludeFromRecents="true"
-313-->[com.google.android.gms:play-services-auth:20.3.0] /Users/salma/.gradle/caches/transforms-3/9d4daeb13f9db77df5c99d66d8f61cb9/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:25:13-46
+313-->[com.google.android.gms:play-services-auth:20.3.0] /Users/salma/.gradle/caches/transforms-3/fb77b4d4f27866e46ae18a60d5ec77d7/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:25:13-46
 314            android:exported="false"
-314-->[com.google.android.gms:play-services-auth:20.3.0] /Users/salma/.gradle/caches/transforms-3/9d4daeb13f9db77df5c99d66d8f61cb9/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:26:13-37
+314-->[com.google.android.gms:play-services-auth:20.3.0] /Users/salma/.gradle/caches/transforms-3/fb77b4d4f27866e46ae18a60d5ec77d7/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:26:13-37
 315            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-315-->[com.google.android.gms:play-services-auth:20.3.0] /Users/salma/.gradle/caches/transforms-3/9d4daeb13f9db77df5c99d66d8f61cb9/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:27:13-72
+315-->[com.google.android.gms:play-services-auth:20.3.0] /Users/salma/.gradle/caches/transforms-3/fb77b4d4f27866e46ae18a60d5ec77d7/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:27:13-72
 316        <!--
 317            Service handling Google Sign-In user revocation. For apps that do not integrate with
 318            Google Sign-In, this service will never be started.
 319        -->
 320        <service
-320-->[com.google.android.gms:play-services-auth:20.3.0] /Users/salma/.gradle/caches/transforms-3/9d4daeb13f9db77df5c99d66d8f61cb9/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:33:9-37:51
+320-->[com.google.android.gms:play-services-auth:20.3.0] /Users/salma/.gradle/caches/transforms-3/fb77b4d4f27866e46ae18a60d5ec77d7/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:33:9-37:51
 321            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-321-->[com.google.android.gms:play-services-auth:20.3.0] /Users/salma/.gradle/caches/transforms-3/9d4daeb13f9db77df5c99d66d8f61cb9/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:34:13-89
+321-->[com.google.android.gms:play-services-auth:20.3.0] /Users/salma/.gradle/caches/transforms-3/fb77b4d4f27866e46ae18a60d5ec77d7/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:34:13-89
 322            android:exported="true"
-322-->[com.google.android.gms:play-services-auth:20.3.0] /Users/salma/.gradle/caches/transforms-3/9d4daeb13f9db77df5c99d66d8f61cb9/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:35:13-36
+322-->[com.google.android.gms:play-services-auth:20.3.0] /Users/salma/.gradle/caches/transforms-3/fb77b4d4f27866e46ae18a60d5ec77d7/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:35:13-36
 323            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-323-->[com.google.android.gms:play-services-auth:20.3.0] /Users/salma/.gradle/caches/transforms-3/9d4daeb13f9db77df5c99d66d8f61cb9/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:36:13-107
+323-->[com.google.android.gms:play-services-auth:20.3.0] /Users/salma/.gradle/caches/transforms-3/fb77b4d4f27866e46ae18a60d5ec77d7/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:36:13-107
 324            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
-324-->[com.google.android.gms:play-services-auth:20.3.0] /Users/salma/.gradle/caches/transforms-3/9d4daeb13f9db77df5c99d66d8f61cb9/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:37:13-48
+324-->[com.google.android.gms:play-services-auth:20.3.0] /Users/salma/.gradle/caches/transforms-3/fb77b4d4f27866e46ae18a60d5ec77d7/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:37:13-48
 325        <uses-library
-325-->[com.google.android.gms:play-services-maps:18.0.2] /Users/salma/.gradle/caches/transforms-3/ab9c61793bb2dfa5389576439b5c460a/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+325-->[com.google.android.gms:play-services-maps:18.0.2] /Users/salma/.gradle/caches/transforms-3/a63a6939ae771a868709c5ead8e31ea4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
 326            android:name="org.apache.http.legacy"
-326-->[com.google.android.gms:play-services-maps:18.0.2] /Users/salma/.gradle/caches/transforms-3/ab9c61793bb2dfa5389576439b5c460a/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+326-->[com.google.android.gms:play-services-maps:18.0.2] /Users/salma/.gradle/caches/transforms-3/a63a6939ae771a868709c5ead8e31ea4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
 327            android:required="false" />
-327-->[com.google.android.gms:play-services-maps:18.0.2] /Users/salma/.gradle/caches/transforms-3/ab9c61793bb2dfa5389576439b5c460a/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+327-->[com.google.android.gms:play-services-maps:18.0.2] /Users/salma/.gradle/caches/transforms-3/a63a6939ae771a868709c5ead8e31ea4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
 328
 329        <receiver
-329-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/b2b002ac11e284e70325c8b58d12b9f9/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:31:9-38:20
+329-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:31:9-38:20
 330            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-330-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/b2b002ac11e284e70325c8b58d12b9f9/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:32:13-78
+330-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:32:13-78
 331            android:exported="true"
-331-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/b2b002ac11e284e70325c8b58d12b9f9/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:33:13-36
+331-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:33:13-36
 332            android:permission="com.google.android.c2dm.permission.SEND" >
-332-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/b2b002ac11e284e70325c8b58d12b9f9/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:34:13-73
+332-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:34:13-73
 333            <intent-filter>
 333-->[:react-native-firebase_messaging] /Users/salma/Desktop/apps/makfyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-31:29
 334                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
@@ -651,13 +651,13 @@
 339             but set to not exported to explicitly avoid allowing another app to call it.
 340        -->
 341        <service
-341-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/b2b002ac11e284e70325c8b58d12b9f9/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:44:9-51:19
+341-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:44:9-51:19
 342            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-342-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/b2b002ac11e284e70325c8b58d12b9f9/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:45:13-82
+342-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:45:13-82
 343            android:directBootAware="true"
-343-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/b2b002ac11e284e70325c8b58d12b9f9/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:46:13-43
+343-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:46:13-43
 344            android:exported="false" >
-344-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/b2b002ac11e284e70325c8b58d12b9f9/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:47:13-37
+344-->[com.google.firebase:firebase-messaging:23.1.2] /Users/salma/.gradle/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:47:13-37
 345            <intent-filter android:priority="-500" >
 345-->/Users/salma/Desktop/apps/makfyDriver/android/app/src/main/AndroidManifest.xml:66:13-68:29
 346                <action android:name="com.google.firebase.MESSAGING_EVENT" />
@@ -667,74 +667,74 @@
 348        </service>
 349
 350        <activity
-350-->[com.google.android.gms:play-services-base:18.1.0] /Users/salma/.gradle/caches/transforms-3/a89c3ea9e43077741ddabc74542d24f2/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+350-->[com.google.android.gms:play-services-base:18.1.0] /Users/salma/.gradle/caches/transforms-3/521869be77a45b75d87249b96acb0eed/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
 351            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-351-->[com.google.android.gms:play-services-base:18.1.0] /Users/salma/.gradle/caches/transforms-3/a89c3ea9e43077741ddabc74542d24f2/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+351-->[com.google.android.gms:play-services-base:18.1.0] /Users/salma/.gradle/caches/transforms-3/521869be77a45b75d87249b96acb0eed/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
 352            android:exported="false"
-352-->[com.google.android.gms:play-services-base:18.1.0] /Users/salma/.gradle/caches/transforms-3/a89c3ea9e43077741ddabc74542d24f2/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+352-->[com.google.android.gms:play-services-base:18.1.0] /Users/salma/.gradle/caches/transforms-3/521869be77a45b75d87249b96acb0eed/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
 353            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-353-->[com.google.android.gms:play-services-base:18.1.0] /Users/salma/.gradle/caches/transforms-3/a89c3ea9e43077741ddabc74542d24f2/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+353-->[com.google.android.gms:play-services-base:18.1.0] /Users/salma/.gradle/caches/transforms-3/521869be77a45b75d87249b96acb0eed/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
 354
 355        <provider
-355-->[com.google.firebase:firebase-common:20.3.2] /Users/salma/.gradle/caches/transforms-3/ed039ee7299ba67579fca4ac1424bd09/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+355-->[com.google.firebase:firebase-common:20.3.2] /Users/salma/.gradle/caches/transforms-3/e4c4977317779bcd4479b304da83d3d1/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
 356            android:name="com.google.firebase.provider.FirebaseInitProvider"
-356-->[com.google.firebase:firebase-common:20.3.2] /Users/salma/.gradle/caches/transforms-3/ed039ee7299ba67579fca4ac1424bd09/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+356-->[com.google.firebase:firebase-common:20.3.2] /Users/salma/.gradle/caches/transforms-3/e4c4977317779bcd4479b304da83d3d1/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
 357            android:authorities="com.makfydriver.firebaseinitprovider"
-357-->[com.google.firebase:firebase-common:20.3.2] /Users/salma/.gradle/caches/transforms-3/ed039ee7299ba67579fca4ac1424bd09/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+357-->[com.google.firebase:firebase-common:20.3.2] /Users/salma/.gradle/caches/transforms-3/e4c4977317779bcd4479b304da83d3d1/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
 358            android:directBootAware="true"
-358-->[com.google.firebase:firebase-common:20.3.2] /Users/salma/.gradle/caches/transforms-3/ed039ee7299ba67579fca4ac1424bd09/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+358-->[com.google.firebase:firebase-common:20.3.2] /Users/salma/.gradle/caches/transforms-3/e4c4977317779bcd4479b304da83d3d1/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
 359            android:exported="false"
-359-->[com.google.firebase:firebase-common:20.3.2] /Users/salma/.gradle/caches/transforms-3/ed039ee7299ba67579fca4ac1424bd09/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+359-->[com.google.firebase:firebase-common:20.3.2] /Users/salma/.gradle/caches/transforms-3/e4c4977317779bcd4479b304da83d3d1/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
 360            android:initOrder="100" />
-360-->[com.google.firebase:firebase-common:20.3.2] /Users/salma/.gradle/caches/transforms-3/ed039ee7299ba67579fca4ac1424bd09/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+360-->[com.google.firebase:firebase-common:20.3.2] /Users/salma/.gradle/caches/transforms-3/e4c4977317779bcd4479b304da83d3d1/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
 361
 362        <meta-data
-362-->[com.google.android.gms:play-services-basement:18.1.0] /Users/salma/.gradle/caches/transforms-3/037eaeab04f39eadbca2db43932c32cc/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+362-->[com.google.android.gms:play-services-basement:18.1.0] /Users/salma/.gradle/caches/transforms-3/8e8d99f37da2826051a2f1ee7e0348d5/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
 363            android:name="com.google.android.gms.version"
-363-->[com.google.android.gms:play-services-basement:18.1.0] /Users/salma/.gradle/caches/transforms-3/037eaeab04f39eadbca2db43932c32cc/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+363-->[com.google.android.gms:play-services-basement:18.1.0] /Users/salma/.gradle/caches/transforms-3/8e8d99f37da2826051a2f1ee7e0348d5/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
 364            android:value="@integer/google_play_services_version" />
-364-->[com.google.android.gms:play-services-basement:18.1.0] /Users/salma/.gradle/caches/transforms-3/037eaeab04f39eadbca2db43932c32cc/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+364-->[com.google.android.gms:play-services-basement:18.1.0] /Users/salma/.gradle/caches/transforms-3/8e8d99f37da2826051a2f1ee7e0348d5/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
 365
 366        <service
-366-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/salma/.gradle/caches/transforms-3/352dda03d2a3779fd3d350083401b671/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+366-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/salma/.gradle/caches/transforms-3/8e3374f10c1b20fc3b330dfd5abde362/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
 367            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-367-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/salma/.gradle/caches/transforms-3/352dda03d2a3779fd3d350083401b671/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+367-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/salma/.gradle/caches/transforms-3/8e3374f10c1b20fc3b330dfd5abde362/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
 368            android:exported="false" >
-368-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/salma/.gradle/caches/transforms-3/352dda03d2a3779fd3d350083401b671/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+368-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/salma/.gradle/caches/transforms-3/8e3374f10c1b20fc3b330dfd5abde362/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
 369            <meta-data
-369-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/salma/.gradle/caches/transforms-3/352dda03d2a3779fd3d350083401b671/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+369-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/salma/.gradle/caches/transforms-3/8e3374f10c1b20fc3b330dfd5abde362/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
 370                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-370-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/salma/.gradle/caches/transforms-3/352dda03d2a3779fd3d350083401b671/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+370-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/salma/.gradle/caches/transforms-3/8e3374f10c1b20fc3b330dfd5abde362/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
 371                android:value="cct" />
-371-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/salma/.gradle/caches/transforms-3/352dda03d2a3779fd3d350083401b671/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+371-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/salma/.gradle/caches/transforms-3/8e3374f10c1b20fc3b330dfd5abde362/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
 372        </service>
 373        <service
-373-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/salma/.gradle/caches/transforms-3/313976944d66bc23e916e2c89d5250cd/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+373-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/salma/.gradle/caches/transforms-3/fd2ff63663f13adb4b8bf45de0018897/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
 374            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-374-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/salma/.gradle/caches/transforms-3/313976944d66bc23e916e2c89d5250cd/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+374-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/salma/.gradle/caches/transforms-3/fd2ff63663f13adb4b8bf45de0018897/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
 375            android:exported="false"
-375-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/salma/.gradle/caches/transforms-3/313976944d66bc23e916e2c89d5250cd/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+375-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/salma/.gradle/caches/transforms-3/fd2ff63663f13adb4b8bf45de0018897/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
 376            android:permission="android.permission.BIND_JOB_SERVICE" >
-376-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/salma/.gradle/caches/transforms-3/313976944d66bc23e916e2c89d5250cd/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+376-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/salma/.gradle/caches/transforms-3/fd2ff63663f13adb4b8bf45de0018897/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
 377        </service>
 378
 379        <receiver
-379-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/salma/.gradle/caches/transforms-3/313976944d66bc23e916e2c89d5250cd/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+379-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/salma/.gradle/caches/transforms-3/fd2ff63663f13adb4b8bf45de0018897/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
 380            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-380-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/salma/.gradle/caches/transforms-3/313976944d66bc23e916e2c89d5250cd/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+380-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/salma/.gradle/caches/transforms-3/fd2ff63663f13adb4b8bf45de0018897/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
 381            android:exported="false" />
-381-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/salma/.gradle/caches/transforms-3/313976944d66bc23e916e2c89d5250cd/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+381-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/salma/.gradle/caches/transforms-3/fd2ff63663f13adb4b8bf45de0018897/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
 382
 383        <activity
-383-->[com.jakewharton:process-phoenix:2.1.2] /Users/salma/.gradle/caches/transforms-3/f669578b5e7e529cfa5a00ac53d24e5c/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:8:9-12:75
+383-->[com.jakewharton:process-phoenix:2.1.2] /Users/salma/.gradle/caches/transforms-3/4ce8019af485171220ccb2a8487ab51d/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:8:9-12:75
 384            android:name="com.jakewharton.processphoenix.ProcessPhoenix"
-384-->[com.jakewharton:process-phoenix:2.1.2] /Users/salma/.gradle/caches/transforms-3/f669578b5e7e529cfa5a00ac53d24e5c/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:9:13-73
+384-->[com.jakewharton:process-phoenix:2.1.2] /Users/salma/.gradle/caches/transforms-3/4ce8019af485171220ccb2a8487ab51d/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:9:13-73
 385            android:exported="false"
-385-->[com.jakewharton:process-phoenix:2.1.2] /Users/salma/.gradle/caches/transforms-3/f669578b5e7e529cfa5a00ac53d24e5c/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:10:13-37
+385-->[com.jakewharton:process-phoenix:2.1.2] /Users/salma/.gradle/caches/transforms-3/4ce8019af485171220ccb2a8487ab51d/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:10:13-37
 386            android:process=":phoenix"
-386-->[com.jakewharton:process-phoenix:2.1.2] /Users/salma/.gradle/caches/transforms-3/f669578b5e7e529cfa5a00ac53d24e5c/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:11:13-39
+386-->[com.jakewharton:process-phoenix:2.1.2] /Users/salma/.gradle/caches/transforms-3/4ce8019af485171220ccb2a8487ab51d/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:11:13-39
 387            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-387-->[com.jakewharton:process-phoenix:2.1.2] /Users/salma/.gradle/caches/transforms-3/f669578b5e7e529cfa5a00ac53d24e5c/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:12:13-72
+387-->[com.jakewharton:process-phoenix:2.1.2] /Users/salma/.gradle/caches/transforms-3/4ce8019af485171220ccb2a8487ab51d/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:12:13-72
 388    </application>
 389
 390</manifest>

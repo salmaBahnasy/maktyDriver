@@ -4,7 +4,7 @@
             "outputFile": "com.makfydriver.app-mergeDebugResources-38:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/salma/.gradle/caches/transforms-3/812d3ebfdfb3e5d6b1291e2c0f0dc63d/transformed/appcompat-1.4.1/res/values-v23/values-v23.xml",
+                    "source": "/Users/salma/.gradle/caches/transforms-3/c59ec5d88537e89626aa9c5e080aa9cd/transformed/appcompat-1.4.1/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,17 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/salma/.gradle/caches/transforms-3/c97d92e5874132c11229c436688c6b04/transformed/work-runtime-2.7.1/res/values-v23/values-v23.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,121",
-                        "endColumns": "65,62",
-                        "endOffsets": "116,179"
-                    }
-                },
-                {
-                    "source": "/Users/salma/.gradle/caches/transforms-3/d50a9dfb9bf6d274a2192d2c71f13c2b/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/salma/.gradle/caches/transforms-3/0284ef1f8162859fae46b09b031d88f5/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -52,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "/Users/salma/.gradle/caches/transforms-3/6bb084e5d7afa2c923c29ed252e57543/transformed/material-1.1.0/res/values-v23/values-v23.xml",
+                    "source": "/Users/salma/.gradle/caches/transforms-3/f7b1e70dce7522cca5e01ed1375f7be0/transformed/material-1.1.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",
@@ -68,6 +58,16 @@
                         "endLines": "58,62",
                         "endColumns": "10,10",
                         "endOffsets": "3771,4044"
+                    }
+                },
+                {
+                    "source": "/Users/salma/.gradle/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,121",
+                        "endColumns": "65,62",
+                        "endOffsets": "116,179"
                     }
                 }
             ]

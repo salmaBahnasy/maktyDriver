@@ -203,7 +203,7 @@ return () => {
       console.log({ orderData })
       setTimeout(() => {
         setnewReqestModal(true)
-        setOrderData([args])
+        setOrderData([args?.order])
       }, 2000);
     });
   }
