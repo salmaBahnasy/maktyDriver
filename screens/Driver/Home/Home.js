@@ -204,7 +204,7 @@ return () => {
       setTimeout(() => {
         setnewReqestModal(true)
         setOrderData([args])
-      }, 1000);
+      }, 2000);
     });
   }
   const disconnect = async () => {
@@ -279,7 +279,9 @@ return () => {
           }}
           ConfirmDelegateOrderfnc={(item) => {
             setnewReqestModal(false)
-            ConfirmDelegateOrderfnc(item)
+            setTimeout(() => {
+              ConfirmDelegateOrderfnc(item)
+            }, 1000);
           }}
         />
         {/* ...... */}
