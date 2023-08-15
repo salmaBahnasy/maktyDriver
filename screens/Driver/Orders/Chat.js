@@ -1,9 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
 
 import React, { useEffect, useState, useCallback } from 'react';
 import {
@@ -11,20 +5,27 @@ import {
   View,
   Image,
   Platform,
-  Pressable
+  Pressable,
+  SafeAreaView,
+  KeyboardAvoidingView
 } from 'react-native';
 import { useMutation, useQuery } from '@apollo/client';
 import { useNavigation, useRoute } from '@react-navigation/native';
-import { Actions, GiftedChat, Send } from 'react-native-gifted-chat'
+import { Actions, Bubble, GiftedChat, Send } from 'react-native-gifted-chat'
 
-import { ChatByOrderId, SendMessageById } from './services/services';
-import { me } from '../Account/services/services';
-import i18next from 'i18next';
-import MainHeader from '../../comp/MainHeader';
 import { COLORS, icons } from '../../../constants';
+import MainHeader from '../../comp/MainHeader';
+import { ChatByOrderId, SendMessageById } from './services/services';
+import i18next from 'i18next';
+import { launchCamera, launchImageLibrary } from 'react-native-image-picker';
+import { me } from '../Account/services/services';
 
 
-
+const options = {
+  mediaType: 'photo',
+  maxWidth: 300,
+  maxHeight: 300,
+};
 function ChatScreen() {
   const navigation = useNavigation()
   const route = useRoute()
@@ -32,6 +33,8 @@ function ChatScreen() {
   const [order_id, setorder_id] = useState(route?.params?.type == 'OrderDetails' ? JSON?.parse(route?.params.item?.id) :
     route?.params.data?.orderDetails?.createOrder?.data?.id);
   const [page, setPage] = useState(0);
+  const [messagesImage, setMessagesImage] = useState();
+
   console.log({ route })
   // ..........................quary......................................
   const { data: userdata, loading: userloading, error: userError, refetch: userRefresh } = useQuery(me); //execute query
@@ -61,6 +64,7 @@ function ChatScreen() {
   }, [loading])
   const getAllMessage = () => {
     console.log({ messages })
+    // connectTOSocket()
     console.log("data?.chatByOrderId?.data", data?.chatByOrderId?.data, data?.chatByOrderId?.data?.length)
     if (data?.chatByOrderId?.data?.length > 0) {
       let allMSG = data?.chatByOrderId?.data
@@ -85,7 +89,47 @@ function ChatScreen() {
       setMessages(msg)
     }
   }
+  // ---------------------end socket---------------------\\
+  // const connectTOSocket = async () => {
+  //   console.log('socket.....', socket)
+  //   AsyncStorage.getItem('token').then(token => {
+  //     console.log({ token })
+  //     if (socket.connected == true) {
+  //       console.log("null")
+  //       listentoMessage()
+  //     } else {
+  //       console.log("connection....")
+  //       socket.auth.token = token;
+  //       console.log('socket.....', socket)
+  //       socket.on("connect", () => {
+  //         console.log("connect", socket.id); // x8WIv7-mJelg7on_ALbx
+  //         listentoMessage()
+  //       });
+  //       socket.on("disconnect", () => {
+  //         console.log("disconnect", socket); // undefined
+  //       });
+  //       socket.on("connect_error", () => {
+  //         socket.auth.token = token;
+  //         console.log("connect_error", socket); // undefined
+  //         socket.disconnect().connect();
+  //         // socket.connect();
+
+  //       });
+  //       socket.connect()
+  //     }
+  //   })
+  // }
+  // const listentoMessage = async () => {
+  //   await socket.on("NewMessage", (arg) => {
+  //     console.log({ arg })
+  //   })
+  // }
+  // ---------------------end socket---------------------\\
+
+  // ...............................................
   const onSend = useCallback((messages = []) => {
+    console.log({ messages })
+    // messages[0].image = messagesImage
     setMessages(previousMessages => GiftedChat.append(previousMessages, messages))
     sendMsg(messages)
   }, [])
@@ -105,7 +149,6 @@ function ChatScreen() {
       },
     }).then(result => {
       console.log({ result })
-      result.data?.sendMessage?.status== "FAILED" && alert(result.data?.sendMessage?.message)
       refetch()
       console.log('getchat--->', data)
       console.log('getchat--->', loading)
@@ -134,37 +177,97 @@ function ChatScreen() {
               width: 24,
               height: 24,
               alignSelf: 'center',
-              resizeMode:'contain'
+              resizeMode: 'contain'
 
             }}
             source={icons?.send} resizeMode={'center'} />
         </View>
-        
+
       </Send>
     );
   }
   function renderActions(props) {
     return (
-      <View style={{ ...styles?.row, marginHorizontal: 10 }} >
+      <View style={{ ...styles?.row, marginHorizontal: 10 ,marginBottom:10}} >
         <Pressable
           onPress={() => {
-
+            handleImagecapeture()
           }}
-          style={{ marginBottom: 5, }}>
-          <Image source={icons?.voice} style={{ height: 26, width: 16, resizeMode: 'contain' }} />
+          >
+          <Image source={icons?.camera}
+           style={{ height: 30, width: 30, resizeMode: 'contain',tintColor:COLORS?.gray1 }} />
         </Pressable>
         <Pressable
           onPress={() => {
-
+            console.log("...app...")
+            handleImageSelection()
           }}
-          style={{ marginBottom: 5, marginHorizontal: 10 }}>
-          <Image source={icons?.attach} style={{ height: 26, width: 25, resizeMode: 'contain' }} />
+          style={{  marginHorizontal: 20 }}>
+          <Image source={icons?.attach} style={{ height: 30, width: 30, resizeMode: 'contain' }} />
         </Pressable>
       </View>
     );
   }
+
+  const renderBubble = (props) => {
+    return (
+      <Bubble
+        {...props}
+        wrapperStyle={{
+          right: {
+            backgroundColor: '#007AFF',
+          },
+          left: {
+            backgroundColor: '#E5E5EA',
+          },
+        }}
+      />
+    );
+  };
+  const renderMessageImage = (props) => {
+    const {
+      currentMessage: { image },
+    } = props;
+    console.log("renderMessageImage", props, image)
+
+    return <Image source={{ uri: image }} style={{ width: 200, height: 200 }} />;
+  };
+  const handleImageSelection = () => {
+    launchImageLibrary(options, (response) => {
+      console.log({response})
+      if (response?.assets) {
+        setMessagesImage({ image: response?.assets[0]?.uri })
+        onSend({
+          image: response?.assets[0]?.uri,
+          user: {
+            _id: JSON?.parse(userdata?.me?.id),
+            avatar: 'https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png'
+            , // ID of the sender
+          },
+        })
+
+      }
+    });
+  };
+  const handleImagecapeture= () => {
+    launchCamera(options, (response) => {
+      console.log({response})
+      if (response?.assets) {
+        setMessagesImage({ image: response?.assets[0]?.uri })
+        onSend({
+          image: response?.assets[0]?.uri,
+          user: {
+            _id: JSON?.parse(userdata?.me?.id),
+            avatar: 'https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png'
+            , // ID of the sender
+          },
+        })
+
+      }
+    });
+  };
   return (
-    <View style={{ flex: 1, }}>
+    <View style={{ flex: 1 }}>
       <MainHeader
         leftIcon={i18next.language == 'ar' ? icons?.LArrow : icons?.RArrow}
         stringURL={true}
@@ -199,9 +302,13 @@ function ChatScreen() {
         alwaysShowSend
         textInputStyle={{
           color: COLORS?.appBlack,
-          height: 100
+          height: 150,
+          height: 150,
+          padding:10
         }}
-        // renderActions={renderActions}
+        renderBubble={renderBubble}
+        renderMessageImage={renderMessageImage}
+        renderActions={renderActions}
       />
       {/* {
           Platform.OS === 'android' && <KeyboardAvoidingView behavior="padding" />
