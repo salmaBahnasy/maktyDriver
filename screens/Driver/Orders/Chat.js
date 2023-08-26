@@ -19,6 +19,7 @@ import { ChatByOrderId, SendMessageById } from './services/services';
 import i18next from 'i18next';
 import { launchCamera, launchImageLibrary } from 'react-native-image-picker';
 import { me } from '../Account/services/services';
+import { Upload } from '../SignUp/services/Services';
 
 
 const options = {
@@ -31,9 +32,9 @@ function ChatScreen() {
   const route = useRoute()
   const [messages, setMessages] = useState([]);
   const [order_id, setorder_id] = useState(route?.params?.type == 'OrderDetails' ? JSON?.parse(route?.params.item?.id) :
-    route?.params.data?.orderDetails?.createOrder?.data?.id);
+  route?.params.order?.order?.id?
+  JSON?.parse(route?.params.order?.order?.id):0);
   const [page, setPage] = useState(0);
-  const [messagesImage, setMessagesImage] = useState();
 
   console.log({ route })
   // ..........................quary......................................
@@ -51,6 +52,7 @@ function ChatScreen() {
       error: SendMessageByIdError }] = useMutation(SendMessageById);
   console.log(SendMessageByIdData)
   console.log(SendMessageByIdError)
+  const [uploadRequest, { data:uploadRequestData, loading:uploadRequestLoading, error:uploadRequestError }] = useMutation(Upload);
 
   // ................................................................
 
@@ -130,17 +132,18 @@ function ChatScreen() {
   const onSend = useCallback((messages = []) => {
     console.log({ messages })
     // messages[0].image = messagesImage
+    console.log("messages",messages)
     setMessages(previousMessages => GiftedChat.append(previousMessages, messages))
     sendMsg(messages)
   }, [])
   const sendMsg = (messages) => {
+    console.log("sendMsg....>",messages)
     let obj = {
       order_id: JSON.parse(order_id),
-      message: messages[0]?.text,
-      imagePath: messages[0]?.image,
-      voice: messages[0]?.audio,
-      seen: messages[0]?.received,
-
+      message:Array.isArray(messages)?messages[0]?.text? messages[0]?.text:messages[0]?.image: messages?.text? messages?.text:messages?.image,
+      // imagePath: messages?.image,
+      // voice: messages?.audio?messages?.audio:'',
+      // seen: messages?.received?messages?.received:true,
     }
     console.log({ obj })
     SendMessageByIdRequest({
@@ -188,21 +191,21 @@ function ChatScreen() {
   }
   function renderActions(props) {
     return (
-      <View style={{ ...styles?.row, marginHorizontal: 10 ,marginBottom:10}} >
+      <View style={{ ...styles?.row, marginHorizontal: 10, marginBottom: 10 }} >
         <Pressable
           onPress={() => {
             handleImagecapeture()
           }}
-          >
+        >
           <Image source={icons?.camera}
-           style={{ height: 30, width: 30, resizeMode: 'contain',tintColor:COLORS?.gray1 }} />
+            style={{ height: 30, width: 30, resizeMode: 'contain', tintColor: COLORS?.gray1 }} />
         </Pressable>
         <Pressable
           onPress={() => {
             console.log("...app...")
             handleImageSelection()
           }}
-          style={{  marginHorizontal: 20 }}>
+          style={{ marginHorizontal: 20 }}>
           <Image source={icons?.attach} style={{ height: 30, width: 30, resizeMode: 'contain' }} />
         </Pressable>
       </View>
@@ -228,46 +231,83 @@ function ChatScreen() {
     const {
       currentMessage: { image },
     } = props;
-    console.log("renderMessageImage", props, image)
-
     return <Image source={{ uri: image }} style={{ width: 200, height: 200 }} />;
   };
   const handleImageSelection = () => {
     launchImageLibrary(options, (response) => {
-      console.log({response})
+      console.log({ response })
       if (response?.assets) {
-        setMessagesImage({ image: response?.assets[0]?.uri })
-        onSend({
-          image: response?.assets[0]?.uri,
-          user: {
-            _id: JSON?.parse(userdata?.me?.id),
-            avatar: 'https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png'
-            , // ID of the sender
-          },
-        })
+        UploadImageFunction(response?.assets[0])
+
+        // onSend({
+        //   image: response?.assets[0]?.uri,
+        //   user: {
+        //     _id: JSON?.parse(userdata?.me?.id),
+        //     avatar: 'https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png'
+        //     , // ID of the sender
+        //   },
+        // })
 
       }
     });
   };
-  const handleImagecapeture= () => {
+  const UploadImageFunction = async (photores) => {
+    try {
+        // if (photores?.type == 'success') {
+          const file = new ReactNativeFile({
+            uri: photores.uri,
+            name: photores.fileName,
+            type: photores.type,
+          });
+          console.log({ file });
+          uploadRequest({
+            variables: {
+              file
+            },
+          }).then(result => {
+            console.log({ result });
+
+            onSend({
+              _id: Math.round(Math.random() * 1000000),
+              image: `${ImageURL}${result?.data.upload}`,
+              user: {
+                _id: JSON?.parse(userdata?.me?.id),
+                avatar: 'https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png'
+                , // ID of the sender
+              },
+            })
+            // resolve(result?.data.upload);
+          });
+
+        // } else {
+         
+        // }
+      
+    } catch (err) {
+      console.log({ err });
+    }
+  }
+  const handleImagecapeture = () => {
     launchCamera(options, (response) => {
-      console.log({response})
+      console.log({ response })
       if (response?.assets) {
-        setMessagesImage({ image: response?.assets[0]?.uri })
-        onSend({
-          image: response?.assets[0]?.uri,
-          user: {
-            _id: JSON?.parse(userdata?.me?.id),
-            avatar: 'https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png'
-            , // ID of the sender
-          },
-        })
+        // setMessagesImage({ image: response?.assets[0]?.uri })
+        UploadImageFunction(response?.assets[0])
+
+        // onSend({
+        //   image: response?.assets[0]?.uri,
+        //   user: {
+        //     _id: JSON?.parse(userdata?.me?.id),
+        //     avatar: 'https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png'
+        //     , // ID of the sender
+        //   },
+        // })
 
       }
     });
   };
   return (
-    <View style={{ flex: 1 }}>
+    <>
       <MainHeader
         leftIcon={i18next.language == 'ar' ? icons?.LArrow : icons?.RArrow}
         stringURL={true}
@@ -303,8 +343,7 @@ function ChatScreen() {
         textInputStyle={{
           color: COLORS?.appBlack,
           height: 150,
-          height: 150,
-          padding:10
+          padding: 10
         }}
         renderBubble={renderBubble}
         renderMessageImage={renderMessageImage}
@@ -313,10 +352,11 @@ function ChatScreen() {
       {/* {
           Platform.OS === 'android' && <KeyboardAvoidingView behavior="padding" />
         } */}
-    </View>
+    </>
 
   );
 }
+
 
 const styles = StyleSheet.create({
 

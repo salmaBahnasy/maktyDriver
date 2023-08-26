@@ -1,5 +1,5 @@
 
-import React, { useEffect, useState,useRef } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 
 import {
   SafeAreaView,
@@ -50,7 +50,7 @@ function HomeDriver() {
   const [Token, setToken] = useState('')
   const [newReqestModal, setnewReqestModal] = useState(false)
   const [orderData, setOrderData] = useState([])
-// 
+  // 
   const [AcceptDelegateOrderRequest,
     { data: acceptDelegateOrderData,
       error: acceptDelegateOrderError }] = useMutation(ConfirmDelegateOrder);
@@ -59,45 +59,46 @@ function HomeDriver() {
   const { data: userData, loading: userLoading, refetch } = useQuery(me); //execute query
   console.log({ data })
   console.log({ acceptDelegateOrderError })
-// ....................................................................
-const _handleAppStateChange = (nextAppState) => {
-  if (
-    appState.current.match(/inactive|background/) &&
-    nextAppState === "active"
-  ) {
-    console.log("App has come to the foreground!");
-    //clearInterval when your app has come back to the foreground
-    BackgroundTimer.clearInterval(interval)
-    listentoAcceptOrder()
-    listentoNewOrder()
-    
-  }else{
-    //app goes to background
-    console.log('app goes to background')
-    //tell the server that your app is still online when your app detect that it goes to background
-    interval = BackgroundTimer.setInterval(()=>{
-      console.log('connection status ', socket.connected)
-      // socket.emit('online')
+  // ....................................................................
+  const _handleAppStateChange = (nextAppState) => {
+    if (
+      appState.current.match(/inactive|background/) &&
+      nextAppState === "active"
+    ) {
+      console.log("App has come to the foreground!");
+      //clearInterval when your app has come back to the foreground
+      BackgroundTimer.clearInterval(interval)
       listentoAcceptOrder()
       listentoNewOrder()
 
-    },5000)
-  appState.current = nextAppState;
-  console.log("AppState", appState.current);
-}
-}
+    } else {
+      //app goes to background
+      console.log('app goes to background')
+      //tell the server that your app is still online when your app detect that it goes to background
+      interval = BackgroundTimer.setInterval(() => {
+        console.log('connection status ', socket.connected)
+        // socket.emit('online')
+        listentoAcceptOrder()
+        listentoNewOrder()
 
-useEffect (() => {
-AppState.addEventListener("change", _handleAppStateChange);
+      }, 5000)
+      appState.current = nextAppState;
+      console.log("AppState", appState.current);
+    }
+  }
 
-return () => {
-  AppState.removeEventListener("change", _handleAppStateChange);
-};
-},[])
-// ....................................................................
+  useEffect(() => {
+    AppState.addEventListener("change", _handleAppStateChange);
+
+    return () => {
+      AppState.removeEventListener("change", _handleAppStateChange);
+    };
+  }, [])
+  // ....................................................................
   useEffect(() => {
     connectTOSocket()
   }, [])
+
 
   const ConfirmDelegateOrderfnc = (item) => {
     let obj = {
@@ -182,11 +183,11 @@ return () => {
     console.log('listentoAcceptOrder')
     socket.on("OrderAccept", (args) => {
       // ...
-      console.log(args)
-       navigation?.navigate('ChatScreen', {
+      console.log("..listentoAcceptOrder....",args)
+      navigation?.navigate('ChatScreen', {
         data: route?.params?.data,
-        delegateData: item,
-        order:args
+        // delegateData: item,
+        order: args
       })
 
     });
@@ -279,9 +280,7 @@ return () => {
           }}
           ConfirmDelegateOrderfnc={(item) => {
             setnewReqestModal(false)
-            setTimeout(() => {
-              ConfirmDelegateOrderfnc(item)
-            }, 1000);
+            ConfirmDelegateOrderfnc(item)
           }}
         />
         {/* ...... */}
