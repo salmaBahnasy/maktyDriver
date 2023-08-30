@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>479285165834-4nq1rn8cqra0gkam1ilbgs02uf9fki7h.apps.googleusercontent.com</string>
+	<string>479285165834-bjdeaqg7el3dqnlr1fu1lft8e8nrtnnh.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.479285165834-4nq1rn8cqra0gkam1ilbgs02uf9fki7h</string>
+	<string>com.googleusercontent.apps.479285165834-bjdeaqg7el3dqnlr1fu1lft8e8nrtnnh</string>
 	<key>API_KEY</key>
 	<string>AIzaSyCg7YUdmECg23Ex0T3r-RZNStecOifn0ic</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.makfy.app</string>
+	<string>com.makfydriver</string>
 	<key>PROJECT_ID</key>
 	<string>makfy-5a108</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:479285165834:ios:f628ffc1717948b4a684f3</string>
+	<string>1:479285165834:ios:5db908ca4c05849ca684f3</string>
 </dict>
 </plist>
