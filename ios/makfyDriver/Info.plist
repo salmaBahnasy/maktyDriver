@@ -46,6 +46,10 @@
 	<string>$(PRODUCT_NAME) want to access Location </string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>$(PRODUCT_NAME) want to access PhotoLibrary </string>
+	
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>$(PRODUCT_NAME) want to access PhotoLibrary </string>
+
 	<key>UIAppFonts</key>
 	<array>
 		<string>Tajawal-Bold.ttf</string>
