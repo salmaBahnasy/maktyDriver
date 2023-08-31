@@ -86,11 +86,11 @@ function Splash() {
     await messaging().onMessage(async remoteMessage => {
       console.log('A new FCM message arrived!', JSON.stringify(remoteMessage));
     });
-    Platform.OS == 'ios' && await messaging.registerDeviceForRemoteMessages();
+    // Platform.OS == 'ios' && await messaging.registerDeviceForRemoteMessages();
 
-    // let fcm = await messaging().getToken()
-    // await AsyncStorage.setItem('fcm', fcm)
-    // console.log({ fcm })
+    let fcm = await messaging().getToken()
+    await AsyncStorage.setItem('fcm', fcm)
+    console.log({ fcm })
 
   }
 

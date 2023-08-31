@@ -15,8 +15,8 @@ import {
   I18nManager,
   AppState
 } from 'react-native';
-import { io } from "socket.io-client";
 import BackgroundTimer from 'react-native-background-timer';
+import DeviceInfo from 'react-native-device-info';
 
 import { useIsFocused, useNavigation, useRoute } from '@react-navigation/native';
 import { useTranslation } from 'react-i18next';
@@ -30,7 +30,7 @@ import CategoryItem from './Component/CategoryItem';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import NewOrderRequest from '../../comp/NewOrderRequest';
 import { socket } from '../../../constants/constVariable';
-import { ConfirmDelegateOrder } from './services/services';
+import { ConfirmDelegateOrder, updateFCMToken } from './services/services';
 
 
 
@@ -59,6 +59,10 @@ function HomeDriver() {
   const { data: userData, loading: userLoading, refetch } = useQuery(me); //execute query
   console.log({ data })
   console.log({ acceptDelegateOrderError })
+  const [updateFCMTokenRequest, {
+    data: updateFCMTokenData,
+    error: updateFCMTokenError
+  }] = useMutation(updateFCMToken);
   // ....................................................................
   const _handleAppStateChange = (nextAppState) => {
     if (
@@ -98,7 +102,33 @@ function HomeDriver() {
   useEffect(() => {
     connectTOSocket()
   }, [])
+  useEffect(() => { update_fcm() }, [])
+  const update_fcm = async () => {
+    DeviceInfo.getUniqueId().then((deviceToken) => {
+      // iOS: "a2Jqsd0kanz..."
+      AsyncStorage.getItem('fcm').then(fcm => {
+        let input = {
+          "device_id": deviceToken,
+          "fcm_token": fcm,
+          "version": "1.0",
+          "platform": Platform.OS
+        }
+        console.log({ input })
+        updateFCMTokenRequest({
+          variables: {
+            input
+          },
+        }).then(result => {
+          console.log({ result });
+        }).catch(err=>{
+          console.log(err)
+        });
+      })
 
+    });
+
+
+  }
 
   const ConfirmDelegateOrderfnc = (item) => {
     let obj = {

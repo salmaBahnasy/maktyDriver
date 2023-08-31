@@ -35,7 +35,14 @@ mutation sendMessage($input:sendMessageInput!) {
   }
 }
 `;
-
+export const updateFCMToken = gql`
+mutation updateFCMToken($input:UpdateFCMTokenInput!) {
+  updateFCMToken(input:$input) {
+    error
+    status
+  }
+}
+`;
 export const ChatByOrderId = gql`
 query chatByOrderId($order_id: Int!
   $page: Int!){

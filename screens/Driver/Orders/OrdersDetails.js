@@ -145,7 +145,7 @@ function OrdersDetails() {
         >
           <Text
             style={{
-              ...FONTS?.h3,
+              ...FONTS?.h4,
             }}
           >
             {t('common:chts')}
