@@ -1,5 +1,6 @@
 require_relative '../node_modules/react-native/scripts/react_native_pods'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+source 'https://github.com/CocoaPods/Specs.git'
 
 # platform :ios, min_ios_version_supported
 platform :ios, '12.4'
@@ -27,6 +28,12 @@ end
 
 target 'makfydriver' do
   config = use_native_modules!
+  # Add the project and build configurations
+  project 'makfydriver',
+    'Dev.Debug' => :debug, # '{Build Configuration name}' => :{debug or release}
+    'Debug' => :debug,
+    'Dev.Release' => :release,
+    'Release' => :release
 
   # Flags change depending on the env values.
   flags = get_default_flags()
@@ -45,7 +52,7 @@ target 'makfydriver' do
     # you should disable the next line.
     :flipper_configuration => flipper_config,
     # An absolute path to your application root.
-    :app_path => "#{Pod::Config.instance.installation_root}/.."
+    :app_path => "#{Pod::Config.instance.installation_root}/..",
   )
 # React Native Maps dependencies
 # The following line is only needed if building on an Apple silicon Mac without rosetta.
@@ -68,12 +75,12 @@ pod 'AppCenter'
 pod 'AppCenter/Analytics'
 pod 'AppCenter/Crashes'
 pod 'AppCenter/Distribute'
+pod 'RNReanimated', :path => '../node_modules/react-native-reanimated'
+
 pod 'Firebase', :modular_headers => true
 pod 'FirebaseCoreInternal', :modular_headers => true
 pod 'GoogleUtilities', :modular_headers => true
 pod 'FirebaseCore', :modular_headers => true
-pod 'RNReanimated', :path => '../node_modules/react-native-reanimated'
-
 $RNFirebaseAsStaticFramework=true
 #....add any library need headers
   target 'makfydriverTests' do
@@ -95,8 +102,8 @@ $RNFirebaseAsStaticFramework=true
       target.build_configurations.each do |config|
         config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.4'
       end
-      installer.pods_project.build_configurations.each do |config|  
-       config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"     
+      installer.pods_project.build_configurations.each do |config|
+        config.build_settings["EXCLUDED_ARCHS[sdk=iphonesimulator*]"] = "arm64"
       end
     end
     __apply_Xcode_12_5_M1_post_install_workaround(installer)

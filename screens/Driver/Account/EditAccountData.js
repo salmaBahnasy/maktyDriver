@@ -405,6 +405,7 @@ function EditDriverAccountData() {
               ...styles?.genderBtn,
               backgroundColor: gender == 'female' ? COLORS.primary : COLORS?.gray,
               marginRight: 16,
+              
             }}
             onPress={() => {
               setGender("female")
@@ -414,7 +415,8 @@ function EditDriverAccountData() {
 
             <Text style={{
               ...styles?.gText,
-              color: gender == 'female' ? COLORS?.white : COLORS.black
+              color: gender == 'female' ? COLORS?.white : COLORS.black,
+              lineHeight:40
             }}>
               {t('common:female')}
             </Text>

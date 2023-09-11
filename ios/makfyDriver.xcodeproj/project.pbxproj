@@ -11,7 +11,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		381121FC2A0D900A0050546D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 381121FB2A0D900A0050546D /* GoogleService-Info.plist */; };
+		387A23872A9D226C0097CDBB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 387A23862A9D226C0097CDBB /* GoogleService-Info.plist */; };
 		38855B9E2A215D4900A3BE55 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 38855B9D2A215D4900A3BE55 /* main.jsbundle */; };
 		5164EF50131A3E7C80CE2EAD /* libPods-makfydriver-makfydriverTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22790742C64CBEEBE1CF8D69 /* libPods-makfydriver-makfydriverTests.a */; };
 		BEF18298005D579BE8FC92E4 /* libPods-makfydriver.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E18CC1EBC7132DB5195F215 /* libPods-makfydriver.a */; };
@@ -42,8 +42,8 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = makfydriver/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = makfydriver/main.m; sourceTree = "<group>"; };
 		22790742C64CBEEBE1CF8D69 /* libPods-makfydriver-makfydriverTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-makfydriver-makfydriverTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		381121FB2A0D900A0050546D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3844C9DD2A2164E700955B6C /* makfydriver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = makfydriver.entitlements; path = makfydriver/makfydriver.entitlements; sourceTree = "<group>"; };
+		387A23862A9D226C0097CDBB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		38855B9D2A215D4900A3BE55 /* main.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		789BB8BA93CDDDCA8C1DD3E6 /* Pods-makfydriver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-makfydriver.debug.xcconfig"; path = "Target Support Files/Pods-makfydriver/Pods-makfydriver.debug.xcconfig"; sourceTree = "<group>"; };
 		8E18CC1EBC7132DB5195F215 /* libPods-makfydriver.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-makfydriver.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,8 +127,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				387A23862A9D226C0097CDBB /* GoogleService-Info.plist */,
 				38855B9D2A215D4900A3BE55 /* main.jsbundle */,
-				381121FB2A0D900A0050546D /* GoogleService-Info.plist */,
 				CE6C82ED29C332F300CC6F7A /* Tajawal-Bold.ttf */,
 				CE6C82EB29C332F300CC6F7A /* Tajawal-Light.ttf */,
 				CE6C82EA29C332F300CC6F7A /* Tajawal-Medium.ttf */,
@@ -266,7 +266,7 @@
 				CE6C82EF29C332F300CC6F7A /* Tajawal-Light.ttf in Resources */,
 				CE6C82F129C332F300CC6F7A /* Tajawal-Bold.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				381121FC2A0D900A0050546D /* GoogleService-Info.plist in Resources */,
+				387A23872A9D226C0097CDBB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,10 +524,10 @@
 				CODE_SIGN_ENTITLEMENTS = makfydriver/makfydriver.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 18;
 				DEVELOPMENT_TEAM = XTFC3577B8;
 				ENABLE_BITCODE = NO;
-				EXCLUDED_ARCHS = "";
+				EXCLUDED_ARCHS = arm64;
 				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = makfydriver/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = makfydriver;
@@ -561,7 +561,7 @@
 				CODE_SIGN_ENTITLEMENTS = makfydriver/makfydriver.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 18;
 				DEVELOPMENT_TEAM = XTFC3577B8;
 				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = makfydriver/Info.plist;

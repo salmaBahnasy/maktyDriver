@@ -346,7 +346,7 @@ function DriverOrders() {
         barStyle={'light-content'}
       />
       <MainHeader
-        title={t('common:Orders')}
+        title={t('navigate:Orders')}
         leftIcon={I18nManager?.isRTL ? icons?.LArrow : icons?.RArrow}
         leftIconAction={() => { navigation.goBack() }}
       />

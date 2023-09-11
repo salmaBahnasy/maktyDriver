@@ -12,6 +12,7 @@ import {
 import { useMutation, useQuery } from '@apollo/client';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import { Actions, Bubble, GiftedChat, Send } from 'react-native-gifted-chat'
+const { ReactNativeFile } = require("apollo-upload-client");
 
 import { COLORS, icons } from '../../../constants';
 import MainHeader from '../../comp/MainHeader';
@@ -20,6 +21,8 @@ import i18next from 'i18next';
 import { launchCamera, launchImageLibrary } from 'react-native-image-picker';
 import { me } from '../Account/services/services';
 import { Upload } from '../SignUp/services/Services';
+import { ImageURL, socket } from '../../../constants/constVariable';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 
 const options = {
@@ -35,6 +38,7 @@ function ChatScreen() {
   route?.params.order?.order?.id?
   JSON?.parse(route?.params.order?.order?.id):0);
   const [page, setPage] = useState(0);
+  var regex = /(?:https?):\/\/(\w+:?\w*)?(\S+)(:\d+)?(\/|\/([\w#!:.?+=&%!\-\/]))?/;
 
   console.log({ route })
   // ..........................quary......................................
@@ -58,27 +62,31 @@ function ChatScreen() {
 
   useEffect(() => {
     loading == false ?
-      setMessages(Array.isArray(data?.chatByOrderId?.data) ? data?.chatByOrderId?.data : [])
+      setMessages(Array.isArray(data?.chatByOrderId) ? data?.chatByOrderId : [])
       : null
   }, [loading])
   useEffect(() => {
     getAllMessage()
   }, [loading])
+  useEffect(()=>{
+      connectTOSocket()
+    },[])
   const getAllMessage = () => {
     console.log({ messages })
     // connectTOSocket()
-    console.log("data?.chatByOrderId?.data", data?.chatByOrderId?.data, data?.chatByOrderId?.data?.length)
-    if (data?.chatByOrderId?.data?.length > 0) {
-      let allMSG = data?.chatByOrderId?.data
+    console.log("data?.chatByOrderId?.data", data?.chatByOrderId, data?.chatByOrderId?.length)
+    if (data?.chatByOrderId?.length > 0) {
+      let allMSG = data?.chatByOrderId
       console.log({ allMSG })
       // .sort(
       //   (a, b) => b.created_at - a.created_at,
       // )
+      console.log()
       let msg = allMSG?.map(doc => ({
         _id: JSON.parse(doc?.id),
         createdAt: doc.created_at,
-        text: doc.message,
-        image: doc?.imagePath,
+        text:regex.test(doc.message)?'': doc.message,
+        image:regex.test(doc?.message)?doc?.message:'',
         audio: doc?.voice,
         received: doc?.seen,
         user: {
@@ -92,40 +100,38 @@ function ChatScreen() {
     }
   }
   // ---------------------end socket---------------------\\
-  // const connectTOSocket = async () => {
-  //   console.log('socket.....', socket)
-  //   AsyncStorage.getItem('token').then(token => {
-  //     console.log({ token })
-  //     if (socket.connected == true) {
-  //       console.log("null")
-  //       listentoMessage()
-  //     } else {
-  //       console.log("connection....")
-  //       socket.auth.token = token;
-  //       console.log('socket.....', socket)
-  //       socket.on("connect", () => {
-  //         console.log("connect", socket.id); // x8WIv7-mJelg7on_ALbx
-  //         listentoMessage()
-  //       });
-  //       socket.on("disconnect", () => {
-  //         console.log("disconnect", socket); // undefined
-  //       });
-  //       socket.on("connect_error", () => {
-  //         socket.auth.token = token;
-  //         console.log("connect_error", socket); // undefined
-  //         socket.disconnect().connect();
-  //         // socket.connect();
-
-  //       });
-  //       socket.connect()
-  //     }
-  //   })
-  // }
-  // const listentoMessage = async () => {
-  //   await socket.on("NewMessage", (arg) => {
-  //     console.log({ arg })
-  //   })
-  // }
+  const connectTOSocket = async () => {
+    console.log('socket.....', socket)
+    AsyncStorage.getItem('token').then(token => {
+      console.log({ token })
+      if (socket.connected == true) {
+        console.log("null")
+        listentoMessage()
+      } else {
+        console.log("connection....")
+        socket.auth.token = token;
+        console.log('socket.....', socket)
+        socket.on("connect", () => {
+          console.log("connect", socket.id); // x8WIv7-mJelg7on_ALbx
+          listentoMessage()
+        });
+        socket.on("disconnect", () => {
+          console.log("disconnect", socket); // undefined
+        });
+        socket.on("connect_error", () => {
+          socket.auth.token = token;
+          console.log("connect_error", socket); // undefined
+          socket.disconnect().connect();
+        });
+        socket.connect()
+      }
+    })
+  }
+  const listentoMessage = async () => {
+    await socket.on("NewMessage", (arg) => {
+      console.log({ arg })
+    })
+  }
   // ---------------------end socket---------------------\\
 
   // ...............................................
@@ -177,13 +183,12 @@ function ChatScreen() {
         }} >
           <Image
             style={{
-              width: 24,
-              height: 24,
+              width: 20,
+              height: 20,
               alignSelf: 'center',
-              resizeMode: 'contain'
-
+              resizeMode: 'center'
             }}
-            source={icons?.send} resizeMode={'center'} />
+            source={icons?.send}  />
         </View>
 
       </Send>
