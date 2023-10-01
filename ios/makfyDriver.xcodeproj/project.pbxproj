@@ -524,7 +524,7 @@
 				CODE_SIGN_ENTITLEMENTS = makfydriver/makfydriver.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 18;
+				CURRENT_PROJECT_VERSION = 19;
 				DEVELOPMENT_TEAM = XTFC3577B8;
 				ENABLE_BITCODE = NO;
 				EXCLUDED_ARCHS = arm64;
@@ -561,7 +561,7 @@
 				CODE_SIGN_ENTITLEMENTS = makfydriver/makfydriver.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 18;
+				CURRENT_PROJECT_VERSION = 19;
 				DEVELOPMENT_TEAM = XTFC3577B8;
 				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = makfydriver/Info.plist;

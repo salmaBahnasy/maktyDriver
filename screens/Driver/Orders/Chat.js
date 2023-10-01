@@ -44,6 +44,8 @@ function ChatScreen() {
   // ..........................quary......................................
   const { data: userdata, loading: userloading, error: userError, refetch: userRefresh } = useQuery(me); //execute query
   const { data, loading, error, refetch } = useQuery(ChatByOrderId, {
+    fetchPolicy: "cache-and-network",
+    nextFetchPolicy: "cache-first",
     variables: { order_id, page },
   }); //execute query
   console.log({ data })
@@ -53,7 +55,9 @@ function ChatScreen() {
 
   const [SendMessageByIdRequest,
     { data: SendMessageByIdData,
-      error: SendMessageByIdError }] = useMutation(SendMessageById);
+      error: SendMessageByIdError }] = useMutation(SendMessageById,{
+        refetchQueries:[{query:ChatByOrderId}]
+      });
   console.log(SendMessageByIdData)
   console.log(SendMessageByIdError)
   const [uploadRequest, { data:uploadRequestData, loading:uploadRequestLoading, error:uploadRequestError }] = useMutation(Upload);
@@ -139,7 +143,8 @@ function ChatScreen() {
     console.log({ messages })
     // messages[0].image = messagesImage
     console.log("messages",messages)
-    setMessages(previousMessages => GiftedChat.append(previousMessages, messages))
+    refetch()
+    // setMessages(previousMessages => GiftedChat.append(previousMessages, messages))
     sendMsg(messages)
   }, [])
   const sendMsg = (messages) => {
