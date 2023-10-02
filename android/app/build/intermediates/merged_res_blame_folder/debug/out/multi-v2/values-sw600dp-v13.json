@@ -4,26 +4,7 @@
             "outputFile": "com.makfydriver.app-mergeDebugResources-38:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/salma/Desktop/maktyDriver/node_modules/react-native-sensitive-info/android/build/intermediates/packaged_res/debug/values-sw600dp-v13/values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,123,191",
-                        "endLines": "2,3,8",
-                        "endColumns": "67,67,12",
-                        "endOffsets": "118,186,431"
-                    },
-                    "to": {
-                        "startLines": "19,22,28",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "1173,1356,1659",
-                        "endLines": "19,22,32",
-                        "endColumns": "67,67,12",
-                        "endOffsets": "1236,1419,1899"
-                    }
-                },
-                {
-                    "source": "/Users/salma/.gradle/caches/transforms-3/c59ec5d88537e89626aa9c5e080aa9cd/transformed/appcompat-1.4.1/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/user/.gradle/caches/transforms-3/c59ec5d88537e89626aa9c5e080aa9cd/transformed/appcompat-1.4.1/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -33,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/salma/.gradle/caches/transforms-3/f7b1e70dce7522cca5e01ed1375f7be0/transformed/material-1.1.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/Users/user/.gradle/caches/transforms-3/f7b1e70dce7522cca5e01ed1375f7be0/transformed/material-1.1.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -49,6 +30,25 @@
                         "endLines": "10,11,12,13,14,15,17,18,20,21,23,27",
                         "endColumns": "59,69,70,71,57,57,10,63,55,58,62,10",
                         "endOffsets": "666,736,807,879,937,995,1104,1168,1292,1351,1482,1654"
+                    }
+                },
+                {
+                    "source": "/Users/user/Desktop/maktyDriver/node_modules/react-native-sensitive-info/android/build/intermediates/packaged_res/debug/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,123,191",
+                        "endLines": "2,3,8",
+                        "endColumns": "67,67,12",
+                        "endOffsets": "118,186,431"
+                    },
+                    "to": {
+                        "startLines": "19,22,28",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1173,1356,1659",
+                        "endLines": "19,22,32",
+                        "endColumns": "67,67,12",
+                        "endOffsets": "1236,1419,1899"
                     }
                 }
             ]

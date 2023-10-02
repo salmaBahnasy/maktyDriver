@@ -4,7 +4,7 @@
             "outputFile": "com.makfydriver.app-mergeDebugResources-38:/values-v11/values-v11.xml",
             "map": [
                 {
-                    "source": "/Users/salma/Desktop/maktyDriver/node_modules/react-native-sensitive-info/android/build/intermediates/packaged_res/debug/values-v11/values-v11.xml",
+                    "source": "/Users/user/Desktop/maktyDriver/node_modules/react-native-sensitive-info/android/build/intermediates/packaged_res/debug/values-v11/values-v11.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

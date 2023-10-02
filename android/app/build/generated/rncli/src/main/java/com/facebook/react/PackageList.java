@@ -29,6 +29,8 @@ import com.microsoft.appcenter.reactnative.analytics.AppCenterReactNativeAnalyti
 import com.microsoft.appcenter.reactnative.crashes.AppCenterReactNativeCrashesPackage;
 // react-native-background-timer
 import com.ocetnik.timer.BackgroundTimerPackage;
+// react-native-device-info
+import com.learnium.RNDeviceInfo.RNDeviceInfo;
 // react-native-gesture-handler
 import com.swmansion.gesturehandler.RNGestureHandlerPackage;
 // react-native-get-location
@@ -109,6 +111,7 @@ public class PackageList {
       new AppCenterReactNativeAnalyticsPackage(getApplication(), getResources().getString(com.makfydriver.R.string.appCenterAnalytics_whenToEnableAnalytics)),
       new AppCenterReactNativeCrashesPackage(getApplication(), getResources().getString(com.makfydriver.R.string.appCenterCrashes_whenToSendCrashes)),
       new BackgroundTimerPackage(),
+      new RNDeviceInfo(),
       new RNGestureHandlerPackage(),
       new ReactNativeGetLocationPackage(),
       new ImagePickerPackage(),

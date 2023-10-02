@@ -4,7 +4,7 @@
             "outputFile": "com.makfydriver.app-mergeDebugResources-38:/values-hr/values-hr.xml",
             "map": [
                 {
-                    "source": "/Users/salma/.gradle/caches/transforms-3/c59ec5d88537e89626aa9c5e080aa9cd/transformed/appcompat-1.4.1/res/values-hr/values-hr.xml",
+                    "source": "/Users/user/.gradle/caches/transforms-3/c59ec5d88537e89626aa9c5e080aa9cd/transformed/appcompat-1.4.1/res/values-hr/values-hr.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/salma/.gradle/caches/transforms-3/59ea666f82a20e46c4ff6ecc6d4479f8/transformed/biometric-1.0.1/res/values-hr/values-hr.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,181,292,387,507,639,767,896,1027,1161,1261",
-                        "endColumns": "125,110,94,119,131,127,128,130,133,99,122",
-                        "endOffsets": "176,287,382,502,634,762,891,1022,1156,1256,1379"
-                    },
-                    "to": {
-                        "startLines": "29,48,49,50,51,52,53,54,55,56,57",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2816,5129,5240,5335,5455,5587,5715,5844,5975,6109,6209",
-                        "endColumns": "125,110,94,119,131,127,128,130,133,99,122",
-                        "endOffsets": "2937,5235,5330,5450,5582,5710,5839,5970,6104,6204,6327"
-                    }
-                },
-                {
-                    "source": "/Users/salma/.gradle/caches/transforms-3/521869be77a45b75d87249b96acb0eed/transformed/jetified-play-services-base-18.1.0/res/values-hr/values.xml",
+                    "source": "/Users/user/.gradle/caches/transforms-3/521869be77a45b75d87249b96acb0eed/transformed/jetified-play-services-base-18.1.0/res/values-hr/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -55,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/Users/salma/.gradle/caches/transforms-3/8e8d99f37da2826051a2f1ee7e0348d5/transformed/jetified-play-services-basement-18.1.0/res/values-hr/values.xml",
+                    "source": "/Users/user/.gradle/caches/transforms-3/8e8d99f37da2826051a2f1ee7e0348d5/transformed/jetified-play-services-basement-18.1.0/res/values-hr/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -72,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "/Users/salma/.gradle/caches/transforms-3/abf1803a533384ef204da4808afd595f/transformed/core-1.7.0/res/values-hr/values-hr.xml",
+                    "source": "/Users/user/.gradle/caches/transforms-3/abf1803a533384ef204da4808afd595f/transformed/core-1.7.0/res/values-hr/values-hr.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -86,6 +69,23 @@
                         "startOffsets": "6417",
                         "endColumns": "100",
                         "endOffsets": "6513"
+                    }
+                },
+                {
+                    "source": "/Users/user/.gradle/caches/transforms-3/59ea666f82a20e46c4ff6ecc6d4479f8/transformed/biometric-1.0.1/res/values-hr/values-hr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,181,292,387,507,639,767,896,1027,1161,1261",
+                        "endColumns": "125,110,94,119,131,127,128,130,133,99,122",
+                        "endOffsets": "176,287,382,502,634,762,891,1022,1156,1256,1379"
+                    },
+                    "to": {
+                        "startLines": "29,48,49,50,51,52,53,54,55,56,57",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2816,5129,5240,5335,5455,5587,5715,5844,5975,6109,6209",
+                        "endColumns": "125,110,94,119,131,127,128,130,133,99,122",
+                        "endOffsets": "2937,5235,5330,5450,5582,5710,5839,5970,6104,6204,6327"
                     }
                 }
             ]
