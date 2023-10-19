@@ -6,23 +6,22 @@ import {
   Image,
   Platform,
   Pressable,
-  SafeAreaView,
-  KeyboardAvoidingView
 } from 'react-native';
 import { useMutation, useQuery } from '@apollo/client';
 import { useNavigation, useRoute } from '@react-navigation/native';
-import { Actions, Bubble, GiftedChat, Send } from 'react-native-gifted-chat'
-const { ReactNativeFile } = require("apollo-upload-client");
+import { Bubble, GiftedChat, Send } from 'react-native-gifted-chat'
 
 import { COLORS, icons } from '../../../constants';
 import MainHeader from '../../comp/MainHeader';
 import { ChatByOrderId, SendMessageById } from './services/services';
 import i18next from 'i18next';
-import { launchCamera, launchImageLibrary } from 'react-native-image-picker';
-import { me } from '../Account/services/services';
-import { Upload } from '../SignUp/services/Services';
-import { ImageURL, socket } from '../../../constants/constVariable';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { socket } from '../../../constants/constVariable';
+import { launchCamera, launchImageLibrary } from 'react-native-image-picker';
+import { ImageURL } from '../../../constants/constVariable';
+import { Upload } from '../SignUp/services/Services';
+import { me } from '../Account/services/services';
+const { ReactNativeFile } = require("apollo-upload-client");
 
 
 const options = {
@@ -35,57 +34,52 @@ function ChatScreen() {
   const route = useRoute()
   const [messages, setMessages] = useState([]);
   const [order_id, setorder_id] = useState(route?.params?.type == 'OrderDetails' ? JSON?.parse(route?.params.item?.id) :
-  route?.params.order?.order?.id?
-  JSON?.parse(route?.params.order?.order?.id):0);
+    route?.params.order?.order?.id ?
+      JSON?.parse(route?.params.order?.order?.id) : 0);
   const [page, setPage] = useState(0);
   var regex = /(?:https?):\/\/(\w+:?\w*)?(\S+)(:\d+)?(\/|\/([\w#!:.?+=&%!\-\/]))?/;
 
   console.log({ route })
   // ..........................quary......................................
   const { data: userdata, loading: userloading, error: userError, refetch: userRefresh } = useQuery(me); //execute query
-  const { data, loading, error, refetch } = useQuery(ChatByOrderId, {
+  const { data:messageData, loading,error ,refetch:refetchgetmsg} = useQuery(ChatByOrderId, {
     fetchPolicy: "cache-and-network",
     nextFetchPolicy: "cache-first",
     variables: { order_id, page },
   }); //execute query
-  console.log({ data })
-  console.log({ loading })
-  console.log({ error })
-  console.log('userdata?.me?.id-->', userdata?.me?.id)
 
   const [SendMessageByIdRequest,
     { data: SendMessageByIdData,
       error: SendMessageByIdError }] = useMutation(SendMessageById,{
         refetchQueries:[{query:ChatByOrderId}]
       });
-  console.log(SendMessageByIdData)
+
   console.log(SendMessageByIdError)
-  const [uploadRequest, { data:uploadRequestData, loading:uploadRequestLoading, error:uploadRequestError }] = useMutation(Upload);
+  console.log(messageData)
+
+  const [uploadRequest] = useMutation(Upload);
 
   // ................................................................
-
+  useEffect(() => {
+     connectTOSocket()
+  }, [])
   useEffect(() => {
     loading == false ?
-      setMessages(Array.isArray(data?.chatByOrderId) ? data?.chatByOrderId : [])
+      setMessages(Array.isArray(messageData?.chatByOrderId) ? messageData?.chatByOrderId : [])
       : null
   }, [loading])
   useEffect(() => {
+    console.log("new fetch.....")
     getAllMessage()
-  }, [loading])
-  useEffect(()=>{
-      connectTOSocket()
-    },[])
+  },[loading])
   const getAllMessage = () => {
-    console.log({ messages })
-    // connectTOSocket()
-    console.log("data?.chatByOrderId?.data", data?.chatByOrderId, data?.chatByOrderId?.length)
-    if (data?.chatByOrderId?.length > 0) {
-      let allMSG = data?.chatByOrderId
+    console.log("data?.chatByOrderId?.data", messageData?.chatByOrderId, messageData?.chatByOrderId?.length)
+    if (messageData?.chatByOrderId?.length > 0) {
+      let allMSG = messageData?.chatByOrderId
       console.log({ allMSG })
       // .sort(
       //   (a, b) => b.created_at - a.created_at,
       // )
-      console.log()
       let msg = allMSG?.map(doc => ({
         _id: JSON.parse(doc?.id),
         createdAt: doc.created_at,
@@ -103,11 +97,13 @@ function ChatScreen() {
       setMessages(msg)
     }
   }
+
   // ---------------------end socket---------------------\\
-  const connectTOSocket = async () => {
+   // ---------------------end socket---------------------\\
+   const connectTOSocket = async () => {
     console.log('socket.....', socket)
     AsyncStorage.getItem('token').then(token => {
-      console.log({ token })
+      console.log("tooooooooken",token)
       if (socket.connected == true) {
         console.log("null")
         listentoMessage()
@@ -131,42 +127,90 @@ function ChatScreen() {
       }
     })
   }
-  const listentoMessage = async () => {
-    await socket.on("NewMessage", (arg) => {
+  const callbackMsg=(arg) => {
       console.log({ arg })
-    })
+      refetchgetmsg().then(res=>{
+        console.log("refreshres..>",res)
+        let allMSG = res?.data?.chatByOrderId
+        console.log({ allMSG })
+        // .sort(
+        //   (a, b) => b.created_at - a.created_at,
+        // )
+        let msg = allMSG?.map(doc => ({
+          _id: JSON.parse(doc?.id),
+          createdAt: doc.created_at,
+          text:regex.test(doc.message)?'': doc.message,
+          image:regex.test(doc?.message)?doc?.message:'',
+          audio: doc?.voice,
+          received: doc?.seen,
+          user: {
+            _id: JSON.parse(doc.user?.id),
+            name: doc.user?.name,
+            avatar: doc.user?.imagePath
+          },
+        }))
+        console.log({ msg })
+        setMessages(msg)
+      })      // let allMSG=messages.concat([arg])
+      console.log("recieve",messageData)
+      console.log("recieve",messages)
+    }
+  const listentoMessage = async () => {
+    await socket.on("NewMessage", callbackMsg)
   }
+  // ---------------------end socket---------------------\\
   // ---------------------end socket---------------------\\
 
   // ...............................................
   const onSend = useCallback((messages = []) => {
     console.log({ messages })
     // messages[0].image = messagesImage
-    console.log("messages",messages)
-    refetch()
     // setMessages(previousMessages => GiftedChat.append(previousMessages, messages))
     sendMsg(messages)
   }, [])
   const sendMsg = (messages) => {
-    console.log("sendMsg....>",messages)
+    // console.log("sendMsg....>", messages)
     let obj = {
       order_id: JSON.parse(order_id),
-      message:Array.isArray(messages)?messages[0]?.text? messages[0]?.text:messages[0]?.image: messages?.text? messages?.text:messages?.image,
+      message:messages?.length>0? messages[0]?.text ? messages[0]?.text : messages[0]?.image:messages?.text ? messages?.text : messages?.image,
       // imagePath: messages?.image,
       // voice: messages?.audio?messages?.audio:'',
       // seen: messages?.received?messages?.received:true,
     }
-    console.log({ obj })
+    // console.log({ obj })
     SendMessageByIdRequest({
       variables: {
         input: obj
       },
     }).then(result => {
       console.log({ result })
-      refetch()
-      console.log('getchat--->', data)
-      console.log('getchat--->', loading)
+      refetchgetmsg().then(res=>{
+        console.log("refreshres..>",res)
+        let allMSG = res?.data?.chatByOrderId
+        console.log({ allMSG })
+        // .sort(
+        //   (a, b) => b.created_at - a.created_at,
+        // )
+        let msg = allMSG?.map(doc => ({
+          _id: JSON.parse(doc?.id),
+          createdAt: doc.created_at,
+          text:regex.test(doc.message)?'': doc.message,
+          image:regex.test(doc?.message)?doc?.message:'',
+          audio: doc?.voice,
+          received: doc?.seen,
+          user: {
+            _id: JSON.parse(doc.user?.id),
+            name: doc.user?.name,
+            avatar: doc.user?.imagePath
+          },
+        }))
+        console.log({ msg })
+        setMessages(msg)
+      })
+      console.log('loading--->', loading)
+      console.log('getchat--->', messageData)
       // getAllMessage()
+      // setMessages(previousMessages => GiftedChat.append(previousMessages, messages))
 
     }).catch(e => {
       console.log({ e })
@@ -188,12 +232,13 @@ function ChatScreen() {
         }} >
           <Image
             style={{
-              width: 20,
-              height: 20,
+              width: 24,
+              height: 24,
               alignSelf: 'center',
-              resizeMode: 'center'
+              resizeMode: 'contain'
+
             }}
-            source={icons?.send}  />
+            source={icons?.send} resizeMode={'center'} />
         </View>
 
       </Send>
@@ -216,7 +261,9 @@ function ChatScreen() {
             handleImageSelection()
           }}
           style={{ marginHorizontal: 20 }}>
-          <Image source={icons?.attach} style={{ height: 30, width: 30, resizeMode: 'contain' }} />
+          <Image 
+          source={icons?.attach} 
+          style={{ height: 30, width: 30, resizeMode: 'contain' }} />
         </Pressable>
       </View>
     );
@@ -263,41 +310,42 @@ function ChatScreen() {
   };
   const UploadImageFunction = async (photores) => {
     try {
-        // if (photores?.type == 'success') {
-          const file = new ReactNativeFile({
-            uri: photores.uri,
-            name: photores.fileName,
-            type: photores.type,
-          });
-          console.log({ file });
-          uploadRequest({
-            variables: {
-              file
-            },
-          }).then(result => {
-            console.log({ result });
+      // if (photores?.type == 'success') {
+      const file = new ReactNativeFile({
+        uri: photores.uri,
+        name: photores.fileName,
+        type: photores.type,
+      });
+      console.log({ file });
+      uploadRequest({
+        variables: {
+          file
+        },
+      }).then(result => {
+        console.log({ result });
 
-            onSend({
-              _id: Math.round(Math.random() * 1000000),
-              image: `${ImageURL}${result?.data.upload}`,
-              user: {
-                _id: JSON?.parse(userdata?.me?.id),
-                avatar: 'https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png'
-                , // ID of the sender
-              },
-            })
-            // resolve(result?.data.upload);
-          });
+        onSend({
+          _id: Math.round(Math.random() * 1000000),
+          image: `${ImageURL}${result?.data.upload}`,
+          user: {
+            _id: JSON?.parse(userdata?.me?.id),
+            avatar: 'https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png'
+            , // ID of the sender
+          },
+        })
+        // resolve(result?.data.upload);
+      });
 
-        // } else {
-         
-        // }
-      
+      // } else {
+
+      // }
+
     } catch (err) {
       console.log({ err });
     }
   }
-  const handleImagecapeture = () => {
+  const handleImagecapeture =async () => {
+
     launchCamera(options, (response) => {
       console.log({ response })
       if (response?.assets) {
@@ -322,18 +370,18 @@ function ChatScreen() {
         leftIcon={i18next.language == 'ar' ? icons?.LArrow : icons?.RArrow}
         stringURL={true}
         delivery={route?.params?.type == 'OrderDetails' ?
-          route?.params.item?.delegate?.imagePath :
-          route?.params?.delegateData?.imagePath}
+          route?.params.item?.imagePath :
+          route?.params?.order?.order?.imagePath}
         secondimg={{
           borderRadius: 26.5,
           backgroundColor: COLORS?.gray1,
         }}
         title={route?.params?.type == 'OrderDetails' ?
-          route?.params.item?.delegate?.name :
-          route?.params?.delegateData?.name}
+          route?.params.item?.name :
+          route?.params?.order?.order?.name}
         subtitle={route?.params?.type == 'OrderDetails' ?
-          route?.params.item?.delegate?.mobile :
-          route?.params?.delegateData?.mobile}
+          route?.params.item?.mobile :
+          route?.params?.order?.order?.mobile}
         leftIconAction={() => {
           navigation?.goBack()
         }}
@@ -343,7 +391,7 @@ function ChatScreen() {
       />
       <GiftedChat
         messages={messages}
-        onSend={messages => onSend(messages)}
+        onSend={msg => onSend(msg)}
         user={{
           _id: JSON?.parse(userdata?.me?.id),
           avatar: 'https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png'
@@ -366,7 +414,6 @@ function ChatScreen() {
 
   );
 }
-
 
 const styles = StyleSheet.create({
 

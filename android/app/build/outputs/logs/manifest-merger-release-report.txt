@@ -1,31 +1,32 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:1:1-72:12
-INJECTED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:1:1-72:12
-INJECTED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:1:1-72:12
-INJECTED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:1:1-72:12
-MERGED from [:react-native-async-storage_async-storage] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-clipboard_clipboard] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-clipboard/clipboard/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-community_datetimepicker] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-45:12
-MERGED from [:react-native-firebase_app] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-32:12
-MERGED from [:appcenter] /Users/salma/Desktop/maktyDriver/node_modules/appcenter/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:appcenter-analytics] /Users/salma/Desktop/maktyDriver/node_modules/appcenter-analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:appcenter-crashes] /Users/salma/Desktop/maktyDriver/node_modules/appcenter-crashes/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-background-timer] /Users/salma/Desktop/maktyDriver/node_modules/react-native-background-timer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-gesture-handler] /Users/salma/Desktop/maktyDriver/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-get-location] /Users/salma/Desktop/maktyDriver/node_modules/react-native-get-location/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-image-picker] /Users/salma/Desktop/maktyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-21:12
-MERGED from [:react-native-localize] /Users/salma/Desktop/maktyDriver/node_modules/react-native-localize/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-maps] /Users/salma/Desktop/maktyDriver/node_modules/react-native-maps/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-push-notification] /Users/salma/Desktop/maktyDriver/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-reanimated] /Users/salma/Desktop/maktyDriver/node_modules/react-native-reanimated/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-restart] /Users/salma/Desktop/maktyDriver/node_modules/react-native-restart/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-safe-area-context] /Users/salma/Desktop/maktyDriver/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-screens] /Users/salma/Desktop/maktyDriver/node_modules/react-native-screens/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-sensitive-info] /Users/salma/Desktop/maktyDriver/node_modules/react-native-sensitive-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-12:12
-MERGED from [:react-native-share] /Users/salma/Desktop/maktyDriver/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-21:12
-MERGED from [:react-native-spinkit] /Users/salma/Desktop/maktyDriver/node_modules/react-native-spinkit/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:1:1-72:12
+INJECTED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:1:1-72:12
+INJECTED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:1:1-72:12
+INJECTED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:1:1-72:12
+MERGED from [:react-native-async-storage_async-storage] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-clipboard_clipboard] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-clipboard/clipboard/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_datetimepicker] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-45:12
+MERGED from [:react-native-firebase_app] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-32:12
+MERGED from [:appcenter] /Users/salma/Desktop/apps/maktyDriver/node_modules/appcenter/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:appcenter-analytics] /Users/salma/Desktop/apps/maktyDriver/node_modules/appcenter-analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:appcenter-crashes] /Users/salma/Desktop/apps/maktyDriver/node_modules/appcenter-crashes/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-background-timer] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-background-timer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-device-info] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-gesture-handler] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-get-location] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-get-location/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-image-picker] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-21:12
+MERGED from [:react-native-localize] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-localize/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-maps] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-maps/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-push-notification] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-reanimated] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-reanimated/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-restart] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-restart/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-safe-area-context] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-screens/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-sensitive-info] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-sensitive-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-share] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-21:12
+MERGED from [:react-native-spinkit] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-spinkit/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.react:react-android:0.71.3] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/ad6c244fe4dc904789b30f239965fc74/transformed/jetified-react-android-0.71.3-release/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/a938b43b982b16234a34bfce95d610ce/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.react:hermes-android:0.71.3] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/d33ed3427b972d2128f092b28534b241/transformed/jetified-hermes-android-0.71.3-release/AndroidManifest.xml:2:1-9:12
@@ -35,6 +36,7 @@ MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/salma/Desktop/apps/makfy
 MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/d8b2806e24031b414a6eb369d30f82e3/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.autofill:autofill:1.1.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/11a712cf0a2fcfbcef9a28246ed5f47c/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-auth:20.3.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/fb77b4d4f27866e46ae18a60d5ec77d7/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/f03aa05171071072244adda293149b87/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:17:1-28:12
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/a63a6939ae771a868709c5ead8e31ea4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:17:1-44:12
 MERGED from [com.google.android.gms:play-services-location:20.0.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/22d91376d99c2186c5b698120882ad92/transformed/jetified-play-services-location-20.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-messaging:23.1.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:17:1-61:12
@@ -116,33 +118,36 @@ MERGED from [com.microsoft.appcenter.reactnative:appcenter-react-native:4.4.5] /
 MERGED from [com.microsoft.appcenter:appcenter-analytics:4.4.5] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/1cc57278e495204e8a69aeeeda257641/transformed/jetified-appcenter-analytics-4.4.5/AndroidManifest.xml:6:1-13:12
 MERGED from [com.microsoft.appcenter:appcenter-crashes:4.4.5] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/d69c62630d5efbffd41f504fafc9714f/transformed/jetified-appcenter-crashes-4.4.5/AndroidManifest.xml:6:1-13:12
 MERGED from [com.microsoft.appcenter:appcenter:4.4.5] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/87915ab50f1715a97718ae07a8fe7944/transformed/jetified-appcenter-4.4.5/AndroidManifest.xml:6:1-16:12
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/cf438a7c137131fed8091733762fe862/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.maps.android:android-maps-utils:3.4.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/6e600afbb6e77338d5c9da9d7d94274f/transformed/jetified-android-maps-utils-3.4.0/AndroidManifest.xml:2:1-15:12
 MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:2:1-52:12
 MERGED from [com.jakewharton:process-phoenix:2.1.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/4ce8019af485171220ccb2a8487ab51d/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:2:1-15:12
 MERGED from [com.github.ybq:Android-SpinKit:1.4.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/886cc932b9f494696f77468eb906a1ff/transformed/jetified-Android-SpinKit-1.4.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.fresco:fbcore:2.5.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/377b761a49e271eead5196bee0b4a0bb/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/3a6af42c0bdccb6b8d8c8ff2bd606e05/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:1:1-72:12
-INJECTED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:1:1-72:12
-INJECTED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:1:1-72:12
+INJECTED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:1:1-72:12
+INJECTED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:1:1-72:12
+INJECTED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:1:1-72:12
 	package
-		INJECTED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:1:1-72:12
-		INJECTED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:1:1-72:12
+		INJECTED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:1:1-72:12
-		INJECTED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:1:1-72:12
+		INJECTED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:1:1-72:12
-		INJECTED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:1:1-72:12
+		INJECTED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:3:5-67
-MERGED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:3:5-67
+MERGED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/f03aa05171071072244adda293149b87/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/f03aa05171071072244adda293149b87/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/a63a6939ae771a868709c5ead8e31ea4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/a63a6939ae771a868709c5ead8e31ea4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:24:5-67
 MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/a30fe9344a993c5245e4f5f1cf5cb442/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:10:5-67
@@ -154,39 +159,39 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.8] /User
 MERGED from [com.microsoft.appcenter:appcenter:4.4.5] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/87915ab50f1715a97718ae07a8fe7944/transformed/jetified-appcenter-4.4.5/AndroidManifest.xml:13:5-67
 MERGED from [com.microsoft.appcenter:appcenter:4.4.5] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/87915ab50f1715a97718ae07a8fe7944/transformed/jetified-appcenter-4.4.5/AndroidManifest.xml:13:5-67
 	android:name
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:3:22-64
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:3:22-64
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:5:5-78
+ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:5:5-78
 	android:name
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:5:22-76
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:5:22-76
 uses-permission#android.permission.VIBRATE
-ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:6:5-66
+ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:6:5-66
 	android:name
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:6:22-63
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:6:22-63
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:7:5-80
+ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:7:5-80
 MERGED from [androidx.work:work-runtime:2.7.1] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:5-81
 MERGED from [androidx.work:work-runtime:2.7.1] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:5-81
 	android:name
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:7:22-78
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:7:22-78
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:11:5-80
-MERGED from [:react-native-get-location] /Users/salma/Desktop/maktyDriver/node_modules/react-native-get-location/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
-MERGED from [:react-native-get-location] /Users/salma/Desktop/maktyDriver/node_modules/react-native-get-location/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:11:5-80
+MERGED from [:react-native-get-location] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-get-location/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+MERGED from [:react-native-get-location] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-get-location/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
 	android:name
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:11:22-78
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:11:22-78
 application
-ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:12:5-71:19
-MERGED from [:react-native-community_datetimepicker] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-20
-MERGED from [:react-native-community_datetimepicker] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-20
-MERGED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-43:19
-MERGED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-43:19
-MERGED from [:react-native-firebase_app] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-30:19
-MERGED from [:react-native-firebase_app] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-30:19
-MERGED from [:react-native-image-picker] /Users/salma/Desktop/maktyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-19:19
-MERGED from [:react-native-image-picker] /Users/salma/Desktop/maktyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-19:19
-MERGED from [:react-native-share] /Users/salma/Desktop/maktyDriver/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-19:19
-MERGED from [:react-native-share] /Users/salma/Desktop/maktyDriver/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-19:19
+ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:12:5-71:19
+MERGED from [:react-native-community_datetimepicker] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-20
+MERGED from [:react-native-community_datetimepicker] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-20
+MERGED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-43:19
+MERGED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-43:19
+MERGED from [:react-native-firebase_app] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-30:19
+MERGED from [:react-native-firebase_app] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-30:19
+MERGED from [:react-native-image-picker] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-image-picker] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-share] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-share] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-19:19
 MERGED from [com.facebook.react:react-android:0.71.3] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/ad6c244fe4dc904789b30f239965fc74/transformed/jetified-react-android-0.71.3-release/AndroidManifest.xml:9:5-20
 MERGED from [com.facebook.react:react-android:0.71.3] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/ad6c244fe4dc904789b30f239965fc74/transformed/jetified-react-android-0.71.3-release/AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.1.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/f7b1e70dce7522cca5e01ed1375f7be0/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
@@ -195,6 +200,8 @@ MERGED from [androidx.biometric:biometric:1.0.1] /Users/salma/Desktop/apps/makfy
 MERGED from [androidx.biometric:biometric:1.0.1] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/59ea666f82a20e46c4ff6ecc6d4479f8/transformed/biometric-1.0.1/AndroidManifest.xml:27:5-32:19
 MERGED from [com.google.android.gms:play-services-auth:20.3.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/fb77b4d4f27866e46ae18a60d5ec77d7/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-auth:20.3.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/fb77b4d4f27866e46ae18a60d5ec77d7/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/f03aa05171071072244adda293149b87/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/f03aa05171071072244adda293149b87/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:26:5-20
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/a63a6939ae771a868709c5ead8e31ea4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:36:5-42:19
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/a63a6939ae771a868709c5ead8e31ea4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:36:5-42:19
 MERGED from [com.google.android.gms:play-services-location:20.0.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/22d91376d99c2186c5b698120882ad92/transformed/jetified-play-services-location-20.0.0/AndroidManifest.xml:7:5-20
@@ -239,6 +246,8 @@ MERGED from [androidx.room:room-runtime:2.2.5] /Users/salma/Desktop/apps/makfyDr
 MERGED from [androidx.room:room-runtime:2.2.5] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/72470af2331c78edb2d99d97d8f5edd5/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/c958e6971278d3199468fa2ae9c3a930/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/c958e6971278d3199468fa2ae9c3a930/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/cf438a7c137131fed8091733762fe862/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/cf438a7c137131fed8091733762fe862/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:11:5-20
 MERGED from [com.google.maps.android:android-maps-utils:3.4.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/6e600afbb6e77338d5c9da9d7d94274f/transformed/jetified-android-maps-utils-3.4.0/AndroidManifest.xml:9:5-13:19
 MERGED from [com.google.maps.android:android-maps-utils:3.4.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/6e600afbb6e77338d5c9da9d7d94274f/transformed/jetified-android-maps-utils-3.4.0/AndroidManifest.xml:9:5-13:19
 MERGED from [com.jakewharton:process-phoenix:2.1.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/4ce8019af485171220ccb2a8487ab51d/transformed/jetified-process-phoenix-2.1.2/AndroidManifest.xml:7:5-13:19
@@ -246,145 +255,147 @@ MERGED from [com.jakewharton:process-phoenix:2.1.2] /Users/salma/Desktop/apps/ma
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.7.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/abf1803a533384ef204da4808afd595f/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:14:7-39
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:14:7-39
 	android:roundIcon
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:16:7-52
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:16:7-52
 	android:icon
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:15:7-41
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:15:7-41
 	android:allowBackup
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:17:7-34
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:17:7-34
 	android:theme
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:18:7-38
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:18:7-38
 	android:name
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:13:7-38
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:13:7-38
 activity#com.makfydriver.MainActivity
-ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:20:7-32:18
+ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:20:7-32:18
 	android:screenOrientation
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:26:9-45
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:26:9-45
 	android:label
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:22:9-41
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:22:9-41
 	android:launchMode
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:24:9-40
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:24:9-40
 	android:exported
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:25:9-32
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:25:9-32
 	android:configChanges
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:23:9-118
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:23:9-118
 	android:name
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:21:9-37
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:21:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:28:9-31:25
+ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:28:9-31:25
 action#android.intent.action.MAIN
-ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:29:13-65
+ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:29:13-65
 	android:name
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:29:21-62
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:29:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:30:13-73
+ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:30:13-73
 	android:name
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:30:23-70
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:30:23-70
 meta-data#com.google.android.geo.API_KEY
-ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:35:7-37:66
+ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:35:7-37:66
 	android:value
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:37:9-64
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:37:9-64
 	android:name
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:36:9-54
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:36:9-54
 meta-data#com.dieam.reactnativepushnotification.notification_foreground
-ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:41:9-42:43
+ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:41:9-42:43
 	android:value
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:42:21-41
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:42:21-41
 	android:name
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:41:21-97
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:41:21-97
 receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationActions
-ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:47:9-49:99
+ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:47:9-49:99
 	android:exported
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:48:9-33
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:48:9-33
 	android:name
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:49:10-96
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:49:10-96
 receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher
-ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:50:9-52:100
+ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:50:9-52:100
 	android:exported
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:51:9-33
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:51:9-33
 	android:name
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:52:9-97
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:52:9-97
 receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver
-ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:53:9-61:20
+ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:53:9-61:20
 	android:exported
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:54:9-33
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:54:9-33
 	android:name
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:55:10-106
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:55:10-106
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON
-ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:56:13-60:29
+ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:56:13-60:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:57:17-79
+ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:57:17-79
 	android:name
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:57:25-76
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:57:25-76
 action#android.intent.action.QUICKBOOT_POWERON
-ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:58:17-82
+ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:58:17-82
 	android:name
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:58:25-79
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:58:25-79
 action#com.htc.intent.action.QUICKBOOT_POWERON
-ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:59:17-81
+ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:59:17-81
 	android:name
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:59:25-79
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:59:25-79
 service#com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService
-ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:63:9-69:19
+ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:63:9-69:19
 	android:exported
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:65:13-37
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:65:13-37
 	android:name
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:64:13-107
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:64:13-107
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:66:13-68:29
+ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:66:13-68:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:67:17-78
+ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:67:17-78
 	android:name
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml:67:25-75
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml:67:25-75
 uses-sdk
-INJECTED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml
-MERGED from [:react-native-async-storage_async-storage] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-async-storage_async-storage] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-clipboard_clipboard] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-clipboard/clipboard/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-clipboard_clipboard] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-clipboard/clipboard/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_datetimepicker] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_datetimepicker] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-firebase_app] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-8:41
-MERGED from [:react-native-firebase_app] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-8:41
-MERGED from [:appcenter] /Users/salma/Desktop/maktyDriver/node_modules/appcenter/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:appcenter] /Users/salma/Desktop/maktyDriver/node_modules/appcenter/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:appcenter-analytics] /Users/salma/Desktop/maktyDriver/node_modules/appcenter-analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:appcenter-analytics] /Users/salma/Desktop/maktyDriver/node_modules/appcenter-analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:appcenter-crashes] /Users/salma/Desktop/maktyDriver/node_modules/appcenter-crashes/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:appcenter-crashes] /Users/salma/Desktop/maktyDriver/node_modules/appcenter-crashes/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-background-timer] /Users/salma/Desktop/maktyDriver/node_modules/react-native-background-timer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-background-timer] /Users/salma/Desktop/maktyDriver/node_modules/react-native-background-timer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-gesture-handler] /Users/salma/Desktop/maktyDriver/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-gesture-handler] /Users/salma/Desktop/maktyDriver/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-get-location] /Users/salma/Desktop/maktyDriver/node_modules/react-native-get-location/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-get-location] /Users/salma/Desktop/maktyDriver/node_modules/react-native-get-location/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-image-picker] /Users/salma/Desktop/maktyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-image-picker] /Users/salma/Desktop/maktyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-localize] /Users/salma/Desktop/maktyDriver/node_modules/react-native-localize/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-localize] /Users/salma/Desktop/maktyDriver/node_modules/react-native-localize/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-maps] /Users/salma/Desktop/maktyDriver/node_modules/react-native-maps/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-maps] /Users/salma/Desktop/maktyDriver/node_modules/react-native-maps/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-push-notification] /Users/salma/Desktop/maktyDriver/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-push-notification] /Users/salma/Desktop/maktyDriver/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-reanimated] /Users/salma/Desktop/maktyDriver/node_modules/react-native-reanimated/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-reanimated] /Users/salma/Desktop/maktyDriver/node_modules/react-native-reanimated/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-restart] /Users/salma/Desktop/maktyDriver/node_modules/react-native-restart/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-restart] /Users/salma/Desktop/maktyDriver/node_modules/react-native-restart/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-safe-area-context] /Users/salma/Desktop/maktyDriver/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-safe-area-context] /Users/salma/Desktop/maktyDriver/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-screens] /Users/salma/Desktop/maktyDriver/node_modules/react-native-screens/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-screens] /Users/salma/Desktop/maktyDriver/node_modules/react-native-screens/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-sensitive-info] /Users/salma/Desktop/maktyDriver/node_modules/react-native-sensitive-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-sensitive-info] /Users/salma/Desktop/maktyDriver/node_modules/react-native-sensitive-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-share] /Users/salma/Desktop/maktyDriver/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-share] /Users/salma/Desktop/maktyDriver/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-spinkit] /Users/salma/Desktop/maktyDriver/node_modules/react-native-spinkit/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-spinkit] /Users/salma/Desktop/maktyDriver/node_modules/react-native-spinkit/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-async-storage_async-storage] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-async-storage_async-storage] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-clipboard_clipboard] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-clipboard/clipboard/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-clipboard_clipboard] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-clipboard/clipboard/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_datetimepicker] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_datetimepicker] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-firebase_app] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-8:41
+MERGED from [:react-native-firebase_app] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:6:5-8:41
+MERGED from [:appcenter] /Users/salma/Desktop/apps/maktyDriver/node_modules/appcenter/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:appcenter] /Users/salma/Desktop/apps/maktyDriver/node_modules/appcenter/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:appcenter-analytics] /Users/salma/Desktop/apps/maktyDriver/node_modules/appcenter-analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:appcenter-analytics] /Users/salma/Desktop/apps/maktyDriver/node_modules/appcenter-analytics/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:appcenter-crashes] /Users/salma/Desktop/apps/maktyDriver/node_modules/appcenter-crashes/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:appcenter-crashes] /Users/salma/Desktop/apps/maktyDriver/node_modules/appcenter-crashes/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-background-timer] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-background-timer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-background-timer] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-background-timer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-device-info] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-device-info] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-get-location] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-get-location/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-get-location] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-get-location/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-localize] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-localize/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-localize] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-localize/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-maps] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-maps/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-maps] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-maps/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-push-notification] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-push-notification] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-push-notification/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-reanimated/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-reanimated/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-restart] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-restart/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-restart] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-restart/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-screens/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-screens/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-sensitive-info] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-sensitive-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-sensitive-info] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-sensitive-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-share] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-share] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-spinkit] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-spinkit/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-spinkit] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-spinkit/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-android:0.71.3] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/ad6c244fe4dc904789b30f239965fc74/transformed/jetified-react-android-0.71.3-release/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-android:0.71.3] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/ad6c244fe4dc904789b30f239965fc74/transformed/jetified-react-android-0.71.3-release/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/a938b43b982b16234a34bfce95d610ce/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
@@ -403,6 +414,8 @@ MERGED from [androidx.autofill:autofill:1.1.0] /Users/salma/Desktop/apps/makfyDr
 MERGED from [androidx.autofill:autofill:1.1.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/11a712cf0a2fcfbcef9a28246ed5f47c/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-auth:20.3.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/fb77b4d4f27866e46ae18a60d5ec77d7/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:20.3.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/fb77b4d4f27866e46ae18a60d5ec77d7/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/f03aa05171071072244adda293149b87/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:17.0.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/f03aa05171071072244adda293149b87/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/a63a6939ae771a868709c5ead8e31ea4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/a63a6939ae771a868709c5ead8e31ea4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-location:20.0.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/22d91376d99c2186c5b698120882ad92/transformed/jetified-play-services-location-20.0.0/AndroidManifest.xml:5:5-44
@@ -565,6 +578,8 @@ MERGED from [com.microsoft.appcenter:appcenter-crashes:4.4.5] /Users/salma/Deskt
 MERGED from [com.microsoft.appcenter:appcenter-crashes:4.4.5] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/d69c62630d5efbffd41f504fafc9714f/transformed/jetified-appcenter-crashes-4.4.5/AndroidManifest.xml:9:5-11:41
 MERGED from [com.microsoft.appcenter:appcenter:4.4.5] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/87915ab50f1715a97718ae07a8fe7944/transformed/jetified-appcenter-4.4.5/AndroidManifest.xml:9:5-11:41
 MERGED from [com.microsoft.appcenter:appcenter:4.4.5] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/87915ab50f1715a97718ae07a8fe7944/transformed/jetified-appcenter-4.4.5/AndroidManifest.xml:9:5-11:41
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/cf438a7c137131fed8091733762fe862/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:1.1.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/cf438a7c137131fed8091733762fe862/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.maps.android:android-maps-utils:3.4.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/6e600afbb6e77338d5c9da9d7d94274f/transformed/jetified-android-maps-utils-3.4.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.maps.android:android-maps-utils:3.4.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/6e600afbb6e77338d5c9da9d7d94274f/transformed/jetified-android-maps-utils-3.4.0/AndroidManifest.xml:5:5-7:41
 MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
@@ -577,20 +592,20 @@ MERGED from [com.facebook.fresco:fbcore:2.5.0] /Users/salma/Desktop/apps/makfyDr
 MERGED from [com.facebook.fresco:fbcore:2.5.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/377b761a49e271eead5196bee0b4a0bb/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/3a6af42c0bdccb6b8d8c8ff2bd606e05/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/3a6af42c0bdccb6b8d8c8ff2bd606e05/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/salma/Desktop/maktyDriver/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/salma/Desktop/apps/maktyDriver/android/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
-MERGED from [:react-native-background-timer] /Users/salma/Desktop/maktyDriver/node_modules/react-native-background-timer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-68
-MERGED from [:react-native-background-timer] /Users/salma/Desktop/maktyDriver/node_modules/react-native-background-timer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-68
+ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+MERGED from [:react-native-background-timer] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-background-timer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-68
+MERGED from [:react-native-background-timer] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-background-timer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-68
 MERGED from [com.google.firebase:firebase-messaging:23.1.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:26:5-68
 MERGED from [com.google.firebase:firebase-messaging:23.1.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:26:5-68
 MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/584f8a5af707d6ba7a6633b8280219e5/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:9:5-68
@@ -598,9 +613,9 @@ MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users
 MERGED from [androidx.work:work-runtime:2.7.1] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:5-68
 MERGED from [androidx.work:work-runtime:2.7.1] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/2532bdd7a67f34fe3e217b181ab49654/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:5-68
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-65
+		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-65
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/a63a6939ae771a868709c5ead8e31ea4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
 MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/a63a6939ae771a868709c5ead8e31ea4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-messaging:23.1.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:24:5-79
@@ -618,59 +633,59 @@ MERGED from [com.google.android.datatransport:transport-runtime:3.1.8] /Users/sa
 MERGED from [com.microsoft.appcenter:appcenter:4.4.5] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/87915ab50f1715a97718ae07a8fe7944/transformed/jetified-appcenter-4.4.5/AndroidManifest.xml:14:5-79
 MERGED from [com.microsoft.appcenter:appcenter:4.4.5] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/87915ab50f1715a97718ae07a8fe7944/transformed/jetified-appcenter-4.4.5/AndroidManifest.xml:14:5-79
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-76
+		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-76
 service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService
-ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-16:40
+ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-16:40
 	android:exported
-		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
+		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-103
+		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-103
 service#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService
-ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-23:19
+ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-23:19
 	android:exported
-		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
+		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-95
+		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-95
 receiver#io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver
-ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-32:20
+ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-32:20
 	android:exported
-		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-36
+		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-36
 	android:permission
-		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-73
+		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-73
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-96
+		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-96
 intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
-ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-31:29
+ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-31:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:17-81
+ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:17-81
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:25-78
+		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:25-78
 meta-data#firebase_messaging_auto_init_enabled
-ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-36:36
+ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-36:36
 	android:value
-		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-33
+		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-33
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-64
+		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-64
 meta-data#com.google.firebase.messaging.default_notification_channel_id
-ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:37:9-39:32
+ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:37:9-39:32
 	android:value
-		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:39:13-29
+		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:39:13-29
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-89
+		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-89
 meta-data#com.google.firebase.messaging.default_notification_color
-ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-42:47
+ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-42:47
 	android:resource
-		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-44
+		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-44
 	android:name
-		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-84
+		ADDED from [:react-native-firebase_messaging] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-84
 meta-data#app_data_collection_default_enabled
-ADDED from [:react-native-firebase_app] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-13:36
+ADDED from [:react-native-firebase_app] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-13:36
 	android:value
-		ADDED from [:react-native-firebase_app] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-33
+		ADDED from [:react-native-firebase_app] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-33
 	android:name
-		ADDED from [:react-native-firebase_app] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-63
+		ADDED from [:react-native-firebase_app] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-63
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:react-native-firebase_app] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-23:19
+ADDED from [:react-native-firebase_app] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-23:19
 MERGED from [com.google.firebase:firebase-messaging:23.1.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:52:9-58:19
 MERGED from [com.google.firebase:firebase-messaging:23.1.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:52:9-58:19
 MERGED from [com.google.firebase:firebase-datatransport:18.1.7] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/43aae56e5015486a7008762443a38598/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:24:9-30:19
@@ -680,67 +695,67 @@ MERGED from [com.google.firebase:firebase-installations:17.1.3] /Users/salma/Des
 MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/e4c4977317779bcd4479b304da83d3d1/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:32:9-36:35
 MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/e4c4977317779bcd4479b304da83d3d1/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:32:9-36:35
 	android:exported
-		ADDED from [:react-native-firebase_app] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+		ADDED from [:react-native-firebase_app] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
 	tools:targetApi
-		ADDED from [:react-native-firebase_app] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-32
+		ADDED from [:react-native-firebase_app] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-32
 	android:directBootAware
-		ADDED from [:react-native-firebase_app] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-43
+		ADDED from [:react-native-firebase_app] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-43
 	android:name
-		ADDED from [:react-native-firebase_app] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-84
+		ADDED from [:react-native-firebase_app] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-84
 meta-data#com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar
-ADDED from [:react-native-firebase_app] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-22:85
+ADDED from [:react-native-firebase_app] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-22:85
 	android:value
-		ADDED from [:react-native-firebase_app] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-82
+		ADDED from [:react-native-firebase_app] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-82
 	android:name
-		ADDED from [:react-native-firebase_app] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:17-120
+		ADDED from [:react-native-firebase_app] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:17-120
 provider#io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider
-ADDED from [:react-native-firebase_app] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-29:38
+ADDED from [:react-native-firebase_app] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:9-29:38
 	android:authorities
-		ADDED from [:react-native-firebase_app] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-86
+		ADDED from [:react-native-firebase_app] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-86
 	android:exported
-		ADDED from [:react-native-firebase_app] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-37
+		ADDED from [:react-native-firebase_app] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-37
 	android:initOrder
-		ADDED from [:react-native-firebase_app] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-35
+		ADDED from [:react-native-firebase_app] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-35
 	android:name
-		ADDED from [:react-native-firebase_app] /Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-88
+		ADDED from [:react-native-firebase_app] /Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-88
 provider#com.imagepicker.ImagePickerProvider
-ADDED from [:react-native-image-picker] /Users/salma/Desktop/maktyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+ADDED from [:react-native-image-picker] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
 	android:grantUriPermissions
-		ADDED from [:react-native-image-picker] /Users/salma/Desktop/maktyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+		ADDED from [:react-native-image-picker] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
 	android:authorities
-		ADDED from [:react-native-image-picker] /Users/salma/Desktop/maktyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-71
+		ADDED from [:react-native-image-picker] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-71
 	android:exported
-		ADDED from [:react-native-image-picker] /Users/salma/Desktop/maktyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+		ADDED from [:react-native-image-picker] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
 	android:name
-		ADDED from [:react-native-image-picker] /Users/salma/Desktop/maktyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-63
+		ADDED from [:react-native-image-picker] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-63
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:react-native-image-picker] /Users/salma/Desktop/maktyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:70
+ADDED from [:react-native-image-picker] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:70
 	android:resource
-		ADDED from [:react-native-image-picker] /Users/salma/Desktop/maktyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-67
+		ADDED from [:react-native-image-picker] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-67
 	android:name
-		ADDED from [:react-native-image-picker] /Users/salma/Desktop/maktyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+		ADDED from [:react-native-image-picker] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
 uses-permission#android.permission.USE_BIOMETRIC
-ADDED from [:react-native-sensitive-info] /Users/salma/Desktop/maktyDriver/node_modules/react-native-sensitive-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-72
+ADDED from [:react-native-sensitive-info] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-sensitive-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-72
 MERGED from [androidx.biometric:biometric:1.0.1] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/59ea666f82a20e46c4ff6ecc6d4479f8/transformed/biometric-1.0.1/AndroidManifest.xml:24:5-72
 MERGED from [androidx.biometric:biometric:1.0.1] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/59ea666f82a20e46c4ff6ecc6d4479f8/transformed/biometric-1.0.1/AndroidManifest.xml:24:5-72
 	android:name
-		ADDED from [:react-native-sensitive-info] /Users/salma/Desktop/maktyDriver/node_modules/react-native-sensitive-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-69
+		ADDED from [:react-native-sensitive-info] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-sensitive-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-69
 uses-permission#android.permission.USE_FINGERPRINT
-ADDED from [:react-native-sensitive-info] /Users/salma/Desktop/maktyDriver/node_modules/react-native-sensitive-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-74
+ADDED from [:react-native-sensitive-info] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-sensitive-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-74
 MERGED from [androidx.biometric:biometric:1.0.1] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/59ea666f82a20e46c4ff6ecc6d4479f8/transformed/biometric-1.0.1/AndroidManifest.xml:25:5-74
 MERGED from [androidx.biometric:biometric:1.0.1] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/59ea666f82a20e46c4ff6ecc6d4479f8/transformed/biometric-1.0.1/AndroidManifest.xml:25:5-74
 	android:name
-		ADDED from [:react-native-sensitive-info] /Users/salma/Desktop/maktyDriver/node_modules/react-native-sensitive-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-71
+		ADDED from [:react-native-sensitive-info] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-sensitive-info/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-71
 provider#cl.json.RNShareFileProvider
-ADDED from [:react-native-share] /Users/salma/Desktop/maktyDriver/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+ADDED from [:react-native-share] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
 	android:grantUriPermissions
-		ADDED from [:react-native-share] /Users/salma/Desktop/maktyDriver/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+		ADDED from [:react-native-share] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
 	android:authorities
-		ADDED from [:react-native-share] /Users/salma/Desktop/maktyDriver/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-72
+		ADDED from [:react-native-share] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-72
 	android:exported
-		ADDED from [:react-native-share] /Users/salma/Desktop/maktyDriver/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+		ADDED from [:react-native-share] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
 	android:name
-		ADDED from [:react-native-share] /Users/salma/Desktop/maktyDriver/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-55
+		ADDED from [:react-native-share] /Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-55
 activity#androidx.biometric.DeviceCredentialHandlerActivity
 ADDED from [androidx.biometric:biometric:1.0.1] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/59ea666f82a20e46c4ff6ecc6d4479f8/transformed/biometric-1.0.1/AndroidManifest.xml:28:9-31:67
 	android:exported
@@ -769,6 +784,14 @@ ADDED from [com.google.android.gms:play-services-auth:20.3.0] /Users/salma/Deskt
 		ADDED from [com.google.android.gms:play-services-auth:20.3.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/fb77b4d4f27866e46ae18a60d5ec77d7/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:36:13-107
 	android:name
 		ADDED from [com.google.android.gms:play-services-auth:20.3.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/fb77b4d4f27866e46ae18a60d5ec77d7/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:34:13-89
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-iid:17.0.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/f03aa05171071072244adda293149b87/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+MERGED from [com.google.firebase:firebase-messaging:23.1.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:28:5-82
+MERGED from [com.google.firebase:firebase-messaging:23.1.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:28:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/584f8a5af707d6ba7a6633b8280219e5/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/584f8a5af707d6ba7a6633b8280219e5/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-iid:17.0.0] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/f03aa05171071072244adda293149b87/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
 uses-feature#0x00020000
 ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/a63a6939ae771a868709c5ead8e31ea4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
@@ -791,12 +814,6 @@ uses-permission#android.permission.POST_NOTIFICATIONS
 ADDED from [com.google.firebase:firebase-messaging:23.1.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:25:5-77
 	android:name
 		ADDED from [com.google.firebase:firebase-messaging:23.1.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:25:22-74
-uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-messaging:23.1.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:28:5-82
-MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/584f8a5af707d6ba7a6633b8280219e5/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:11:5-82
-MERGED from [com.google.android.gms:play-services-cloud-messaging:17.0.1] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/584f8a5af707d6ba7a6633b8280219e5/transformed/jetified-play-services-cloud-messaging-17.0.1/AndroidManifest.xml:11:5-82
-	android:name
-		ADDED from [com.google.firebase:firebase-messaging:23.1.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:28:22-79
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
 ADDED from [com.google.firebase:firebase-messaging:23.1.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/a2bbc973768124ac5bd04e5681af0dfc/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:31:9-38:20
 	android:exported
@@ -1127,6 +1144,10 @@ ADDED from [androidx.room:room-runtime:2.2.5] /Users/salma/Desktop/apps/makfyDri
 		ADDED from [androidx.room:room-runtime:2.2.5] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/72470af2331c78edb2d99d97d8f5edd5/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
 	android:name
 		ADDED from [androidx.room:room-runtime:2.2.5] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/72470af2331c78edb2d99d97d8f5edd5/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.android.installreferrer:installreferrer:1.1.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/cf438a7c137131fed8091733762fe862/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+	android:name
+		ADDED from [com.android.installreferrer:installreferrer:1.1.2] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/cf438a7c137131fed8091733762fe862/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:22-107
 uses-permission#com.sec.android.provider.badge.permission.READ
 ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/f8cf3e6d8165643fa92e419d7b0f5e04/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
 	android:name

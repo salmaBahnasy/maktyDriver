@@ -1,9 +1,9 @@
 <libraries>
   <library
-      name="/Users/salma/Desktop/maktyDriver/android@@:react-native-firebase_messaging::release"
-      jars="/Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/.transforms/2d2865ca19fc646a1e9b13aeaec1c9ce/transformed/out/jars/classes.jar:/Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/.transforms/2d2865ca19fc646a1e9b13aeaec1c9ce/transformed/out/jars/libs/R.jar"
+      name="/Users/salma/Desktop/apps/maktyDriver/android@@:react-native-firebase_messaging::release"
+      jars="/Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/.transforms/38bc55ee519d5cfff58d9a4cad9e8a37/transformed/out/jars/classes.jar:/Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/.transforms/38bc55ee519d5cfff58d9a4cad9e8a37/transformed/out/jars/libs/R.jar"
       resolved="makfydriver:react-native-firebase_messaging:unspecified"
-      folder="/Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/.transforms/2d2865ca19fc646a1e9b13aeaec1c9ce/transformed/out"
+      folder="/Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/messaging/android/build/.transforms/38bc55ee519d5cfff58d9a4cad9e8a37/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -13,10 +13,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/salma/Desktop/maktyDriver/android@@:react-native-firebase_app::release"
-      jars="/Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/app/android/build/.transforms/62d7721271074f7cd19db3cb6b53b9fd/transformed/out/jars/classes.jar:/Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/app/android/build/.transforms/62d7721271074f7cd19db3cb6b53b9fd/transformed/out/jars/libs/R.jar"
+      name="/Users/salma/Desktop/apps/maktyDriver/android@@:react-native-firebase_app::release"
+      jars="/Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/app/android/build/.transforms/bb697a391f6abd1faa24bb10f451acdc/transformed/out/jars/classes.jar:/Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/app/android/build/.transforms/bb697a391f6abd1faa24bb10f451acdc/transformed/out/jars/libs/R.jar"
       resolved="makfydriver:react-native-firebase_app:unspecified"
-      folder="/Users/salma/Desktop/maktyDriver/node_modules/@react-native-firebase/app/android/build/.transforms/62d7721271074f7cd19db3cb6b53b9fd/transformed/out"
+      folder="/Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-firebase/app/android/build/.transforms/bb697a391f6abd1faa24bb10f451acdc/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -26,10 +26,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/salma/Desktop/maktyDriver/android@@:react-native-restart::release"
-      jars="/Users/salma/Desktop/maktyDriver/node_modules/react-native-restart/android/build/.transforms/aaeaab0b14ee9c5f0e7449806db81c8a/transformed/out/jars/classes.jar:/Users/salma/Desktop/maktyDriver/node_modules/react-native-restart/android/build/.transforms/aaeaab0b14ee9c5f0e7449806db81c8a/transformed/out/jars/libs/R.jar"
+      name="/Users/salma/Desktop/apps/maktyDriver/android@@:react-native-restart::release"
+      jars="/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-restart/android/build/.transforms/71ac982476eb2e6fa5fb33473c0aa22d/transformed/out/jars/classes.jar:/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-restart/android/build/.transforms/71ac982476eb2e6fa5fb33473c0aa22d/transformed/out/jars/libs/R.jar"
       resolved="makfydriver:react-native-restart:unspecified"
-      folder="/Users/salma/Desktop/maktyDriver/node_modules/react-native-restart/android/build/.transforms/aaeaab0b14ee9c5f0e7449806db81c8a/transformed/out"
+      folder="/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-restart/android/build/.transforms/71ac982476eb2e6fa5fb33473c0aa22d/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -78,10 +78,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/salma/Desktop/maktyDriver/android@@:react-native-async-storage_async-storage::release"
-      jars="/Users/salma/Desktop/maktyDriver/node_modules/@react-native-async-storage/async-storage/android/build/.transforms/ed38b724cc4466d99ae80e32b1d664e2/transformed/out/jars/classes.jar:/Users/salma/Desktop/maktyDriver/node_modules/@react-native-async-storage/async-storage/android/build/.transforms/ed38b724cc4466d99ae80e32b1d664e2/transformed/out/jars/libs/R.jar"
+      name="/Users/salma/Desktop/apps/maktyDriver/android@@:react-native-async-storage_async-storage::release"
+      jars="/Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-async-storage/async-storage/android/build/.transforms/060bd3f72afd291ab93623b8082c8edb/transformed/out/jars/classes.jar:/Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-async-storage/async-storage/android/build/.transforms/060bd3f72afd291ab93623b8082c8edb/transformed/out/jars/libs/R.jar"
       resolved="makfydriver:react-native-async-storage_async-storage:unspecified"
-      folder="/Users/salma/Desktop/maktyDriver/node_modules/@react-native-async-storage/async-storage/android/build/.transforms/ed38b724cc4466d99ae80e32b1d664e2/transformed/out"
+      folder="/Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-async-storage/async-storage/android/build/.transforms/060bd3f72afd291ab93623b8082c8edb/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -91,10 +91,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/salma/Desktop/maktyDriver/android@@:react-native-clipboard_clipboard::release"
-      jars="/Users/salma/Desktop/maktyDriver/node_modules/@react-native-clipboard/clipboard/android/build/.transforms/fd3ba4386f2291d1ce3ecdeff4721f05/transformed/out/jars/classes.jar:/Users/salma/Desktop/maktyDriver/node_modules/@react-native-clipboard/clipboard/android/build/.transforms/fd3ba4386f2291d1ce3ecdeff4721f05/transformed/out/jars/libs/R.jar"
+      name="/Users/salma/Desktop/apps/maktyDriver/android@@:react-native-clipboard_clipboard::release"
+      jars="/Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-clipboard/clipboard/android/build/.transforms/adf82a57eae2d3bbecd7782100e917fa/transformed/out/jars/classes.jar:/Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-clipboard/clipboard/android/build/.transforms/adf82a57eae2d3bbecd7782100e917fa/transformed/out/jars/libs/R.jar"
       resolved="makfydriver:react-native-clipboard_clipboard:unspecified"
-      folder="/Users/salma/Desktop/maktyDriver/node_modules/@react-native-clipboard/clipboard/android/build/.transforms/fd3ba4386f2291d1ce3ecdeff4721f05/transformed/out"
+      folder="/Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-clipboard/clipboard/android/build/.transforms/adf82a57eae2d3bbecd7782100e917fa/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -104,10 +104,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/salma/Desktop/maktyDriver/android@@:react-native-community_datetimepicker::release"
-      jars="/Users/salma/Desktop/maktyDriver/node_modules/@react-native-community/datetimepicker/android/build/.transforms/61e7e9d7c39fb9fb274a1ad2bfc2b3b9/transformed/out/jars/classes.jar:/Users/salma/Desktop/maktyDriver/node_modules/@react-native-community/datetimepicker/android/build/.transforms/61e7e9d7c39fb9fb274a1ad2bfc2b3b9/transformed/out/jars/libs/R.jar"
+      name="/Users/salma/Desktop/apps/maktyDriver/android@@:react-native-community_datetimepicker::release"
+      jars="/Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-community/datetimepicker/android/build/.transforms/7b2da5a2d8bef6c673a74cea64040c1a/transformed/out/jars/classes.jar:/Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-community/datetimepicker/android/build/.transforms/7b2da5a2d8bef6c673a74cea64040c1a/transformed/out/jars/libs/R.jar"
       resolved="makfydriver:react-native-community_datetimepicker:unspecified"
-      folder="/Users/salma/Desktop/maktyDriver/node_modules/@react-native-community/datetimepicker/android/build/.transforms/61e7e9d7c39fb9fb274a1ad2bfc2b3b9/transformed/out"
+      folder="/Users/salma/Desktop/apps/maktyDriver/node_modules/@react-native-community/datetimepicker/android/build/.transforms/7b2da5a2d8bef6c673a74cea64040c1a/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -117,10 +117,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/salma/Desktop/maktyDriver/android@@:appcenter::release"
-      jars="/Users/salma/Desktop/maktyDriver/node_modules/appcenter/android/build/.transforms/f0623948126faf5ed1cc607f33c0c95e/transformed/out/jars/classes.jar:/Users/salma/Desktop/maktyDriver/node_modules/appcenter/android/build/.transforms/f0623948126faf5ed1cc607f33c0c95e/transformed/out/jars/libs/R.jar"
+      name="/Users/salma/Desktop/apps/maktyDriver/android@@:appcenter::release"
+      jars="/Users/salma/Desktop/apps/maktyDriver/node_modules/appcenter/android/build/.transforms/e0304311d0c91e7ecf30fba588a2ba1a/transformed/out/jars/classes.jar:/Users/salma/Desktop/apps/maktyDriver/node_modules/appcenter/android/build/.transforms/e0304311d0c91e7ecf30fba588a2ba1a/transformed/out/jars/libs/R.jar"
       resolved="makfydriver:appcenter:unspecified"
-      folder="/Users/salma/Desktop/maktyDriver/node_modules/appcenter/android/build/.transforms/f0623948126faf5ed1cc607f33c0c95e/transformed/out"
+      folder="/Users/salma/Desktop/apps/maktyDriver/node_modules/appcenter/android/build/.transforms/e0304311d0c91e7ecf30fba588a2ba1a/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -130,10 +130,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/salma/Desktop/maktyDriver/android@@:appcenter-analytics::release"
-      jars="/Users/salma/Desktop/maktyDriver/node_modules/appcenter-analytics/android/build/.transforms/2e361ccd2258cab380d67bcc28cc9ac2/transformed/out/jars/classes.jar:/Users/salma/Desktop/maktyDriver/node_modules/appcenter-analytics/android/build/.transforms/2e361ccd2258cab380d67bcc28cc9ac2/transformed/out/jars/libs/R.jar"
+      name="/Users/salma/Desktop/apps/maktyDriver/android@@:appcenter-analytics::release"
+      jars="/Users/salma/Desktop/apps/maktyDriver/node_modules/appcenter-analytics/android/build/.transforms/a9e59523f78d6cb007ef9a023e8aa6b4/transformed/out/jars/classes.jar:/Users/salma/Desktop/apps/maktyDriver/node_modules/appcenter-analytics/android/build/.transforms/a9e59523f78d6cb007ef9a023e8aa6b4/transformed/out/jars/libs/R.jar"
       resolved="makfydriver:appcenter-analytics:unspecified"
-      folder="/Users/salma/Desktop/maktyDriver/node_modules/appcenter-analytics/android/build/.transforms/2e361ccd2258cab380d67bcc28cc9ac2/transformed/out"
+      folder="/Users/salma/Desktop/apps/maktyDriver/node_modules/appcenter-analytics/android/build/.transforms/a9e59523f78d6cb007ef9a023e8aa6b4/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -143,10 +143,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/salma/Desktop/maktyDriver/android@@:appcenter-crashes::release"
-      jars="/Users/salma/Desktop/maktyDriver/node_modules/appcenter-crashes/android/build/.transforms/76b4a7b5b728c268ed353777cdaeca7f/transformed/out/jars/classes.jar:/Users/salma/Desktop/maktyDriver/node_modules/appcenter-crashes/android/build/.transforms/76b4a7b5b728c268ed353777cdaeca7f/transformed/out/jars/libs/R.jar"
+      name="/Users/salma/Desktop/apps/maktyDriver/android@@:appcenter-crashes::release"
+      jars="/Users/salma/Desktop/apps/maktyDriver/node_modules/appcenter-crashes/android/build/.transforms/c93e9305b0a737df67e23f53128e6ad6/transformed/out/jars/classes.jar:/Users/salma/Desktop/apps/maktyDriver/node_modules/appcenter-crashes/android/build/.transforms/c93e9305b0a737df67e23f53128e6ad6/transformed/out/jars/libs/R.jar"
       resolved="makfydriver:appcenter-crashes:unspecified"
-      folder="/Users/salma/Desktop/maktyDriver/node_modules/appcenter-crashes/android/build/.transforms/76b4a7b5b728c268ed353777cdaeca7f/transformed/out"
+      folder="/Users/salma/Desktop/apps/maktyDriver/node_modules/appcenter-crashes/android/build/.transforms/c93e9305b0a737df67e23f53128e6ad6/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -156,10 +156,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/salma/Desktop/maktyDriver/android@@:react-native-background-timer::release"
-      jars="/Users/salma/Desktop/maktyDriver/node_modules/react-native-background-timer/android/build/.transforms/ab6b60cf49732f897a949f051a735134/transformed/out/jars/classes.jar:/Users/salma/Desktop/maktyDriver/node_modules/react-native-background-timer/android/build/.transforms/ab6b60cf49732f897a949f051a735134/transformed/out/jars/libs/R.jar"
+      name="/Users/salma/Desktop/apps/maktyDriver/android@@:react-native-background-timer::release"
+      jars="/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-background-timer/android/build/.transforms/36b72d319e890cafbf08f7969c2ebade/transformed/out/jars/classes.jar:/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-background-timer/android/build/.transforms/36b72d319e890cafbf08f7969c2ebade/transformed/out/jars/libs/R.jar"
       resolved="makfydriver:react-native-background-timer:unspecified"
-      folder="/Users/salma/Desktop/maktyDriver/node_modules/react-native-background-timer/android/build/.transforms/ab6b60cf49732f897a949f051a735134/transformed/out"
+      folder="/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-background-timer/android/build/.transforms/36b72d319e890cafbf08f7969c2ebade/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -169,10 +169,23 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/salma/Desktop/maktyDriver/android@@:react-native-gesture-handler::release"
-      jars="/Users/salma/Desktop/maktyDriver/node_modules/react-native-gesture-handler/android/build/.transforms/1c779f6321fc9814beb6db0c04fb0f4f/transformed/out/jars/classes.jar:/Users/salma/Desktop/maktyDriver/node_modules/react-native-gesture-handler/android/build/.transforms/1c779f6321fc9814beb6db0c04fb0f4f/transformed/out/jars/libs/R.jar"
+      name="/Users/salma/Desktop/apps/maktyDriver/android@@:react-native-device-info::release"
+      jars="/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-device-info/android/build/.transforms/5b067c1d7f195b851b98c30accca287a/transformed/out/jars/classes.jar:/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-device-info/android/build/.transforms/5b067c1d7f195b851b98c30accca287a/transformed/out/jars/libs/R.jar"
+      resolved="makfydriver:react-native-device-info:unspecified"
+      folder="/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-device-info/android/build/.transforms/5b067c1d7f195b851b98c30accca287a/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="/Users/salma/Desktop/apps/maktyDriver/android@@:react-native-gesture-handler::release"
+      jars="/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-gesture-handler/android/build/.transforms/b9500f719415d751d10a74bbf1a10ee1/transformed/out/jars/classes.jar:/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-gesture-handler/android/build/.transforms/b9500f719415d751d10a74bbf1a10ee1/transformed/out/jars/libs/R.jar"
       resolved="makfydriver:react-native-gesture-handler:unspecified"
-      folder="/Users/salma/Desktop/maktyDriver/node_modules/react-native-gesture-handler/android/build/.transforms/1c779f6321fc9814beb6db0c04fb0f4f/transformed/out"
+      folder="/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-gesture-handler/android/build/.transforms/b9500f719415d751d10a74bbf1a10ee1/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -182,10 +195,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/salma/Desktop/maktyDriver/android@@:react-native-get-location::release"
-      jars="/Users/salma/Desktop/maktyDriver/node_modules/react-native-get-location/android/build/.transforms/cee17bdc533328f043e7a77348381db4/transformed/out/jars/classes.jar:/Users/salma/Desktop/maktyDriver/node_modules/react-native-get-location/android/build/.transforms/cee17bdc533328f043e7a77348381db4/transformed/out/jars/libs/R.jar"
+      name="/Users/salma/Desktop/apps/maktyDriver/android@@:react-native-get-location::release"
+      jars="/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-get-location/android/build/.transforms/cceed6786c88fe17e8048cd5a3d9ce9c/transformed/out/jars/classes.jar:/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-get-location/android/build/.transforms/cceed6786c88fe17e8048cd5a3d9ce9c/transformed/out/jars/libs/R.jar"
       resolved="makfydriver:react-native-get-location:unspecified"
-      folder="/Users/salma/Desktop/maktyDriver/node_modules/react-native-get-location/android/build/.transforms/cee17bdc533328f043e7a77348381db4/transformed/out"
+      folder="/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-get-location/android/build/.transforms/cceed6786c88fe17e8048cd5a3d9ce9c/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -195,10 +208,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/salma/Desktop/maktyDriver/android@@:react-native-image-picker::release"
-      jars="/Users/salma/Desktop/maktyDriver/node_modules/react-native-image-picker/android/build/.transforms/155d2b3858903fc9f37a159f64f1d391/transformed/out/jars/classes.jar:/Users/salma/Desktop/maktyDriver/node_modules/react-native-image-picker/android/build/.transforms/155d2b3858903fc9f37a159f64f1d391/transformed/out/jars/libs/R.jar"
+      name="/Users/salma/Desktop/apps/maktyDriver/android@@:react-native-image-picker::release"
+      jars="/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-image-picker/android/build/.transforms/f3df3b5f0fb80c1d824e8f3a87ef84cc/transformed/out/jars/classes.jar:/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-image-picker/android/build/.transforms/f3df3b5f0fb80c1d824e8f3a87ef84cc/transformed/out/jars/libs/R.jar"
       resolved="makfydriver:react-native-image-picker:unspecified"
-      folder="/Users/salma/Desktop/maktyDriver/node_modules/react-native-image-picker/android/build/.transforms/155d2b3858903fc9f37a159f64f1d391/transformed/out"
+      folder="/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-image-picker/android/build/.transforms/f3df3b5f0fb80c1d824e8f3a87ef84cc/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -208,10 +221,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/salma/Desktop/maktyDriver/android@@:react-native-localize::release"
-      jars="/Users/salma/Desktop/maktyDriver/node_modules/react-native-localize/android/build/.transforms/faf866aa53215490d4e76574d2cb64f4/transformed/out/jars/classes.jar:/Users/salma/Desktop/maktyDriver/node_modules/react-native-localize/android/build/.transforms/faf866aa53215490d4e76574d2cb64f4/transformed/out/jars/libs/R.jar"
+      name="/Users/salma/Desktop/apps/maktyDriver/android@@:react-native-localize::release"
+      jars="/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-localize/android/build/.transforms/ca06022ea01417d22a681f81d9bb024b/transformed/out/jars/classes.jar:/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-localize/android/build/.transforms/ca06022ea01417d22a681f81d9bb024b/transformed/out/jars/libs/R.jar"
       resolved="makfydriver:react-native-localize:unspecified"
-      folder="/Users/salma/Desktop/maktyDriver/node_modules/react-native-localize/android/build/.transforms/faf866aa53215490d4e76574d2cb64f4/transformed/out"
+      folder="/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-localize/android/build/.transforms/ca06022ea01417d22a681f81d9bb024b/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -221,10 +234,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/salma/Desktop/maktyDriver/android@@:react-native-maps::release"
-      jars="/Users/salma/Desktop/maktyDriver/node_modules/react-native-maps/android/build/.transforms/6061e0fb64f9f92506d6298fc265d3c5/transformed/out/jars/classes.jar:/Users/salma/Desktop/maktyDriver/node_modules/react-native-maps/android/build/.transforms/6061e0fb64f9f92506d6298fc265d3c5/transformed/out/jars/libs/R.jar"
+      name="/Users/salma/Desktop/apps/maktyDriver/android@@:react-native-maps::release"
+      jars="/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-maps/android/build/.transforms/feb01c65b83c0d5dfe789a312b5ef077/transformed/out/jars/classes.jar:/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-maps/android/build/.transforms/feb01c65b83c0d5dfe789a312b5ef077/transformed/out/jars/libs/R.jar"
       resolved="makfydriver:react-native-maps:unspecified"
-      folder="/Users/salma/Desktop/maktyDriver/node_modules/react-native-maps/android/build/.transforms/6061e0fb64f9f92506d6298fc265d3c5/transformed/out"
+      folder="/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-maps/android/build/.transforms/feb01c65b83c0d5dfe789a312b5ef077/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -234,10 +247,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/salma/Desktop/maktyDriver/android@@:react-native-push-notification::release"
-      jars="/Users/salma/Desktop/maktyDriver/node_modules/react-native-push-notification/android/build/.transforms/50db1a7025af7b1dcc8e44ebc38b04d4/transformed/out/jars/classes.jar:/Users/salma/Desktop/maktyDriver/node_modules/react-native-push-notification/android/build/.transforms/50db1a7025af7b1dcc8e44ebc38b04d4/transformed/out/jars/libs/R.jar"
+      name="/Users/salma/Desktop/apps/maktyDriver/android@@:react-native-push-notification::release"
+      jars="/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-push-notification/android/build/.transforms/8f337bbe13c21325811f53eddf2adf4d/transformed/out/jars/classes.jar:/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-push-notification/android/build/.transforms/8f337bbe13c21325811f53eddf2adf4d/transformed/out/jars/libs/R.jar"
       resolved="makfydriver:react-native-push-notification:unspecified"
-      folder="/Users/salma/Desktop/maktyDriver/node_modules/react-native-push-notification/android/build/.transforms/50db1a7025af7b1dcc8e44ebc38b04d4/transformed/out"
+      folder="/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-push-notification/android/build/.transforms/8f337bbe13c21325811f53eddf2adf4d/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -247,10 +260,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/salma/Desktop/maktyDriver/android@@:react-native-reanimated::release"
-      jars="/Users/salma/Desktop/maktyDriver/node_modules/react-native-reanimated/android/build/.transforms/bf74d8269d122fb20449fb8c47067d6e/transformed/out/jars/classes.jar:/Users/salma/Desktop/maktyDriver/node_modules/react-native-reanimated/android/build/.transforms/bf74d8269d122fb20449fb8c47067d6e/transformed/out/jars/libs/R.jar"
+      name="/Users/salma/Desktop/apps/maktyDriver/android@@:react-native-reanimated::release"
+      jars="/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-reanimated/android/build/.transforms/cef90d03defbe059a91de27582716ca6/transformed/out/jars/classes.jar:/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-reanimated/android/build/.transforms/cef90d03defbe059a91de27582716ca6/transformed/out/jars/libs/R.jar"
       resolved="makfydriver:react-native-reanimated:unspecified"
-      folder="/Users/salma/Desktop/maktyDriver/node_modules/react-native-reanimated/android/build/.transforms/bf74d8269d122fb20449fb8c47067d6e/transformed/out"
+      folder="/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-reanimated/android/build/.transforms/cef90d03defbe059a91de27582716ca6/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -260,10 +273,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/salma/Desktop/maktyDriver/android@@:react-native-safe-area-context::release"
-      jars="/Users/salma/Desktop/maktyDriver/node_modules/react-native-safe-area-context/android/build/.transforms/a814408bc4737161d48de0fee6f9865d/transformed/out/jars/classes.jar:/Users/salma/Desktop/maktyDriver/node_modules/react-native-safe-area-context/android/build/.transforms/a814408bc4737161d48de0fee6f9865d/transformed/out/jars/libs/R.jar"
+      name="/Users/salma/Desktop/apps/maktyDriver/android@@:react-native-safe-area-context::release"
+      jars="/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-safe-area-context/android/build/.transforms/2bf06551c0c2d744f2c65e3b134a1ede/transformed/out/jars/classes.jar:/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-safe-area-context/android/build/.transforms/2bf06551c0c2d744f2c65e3b134a1ede/transformed/out/jars/libs/R.jar"
       resolved="makfydriver:react-native-safe-area-context:unspecified"
-      folder="/Users/salma/Desktop/maktyDriver/node_modules/react-native-safe-area-context/android/build/.transforms/a814408bc4737161d48de0fee6f9865d/transformed/out"
+      folder="/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-safe-area-context/android/build/.transforms/2bf06551c0c2d744f2c65e3b134a1ede/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -273,10 +286,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/salma/Desktop/maktyDriver/android@@:react-native-screens::release"
-      jars="/Users/salma/Desktop/maktyDriver/node_modules/react-native-screens/android/build/.transforms/bd30c2945431e30574e1aaaf35e5a493/transformed/out/jars/classes.jar:/Users/salma/Desktop/maktyDriver/node_modules/react-native-screens/android/build/.transforms/bd30c2945431e30574e1aaaf35e5a493/transformed/out/jars/libs/R.jar"
+      name="/Users/salma/Desktop/apps/maktyDriver/android@@:react-native-screens::release"
+      jars="/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-screens/android/build/.transforms/61d44e36f435868edea041c0f3c6b76b/transformed/out/jars/classes.jar:/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-screens/android/build/.transforms/61d44e36f435868edea041c0f3c6b76b/transformed/out/jars/libs/R.jar"
       resolved="makfydriver:react-native-screens:unspecified"
-      folder="/Users/salma/Desktop/maktyDriver/node_modules/react-native-screens/android/build/.transforms/bd30c2945431e30574e1aaaf35e5a493/transformed/out"
+      folder="/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-screens/android/build/.transforms/61d44e36f435868edea041c0f3c6b76b/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -286,10 +299,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/salma/Desktop/maktyDriver/android@@:react-native-sensitive-info::release"
-      jars="/Users/salma/Desktop/maktyDriver/node_modules/react-native-sensitive-info/android/build/.transforms/f2147a8c6852c35bb95e056babe5fbbe/transformed/out/jars/classes.jar:/Users/salma/Desktop/maktyDriver/node_modules/react-native-sensitive-info/android/build/.transforms/f2147a8c6852c35bb95e056babe5fbbe/transformed/out/jars/libs/R.jar"
+      name="/Users/salma/Desktop/apps/maktyDriver/android@@:react-native-sensitive-info::release"
+      jars="/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-sensitive-info/android/build/.transforms/112a30c04a1ba840529a72c3bec1575e/transformed/out/jars/classes.jar:/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-sensitive-info/android/build/.transforms/112a30c04a1ba840529a72c3bec1575e/transformed/out/jars/libs/R.jar"
       resolved="makfydriver:react-native-sensitive-info:unspecified"
-      folder="/Users/salma/Desktop/maktyDriver/node_modules/react-native-sensitive-info/android/build/.transforms/f2147a8c6852c35bb95e056babe5fbbe/transformed/out"
+      folder="/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-sensitive-info/android/build/.transforms/112a30c04a1ba840529a72c3bec1575e/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -299,10 +312,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/salma/Desktop/maktyDriver/android@@:react-native-share::release"
-      jars="/Users/salma/Desktop/maktyDriver/node_modules/react-native-share/android/build/.transforms/6fc8c5bc68f284f56a2e33a4f3727b3f/transformed/out/jars/classes.jar:/Users/salma/Desktop/maktyDriver/node_modules/react-native-share/android/build/.transforms/6fc8c5bc68f284f56a2e33a4f3727b3f/transformed/out/jars/libs/R.jar"
+      name="/Users/salma/Desktop/apps/maktyDriver/android@@:react-native-share::release"
+      jars="/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-share/android/build/.transforms/15bacb509dc9c4e2918eeff15ab13bf4/transformed/out/jars/classes.jar:/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-share/android/build/.transforms/15bacb509dc9c4e2918eeff15ab13bf4/transformed/out/jars/libs/R.jar"
       resolved="makfydriver:react-native-share:unspecified"
-      folder="/Users/salma/Desktop/maktyDriver/node_modules/react-native-share/android/build/.transforms/6fc8c5bc68f284f56a2e33a4f3727b3f/transformed/out"
+      folder="/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-share/android/build/.transforms/15bacb509dc9c4e2918eeff15ab13bf4/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -312,10 +325,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="/Users/salma/Desktop/maktyDriver/android@@:react-native-spinkit::release"
-      jars="/Users/salma/Desktop/maktyDriver/node_modules/react-native-spinkit/android/build/.transforms/d5b029cc5a826c3ed587b472db98dd8a/transformed/out/jars/classes.jar:/Users/salma/Desktop/maktyDriver/node_modules/react-native-spinkit/android/build/.transforms/d5b029cc5a826c3ed587b472db98dd8a/transformed/out/jars/libs/R.jar"
+      name="/Users/salma/Desktop/apps/maktyDriver/android@@:react-native-spinkit::release"
+      jars="/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-spinkit/android/build/.transforms/07e558c855666c3ce5a1b16b77fdbac0/transformed/out/jars/classes.jar:/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-spinkit/android/build/.transforms/07e558c855666c3ce5a1b16b77fdbac0/transformed/out/jars/libs/R.jar"
       resolved="makfydriver:react-native-spinkit:unspecified"
-      folder="/Users/salma/Desktop/maktyDriver/node_modules/react-native-spinkit/android/build/.transforms/d5b029cc5a826c3ed587b472db98dd8a/transformed/out"
+      folder="/Users/salma/Desktop/apps/maktyDriver/node_modules/react-native-spinkit/android/build/.transforms/07e558c855666c3ce5a1b16b77fdbac0/transformed/out"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -999,6 +1012,19 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="com.google.android.gms:play-services-iid:17.0.0@aar"
+      jars="/Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/f03aa05171071072244adda293149b87/transformed/jetified-play-services-iid-17.0.0/jars/classes.jar"
+      resolved="com.google.android.gms:play-services-iid:17.0.0"
+      folder="/Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/f03aa05171071072244adda293149b87/transformed/jetified-play-services-iid-17.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="com.google.android.gms:play-services-maps:18.0.2@aar"
       jars="/Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/a63a6939ae771a868709c5ead8e31ea4/transformed/jetified-play-services-maps-18.0.2/jars/classes.jar"
       resolved="com.google.android.gms:play-services-maps:18.0.2"
@@ -1573,6 +1599,19 @@
       jars="/Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/cc5d67b085f2a2ec0118faa98a204709/transformed/print-1.0.0/jars/classes.jar"
       resolved="androidx.print:print:1.0.0"
       folder="/Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/cc5d67b085f2a2ec0118faa98a204709/transformed/print-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="com.android.installreferrer:installreferrer:1.1.2@aar"
+      jars="/Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/cf438a7c137131fed8091733762fe862/transformed/jetified-installreferrer-1.1.2/jars/classes.jar"
+      resolved="com.android.installreferrer:installreferrer:1.1.2"
+      folder="/Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/cf438a7c137131fed8091733762fe862/transformed/jetified-installreferrer-1.1.2"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"

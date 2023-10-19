@@ -1,6 +1,6 @@
-#Sat Aug 26 21:56:51 EET 2023
-base.0=/Users/salma/Desktop/maktyDriver/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
-base.1=/Users/salma/Desktop/maktyDriver/android/app/build/intermediates/dex/release/mergeDexRelease/classes2.dex
+#Wed Oct 04 23:45:48 EET 2023
+base.0=/Users/salma/Desktop/apps/maktyDriver/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+base.1=/Users/salma/Desktop/apps/maktyDriver/android/app/build/intermediates/dex/release/mergeDexRelease/classes2.dex
 path.0=classes.dex
 path.1=classes2.dex
 renamed.0=classes.dex

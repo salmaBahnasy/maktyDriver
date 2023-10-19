@@ -10,7 +10,8 @@ import {
   StyleSheet,
   I18nManager,
   ScrollView,
-  Platform
+  Platform,
+  Dimensions
 } from 'react-native';
 import { COLORS, FONTS, icons, images } from '../../../constants';
 import { useNavigation, useRoute } from '@react-navigation/native';
@@ -23,10 +24,10 @@ function OrdersDetails() {
   const { t } = useTranslation();
   const navigation = useNavigation()
   const route = useRoute()
-  const [to_latitude, setto_latitude] = useState(0)
-  const [to_longitude, setto_longitude] = useState(0)
-  const [from_latitude, setfrom_latitude] = useState(0)
-  const [from_longitude, settfrom_longitude] = useState(0)
+  const [to_latitude, setto_latitude] = useState(JSON.parse(route?.params?.item?.to_latitude))
+  const [to_longitude, setto_longitude] = useState(JSON.parse(route?.params?.item?.to_longitude))
+  const [from_latitude, setfrom_latitude] = useState(JSON.parse(route?.params?.item?.from_latitude))
+  const [from_longitude, settfrom_longitude] = useState(JSON.parse(route?.params?.item?.from_longitude))
   const [showVat, setshowVat] = useState(false)
 
   console.log("route", route?.params?.item)
@@ -224,20 +225,22 @@ function OrdersDetails() {
           {from_latitude !==0 && from_longitude!==0 ?
             <MapView
               provider={Platform.OS == 'ios' ? MapView.PROVIDER_GOOGLE : PROVIDER_GOOGLE}
-              style={styles.map}
-              onPress={(e) => {
-                console.log(e)
-                let cc = e.nativeEvent.coordinate
-                console.log('onpres', e.nativeEvent.coordinate)
-                // setfrom_latitude(e.nativeEvent.coordinate?.latitude)
-                // setfrom_latitude(e.nativeEvent.coordinate?.longitude)
+              style={{
+               ...styles?.map,
               }}
               region={{
                 latitude: from_latitude,
                 longitude: from_longitude,
-                latitudeDelta: 0.015,
-                longitudeDelta: 0.0121,
+                latitudeDelta: 0.5,
+                longitudeDelta: 0.5,
               }}
+              initialRegion={{
+                latitude: from_latitude,
+                longitude: from_longitude,
+                latitudeDelta: 0.5,
+                longitudeDelta: 0.5,
+              }}
+
             >
               <Marker
                 coordinate={{
@@ -245,7 +248,7 @@ function OrdersDetails() {
                   longitude: from_longitude,
                 }}
                 title={'موقعك الحالي'}
-                draggable={true}
+                draggable={false}
                 onDragEnd={(e) => {
                   console.log('dragEnd', e.nativeEvent.coordinate)
                 }}
@@ -259,7 +262,7 @@ function OrdersDetails() {
               </Marker>
             </MapView>
 
-            : null}
+            : <View style={{width:50,height:50,backgroundColor:'red'}}/>}
         </View>
         <View
           style={{

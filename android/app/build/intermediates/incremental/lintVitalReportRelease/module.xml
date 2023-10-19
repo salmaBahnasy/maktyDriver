@@ -1,6 +1,6 @@
 <lint-module
     format="1"
-    dir="/Users/salma/Desktop/maktyDriver/android/app"
+    dir="/Users/salma/Desktop/apps/maktyDriver/android/app"
     name=":app"
     type="APP"
     maven="makfydriver:app:"

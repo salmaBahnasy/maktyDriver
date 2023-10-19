@@ -4,24 +4,7 @@
             "outputFile": "com.makfydriver.app-mergeDebugResources-38:/values-or/values-or.xml",
             "map": [
                 {
-                    "source": "/Users/user/.gradle/caches/transforms-3/abf1803a533384ef204da4808afd595f/transformed/core-1.7.0/res/values-or/values-or.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "59",
-                        "startColumns": "4",
-                        "startOffsets": "6616",
-                        "endColumns": "100",
-                        "endOffsets": "6712"
-                    }
-                },
-                {
-                    "source": "/Users/user/.gradle/caches/transforms-3/c59ec5d88537e89626aa9c5e080aa9cd/transformed/appcompat-1.4.1/res/values-or/values-or.xml",
+                    "source": "/Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/c59ec5d88537e89626aa9c5e080aa9cd/transformed/appcompat-1.4.1/res/values-or/values-or.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/user/.gradle/caches/transforms-3/59ea666f82a20e46c4ff6ecc6d4479f8/transformed/biometric-1.0.1/res/values-or/values-or.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,178,298,386,504,636,770,906,1037,1192,1294",
-                        "endColumns": "122,119,87,117,131,133,135,130,154,101,137",
-                        "endOffsets": "173,293,381,499,631,765,901,1032,1187,1289,1427"
-                    },
-                    "to": {
-                        "startLines": "29,48,49,50,51,52,53,54,55,56,57",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2869,5272,5392,5480,5598,5730,5864,6000,6131,6286,6388",
-                        "endColumns": "122,119,87,117,131,133,135,130,154,101,137",
-                        "endOffsets": "2987,5387,5475,5593,5725,5859,5995,6126,6281,6383,6521"
-                    }
-                },
-                {
-                    "source": "/Users/user/.gradle/caches/transforms-3/521869be77a45b75d87249b96acb0eed/transformed/jetified-play-services-base-18.1.0/res/values-or/values.xml",
+                    "source": "/Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/521869be77a45b75d87249b96acb0eed/transformed/jetified-play-services-base-18.1.0/res/values-or/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -72,7 +38,41 @@
                     }
                 },
                 {
-                    "source": "/Users/user/.gradle/caches/transforms-3/8e8d99f37da2826051a2f1ee7e0348d5/transformed/jetified-play-services-basement-18.1.0/res/values-or/values.xml",
+                    "source": "/Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/59ea666f82a20e46c4ff6ecc6d4479f8/transformed/biometric-1.0.1/res/values-or/values-or.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,178,298,386,504,636,770,906,1037,1192,1294",
+                        "endColumns": "122,119,87,117,131,133,135,130,154,101,137",
+                        "endOffsets": "173,293,381,499,631,765,901,1032,1187,1289,1427"
+                    },
+                    "to": {
+                        "startLines": "29,48,49,50,51,52,53,54,55,56,57",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2869,5272,5392,5480,5598,5730,5864,6000,6131,6286,6388",
+                        "endColumns": "122,119,87,117,131,133,135,130,154,101,137",
+                        "endOffsets": "2987,5387,5475,5593,5725,5859,5995,6126,6281,6383,6521"
+                    }
+                },
+                {
+                    "source": "/Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/abf1803a533384ef204da4808afd595f/transformed/core-1.7.0/res/values-or/values-or.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "59",
+                        "startColumns": "4",
+                        "startOffsets": "6616",
+                        "endColumns": "100",
+                        "endOffsets": "6712"
+                    }
+                },
+                {
+                    "source": "/Users/salma/Desktop/apps/makfyDriver/android/caches/transforms-3/8e8d99f37da2826051a2f1ee7e0348d5/transformed/jetified-play-services-basement-18.1.0/res/values-or/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

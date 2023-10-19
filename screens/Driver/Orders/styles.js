@@ -45,7 +45,8 @@ const styles = StyleSheet.create({
   },
   smallIcon: {
     height: 32,
-    width: 32
+    width: 32,
+    zIndex:100
   },
   txt: {
     ...FONTS?.body3, fontSize: 18,
